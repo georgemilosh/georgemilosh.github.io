@@ -6,6 +6,7 @@ title: George Miloshevich # the website title (if blank, full name will be used 
 first_name: George
 middle_name: 
 last_name: Miloshevich
+logo: /assets/img/1.jpg
 email: george.miloshevich(at)ens-lyon.fr
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Physicist. Personal website based on [*folio](https://github.com/bogoli/-folio) design.
