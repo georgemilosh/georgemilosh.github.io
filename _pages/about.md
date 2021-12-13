@@ -6,7 +6,7 @@ description: <a href="#">École normale supérieure de Lyon</a>. Address. Contac
 
 profile:
   align: right
-  image: photo.jpg
+  image: photo.jpeg
   address: >
     <p>19</p>
     <p>All. d'Italie</p>
