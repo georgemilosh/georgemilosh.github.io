@@ -8,9 +8,9 @@ profile:
   align: right
   image: photo.jpeg
   address: >
-    <p>19</p>
-    <p>All. d'Italie</p>
-    <p>Lyon, France</p>
+    <p>Laboratoire de Physique</p>
+    <p>ENS de Lyon</p>
+    <p>France</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
