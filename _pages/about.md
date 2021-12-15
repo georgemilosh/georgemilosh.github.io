@@ -31,7 +31,7 @@ My interests include
 3. Turbulence in plasmas and fluids and statistical physics
 4. Here is an image of a standard nontwist map that I made during my PhD at the University of Texas at Austin. It won a third place in a visualizing science contest!
 
-![Standard nontwist map](/images/Standardnontwistmaplowres.png)
+![Standard nontwist map](assets/img/Standardnontwistmaplowres.png)
 
 To find out more about this topic visit [scholarpedia page](http://www.scholarpedia.org/article/Nontwist_maps).
 
