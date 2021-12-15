@@ -17,8 +17,26 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+## Welcome to my website
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Visit my [Google Scholar profile](https://scholar.google.com/citations?user=XtOrmGAAAAAJ&hl=fr&oi=ao) where you can read my papers
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+### Machine Learning
+
+I am involved currently in **Machine learning**, which is becoming a _maintstream_ tool for data analysis in various fields of science and engineering.
+
+My interests include 
+1. Neural networks
+2. Modeling of physical systems, such as extreme events in climate
+3. Turbulence in plasmas and fluids and statistical physics
+4. Here is an image of a standard nontwist map that I made during my PhD at the University of Texas at Austin. It won a third place in a visualizing science contest!
+
+![Standard nontwist map](/images/Standardnontwistmaplowres.png)
+
+To find out more about this topic visit [scholarpedia page](http://www.scholarpedia.org/article/Nontwist_maps).
+
+```markdown
+print("Hello World!)
+```
+
+### Support or Contact
