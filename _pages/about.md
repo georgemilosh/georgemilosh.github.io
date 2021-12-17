@@ -17,23 +17,28 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-## Welcome to my website
+## Short Summary
 
-Visit my [Google Scholar profile](https://scholar.google.com/citations?user=XtOrmGAAAAAJ&hl=fr&oi=ao) where you can read my papers
+I am a physicist involved in the interface between *machine learning* and complex systems such as climate, geophysics, plasma physics, solar wind. I am a postdoc at École normale supérieure de Lyon working in a group of Freddy Bouchet. Together we are involved in a project which aims to provide better understanding of *extreme events* in climate. Throughout my career I have been involved in various subjects including turbulence, statistical physics, systems with long-range interactions, plasma physics and mathematical physics.
+
+### Extreme events
+
+Events that are rare present challanges, since they are hard to measure or estimate, yet they may have sociatal impact. Such events may include
+
+1. Heat waves and cold spells
+2. More generally tipping points in climate
+3. Coronal mass ejetctions
+4. Tokamak disruptions
 
 ### Machine Learning
 
-I am involved currently in **Machine learning**, which is becoming a _maintstream_ tool for data analysis in various fields of science and engineering.
+I am involved currently in **Machine learning**, which is becoming a _maintstream_ tool in various fields of science and engineering. My intersts include
 
-My interests include 
-1. Neural networks
-2. Modeling of physical systems, such as extreme events in climate
-3. Turbulence in plasmas and fluids and statistical physics
-4. Here is an image of a standard nontwist map that I made during my PhD at the University of Texas at Austin. It won a third place in a visualizing science contest!
+1. Deep neural networks
+2. Physically inspired neural networks
 
-![Standard nontwist map](assets/img/Standardnontwistmaplowres.png)
 
-To find out more about this topic visit [scholarpedia page](http://www.scholarpedia.org/article/Nontwist_maps).
+Visit my [Google Scholar profile](https://scholar.google.com/citations?user=XtOrmGAAAAAJ&hl=fr&oi=ao) where you can read my papers
 
 ```markdown
 print("Hello World!)
