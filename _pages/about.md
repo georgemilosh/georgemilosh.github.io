@@ -44,6 +44,6 @@ Visit my [Google Scholar profile](https://scholar.google.com/citations?user=XtOr
 print("Hello World!)
 ```
 
-![Standard nontwist map](assets/img/Standardnontwistmaplowres.png)
+![Standard nontwist map](/img/Standardnontwistmaplowres.png)
 
 ### Support or Contact
