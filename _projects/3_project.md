@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
+title: Climate-Learning
+description: Deep learning for Climate
+img: assets/img/Scandinavia_3.5.png.jpg
 redirect: https://github.com/georgemilosh/Climate-Learning
 importance: 3
 category: work
