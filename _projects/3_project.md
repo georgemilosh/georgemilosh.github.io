@@ -2,7 +2,7 @@
 layout: page
 title: Climate-Learning
 description: Deep learning for Climate
-img: assets/img/Scandinavia_3.5.png.jpg
+img: assets/img/Scandinavia_3.5.png
 redirect: https://github.com/georgemilosh/Climate-Learning
 importance: 3
 category: work
