@@ -38,11 +38,13 @@ I am involved currently in **Machine learning**, which is becoming a _maintstrea
 2. Physically inspired neural networks
 
 
-Visit my [Google Scholar profile](https://scholar.google.com/citations?user=XtOrmGAAAAAJ&hl=fr&oi=ao) where you can read my papers
-
 ```markdown
 print("Hello World!)
 ```
 
 
 ### Support or Contact
+
+You can contact me on george(dot)miloshevich(at)ens-lyon(dot)fr
+
+Visit my [Google Scholar profile](https://scholar.google.com/citations?user=XtOrmGAAAAAJ&hl=fr&oi=ao) for more information
