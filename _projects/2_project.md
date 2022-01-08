@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
+title: Turbulence in Plasmas
+description: Inverse cascade in gyrofluids
+img: assets/img/jz_bal_B11_t11000_z0.png
 importance: 2
 category: work
 ---
