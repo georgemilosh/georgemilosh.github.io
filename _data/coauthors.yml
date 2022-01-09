@@ -8,6 +8,10 @@
 "Bouchet":
   - firstname: ["Freddy", "F."]
     url: http://perso.ens-lyon.fr/freddy.bouchet/
+    
+"Dauxois":
+  - firstname: ["Thierry", "T."]
+    url: http://http://perso.ens-lyon.fr/thierry.dauxois/
 
 "Podolsky":
   - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
