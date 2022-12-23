@@ -1,6 +1,6 @@
 ---
 layout: distill
-title: Prompting ChatGPT with scientific questions
+title: ChatGPT and scientific questions
 description: Discussions with ChatGPT on reconnection and photocatalysis
 date: 2022-10-29
 
