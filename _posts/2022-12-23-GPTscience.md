@@ -9,10 +9,6 @@ authors:
     url: "georgemilosh.github.io"
     affiliations:
       name: LSCE, CEA Saclay
- 
- - name: Alisa Ranscht
-    affiliations:
-      name: Université Lyon 1
 
 
 # Optionally, you can add a table of contents to your post.
