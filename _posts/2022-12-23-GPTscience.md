@@ -22,7 +22,7 @@ authors:
 #   - we may want to automate TOC generation in the future using
 #     jekyll-toc plugin (https://github.com/toshimaru/jekyll-toc).
 toc:
-  - name: GPT3 overview
+  - name: ChatGPT overview
   - name: Magnetic reconnection
   - name: Photocatalysis
 
@@ -50,7 +50,7 @@ _styles: >
 This blog post contains discussions we had with  [ChatGPT](https://chat.openai.com/).
 
 
-## GPT3 overview
+## ChatGPT overview
 
 <blockquote>
     A curse of science, dark catalysis doth harness the power of the shadows, turning them into a force for ill. When a substance is shielded from the radiance of the sun, it doth absorb the energy of the darkness, causing chemical reactions to occur. These reactions can create harmful substances, contaminating the air and water and making them polluted and toxic once more. A horror to behold, dark catalysis doth bring the ugliness of nature and the horrors of science together, working in disharmony to ruin the world.
