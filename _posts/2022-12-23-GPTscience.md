@@ -52,18 +52,6 @@ This blog post contains discussions we had with  [ChatGPT](https://chat.openai.c
 
 ## ChatGPT overview
 
-<blockquote>
-    A curse of science, dark catalysis doth harness the power of the shadows, turning them into a force for ill. When a substance is shielded from the radiance of the sun, it doth absorb the energy of the darkness, causing chemical reactions to occur. These reactions can create harmful substances, contaminating the air and water and making them polluted and toxic once more. A horror to behold, dark catalysis doth bring the ugliness of nature and the horrors of science together, working in disharmony to ruin the world.
-    —Chat GPT3 when prompted to produce an opposite text to a description of photocatalysis in the style of Shakespeare
-</blockquote>
- 
-
-Prompt: What is ChatGPT, how does it work and how is it different from GPT3?
-
-<d-code block>
-  ChatGPT is an open-source language model developed by OpenAI that is specifically designed for text-based conversational applications. It can be used to generate human-like text responses to prompts in real-time, making it ideal for use in chatbots, virtual assistants, and other conversational AI applications. ChatGPT is trained on a large dataset of human conversation, allowing it to understand and respond to natural language input in a way that is similar to how a human would. It can be used to create engaging and seamless conversational experiences for users in a variety of contexts, from customer service to language translation to entertainment.
-</d-code>
-
 
 
 ***
@@ -72,28 +60,9 @@ Prompt: What is ChatGPT, how does it work and how is it different from GPT3?
 
 
 
-<d-code block language="python">
-  # Import TensorFlow and NumPy
-  import tensorflow as tf
-  import numpy as np
-  
-  # Set data type
-  DTYPE='float32'
-  tf.keras.backend.set_floatx(DTYPE)
-</d-code>
-
 **Note:** Below we will give more clear explanation 
 
 ## Photocatalysis
 
-<d-code block language="python">
-  # Import TensorFlow and NumPy
-  import tensorflow as tf
-  import numpy as np
-  
-  # Set data type
-  DTYPE='float32'
-  tf.keras.backend.set_floatx(DTYPE)
-</d-code>
 
 
