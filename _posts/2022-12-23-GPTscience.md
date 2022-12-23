@@ -1,7 +1,7 @@
 ---
 layout: distill
-title: Tensorflow tutorial for Physics Inspired Neural Networks
-description: Some notes that explain how PINNs are implemented in tensorflow
+title: Prompting ChatGPT with scientific questions
+description: Discussions with ChatGPT on reconnection and photocatalysis
 date: 2022-10-29
 
 authors:
