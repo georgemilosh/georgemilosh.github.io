@@ -65,8 +65,14 @@ Prompt: What is ChatGPT, how does it work and how is it different from GPT3?
 </d-code>
 
 
-
+Prompt: Write a short paragraph discussing how  reliable is chat gpt when explaining scientific concepts. Limit to 4 sentences
 ***
+
+d-code block>
+   It is important to note that chat GPT (Generative Pretrained Transformer) is a language model designed to generate human-like text based on a given input. While it is able to generate a wide range of text, including scientific concepts, it is not a reliable source for scientific information. GPT does not have the ability to verify the accuracy of the information it generates and may produce incorrect or incomplete explanations of scientific concepts. It is always best to consult multiple reliable sources, such as peer-reviewed scientific papers or trusted science websites, when seeking information on scientific topics.
+</d-code>
+
+Let's make GPT pass a science topics exam with a particular emphasis on conceptual questions. GPT can certainly engage in low level code writing and take some integrals, although solving geometric problems or more complex algebraic ones is not recommended. Below we will show how far we can get with questions about plasma physics and chemistry.
 
 ## Magnetic reconnection
 
