@@ -60,46 +60,22 @@ This blog post contains discussions we had with  [ChatGPT](https://chat.openai.c
 
 Prompt: What is ChatGPT, how does it work and how is it different from GPT3?
 
-<d-code block>
+<blockquote>
   ChatGPT is an open-source language model developed by OpenAI that is specifically designed for text-based conversational applications. It can be used to generate human-like text responses to prompts in real-time, making it ideal for use in chatbots, virtual assistants, and other conversational AI applications. ChatGPT is trained on a large dataset of human conversation, allowing it to understand and respond to natural language input in a way that is similar to how a human would. It can be used to create engaging and seamless conversational experiences for users in a variety of contexts, from customer service to language translation to entertainment.
-</d-code>
+</blockquote>
 
 
 Prompt: Write a short paragraph discussing how  reliable is chat gpt when explaining scientific concepts. Limit to 4 sentences
 ***
 
-<d-code block>
+<blockquote>
    It is important to note that chat GPT (Generative Pretrained Transformer) is a language model designed to generate human-like text based on a given input. While it is able to generate a wide range of text, including scientific concepts, it is not a reliable source for scientific information. GPT does not have the ability to verify the accuracy of the information it generates and may produce incorrect or incomplete explanations of scientific concepts. It is always best to consult multiple reliable sources, such as peer-reviewed scientific papers or trusted science websites, when seeking information on scientific topics.
-</d-code>
+</blockquote>
 
 Let's make GPT pass a science topics exam with a particular emphasis on conceptual questions. GPT can certainly engage in low level code writing and take some integrals, although solving geometric problems or more complex algebraic ones is not recommended. Below we will show how far we can get with questions about plasma physics and chemistry.
 
 ## Magnetic reconnection
 
-
-
-<d-code block language="python">
-  # Import TensorFlow and NumPy
-  import tensorflow as tf
-  import numpy as np
-  
-  # Set data type
-  DTYPE='float32'
-  tf.keras.backend.set_floatx(DTYPE)
-</d-code>
-
 **Note:** Below we will give more clear explanation 
 
 ## Photocatalysis
-
-<d-code block language="python">
-  # Import TensorFlow and NumPy
-  import tensorflow as tf
-  import numpy as np
-  
-  # Set data type
-  DTYPE='float32'
-  tf.keras.backend.set_floatx(DTYPE)
-</d-code>
-
-
