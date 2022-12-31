@@ -47,32 +47,20 @@ _styles: >
 ---
 
 **NOTE:**
-This blog post contains discussions we had with  [ChatGPT](https://chat.openai.com/).
+This blog post contains discussions we had with [ChatGPT](https://chat.openai.com/).
 
 
 ## ChatGPT overview
 
 <blockquote>
     A curse of science, dark catalysis doth harness the power of the shadows, turning them into a force for ill. When a substance is shielded from the radiance of the sun, it doth absorb the energy of the darkness, causing chemical reactions to occur. These reactions can create harmful substances, contaminating the air and water and making them polluted and toxic once more. A horror to behold, dark catalysis doth bring the ugliness of nature and the horrors of science together, working in disharmony to ruin the world.
-    —Chat GPT3 when prompted to produce an opposite text to a description of photocatalysis in the style of Shakespeare
+    —Chat GPT3 when prompted to ``produce an opposite text to a description of photocatalysis in the style of Shakespeare''
 </blockquote>
  
-
-Prompt: What is ChatGPT, how does it work and how is it different from GPT3?
-
-<blockquote>
-  ChatGPT is an open-source language model developed by OpenAI that is specifically designed for text-based conversational applications. It can be used to generate human-like text responses to prompts in real-time, making it ideal for use in chatbots, virtual assistants, and other conversational AI applications. ChatGPT is trained on a large dataset of human conversation, allowing it to understand and respond to natural language input in a way that is similar to how a human would. It can be used to create engaging and seamless conversational experiences for users in a variety of contexts, from customer service to language translation to entertainment.
-</blockquote>
+ Of course, I could have generated a prompt to let [Chat GPT](https://en.wikipedia.org/wiki/ChatGPT) explain itself, so the reader is welcome to do that themselves. I am assuming that the reader is familiar with Chat GPT (which has public access as of now). If not, check out this website [ChatGPT](https://openai.com/blog/chatgpt/). The important point to retain is that it is based on attention mechanism of [transformers](https://towardsdatascience.com/transformers-89034557de14) that are fine-tuned with the help of user judges based on a technique called [reinforcement learning](https://en.wikipedia.org/wiki/Reinforcement_learning) to generate more reliable responses and eliminate apparent bias and harmful content. The public release of ChatGPT attracted widespread interest with a mix of awe, surprise and criticism. In this blog post our goals are to explore the capabilities of ChatGPT, after testing its responses for several weeks after the release.
 
 
-Prompt: Write a short paragraph discussing how  reliable is chat gpt when explaining scientific concepts. Limit to 4 sentences
-***
 
-<blockquote>
-   It is important to note that chat GPT (Generative Pretrained Transformer) is a language model designed to generate human-like text based on a given input. While it is able to generate a wide range of text, including scientific concepts, it is not a reliable source for scientific information. GPT does not have the ability to verify the accuracy of the information it generates and may produce incorrect or incomplete explanations of scientific concepts. It is always best to consult multiple reliable sources, such as peer-reviewed scientific papers or trusted science websites, when seeking information on scientific topics.
-</blockquote>
-
-Let's make GPT pass a science topics exam with a particular emphasis on conceptual questions. GPT can certainly engage in low level code writing and take some integrals, although solving geometric problems or more complex algebraic ones is not recommended. Below we will show how far we can get with questions about plasma physics and chemistry.
 
 ## Magnetic reconnection
 
