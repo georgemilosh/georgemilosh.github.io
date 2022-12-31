@@ -51,7 +51,6 @@ _styles: >
 **NOTE:**
 This blog post contains discussions we had with [ChatGPT](https://chat.openai.com/).
 
-
 ## ChatGPT overview
 
 <blockquote>
@@ -59,10 +58,9 @@ This blog post contains discussions we had with [ChatGPT](https://chat.openai.co
     —Chat GPT3 when prompted to ``produce an opposite text to a description of photocatalysis in the style of Shakespeare''
 </blockquote>
  
- Of course, I could have generated a prompt to let [Chat GPT](https://en.wikipedia.org/wiki/ChatGPT) explain itself, so the reader is welcome to do that themselves. I am assuming that the reader is familiar with Chat GPT (which has public access as of now). If not, check out this website [ChatGPT](https://openai.com/blog/chatgpt/). The important point to retain is that it is based on attention mechanism of [transformers](https://towardsdatascience.com/transformers-89034557de14) that are fine-tuned with the help of user judges based on a technique called [reinforcement learning](https://en.wikipedia.org/wiki/Reinforcement_learning) to generate more reliable responses and eliminate apparent bias and harmful content. The public release of ChatGPT attracted widespread interest with a mix of awe, surprise and criticism. In this blog post our goals are to explore the capabilities of ChatGPT, after testing its responses for several weeks after the release.
+Of course, we could have generated a prompt to let [Chat GPT](https://en.wikipedia.org/wiki/ChatGPT) explain itself, so the reader is welcome to do that themselves. I am assuming that the reader is familiar with ChatGPT (which has public access as of now). If not, check out this website [ChatGPT](https://openai.com/blog/chatgpt/). The important point to retain is that <d-cite key="ouyang2022training"></d-cite> it is based on attention mechanism of [transformers](https://towardsdatascience.com/transformers-89034557de14) that are fine-tuned with the help of user judges based on a technique called [reinforcement learning](https://en.wikipedia.org/wiki/Reinforcement_learning) to generate more reliable responses and eliminate apparent bias and harmful content. The public release of ChatGPT attracted widespread interest with a mix of awe, surprise, doubts and criticism. In this blog post our goals are to explore the capabilities of ChatGPT, after testing its responses for several weeks after the release. We are not affiliated with GPT and are not generally specialists of natural language processing. Nevertheless we are domain specailists of our respective disciplines and will try to provide relevant criticism of GPT responses.
 
-
-
+Generally, it seems that ChatGPT is advanced word processor and usually does a good job of summarizing the topic. It can also engage in conversation, where it appears to remember the previous discussion. Often the user is impressed by the overall performance of ChatGPT, which gives an impression of general purpose AI.
 
 ## Magnetic reconnection
 
