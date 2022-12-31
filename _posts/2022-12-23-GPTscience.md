@@ -25,7 +25,8 @@ bibliography: 2018-12-22-distill.bib
 #     jekyll-toc plugin (https://github.com/toshimaru/jekyll-toc).
 toc:
   - name: ChatGPT overview
-  - name: Simple logic
+  - name: The ants on the sphere
+  - name: Why is the sky blue?
   - name: Photocatalysis
 
 # Below is an example of injecting additional post-specific styles.
@@ -70,16 +71,30 @@ Below we give assessment of the ChatGPT responses to two such users, us. It will
 
 Here we will concentrate more on scientific quieries which GPT answers gladly and is thus one of the intended uses. OpenAI does indicate that the chatbot can be fallible. Our impression is that given a simple question, such as "explain how internal combustion engine works" the generated response will be mostly reliable. But once the user asks to clarify some basic concepts there can be issues. Whether these issues are just related to scale of GPT, or the training protocol, or even the architecture is not clear. One may wonder to what extent can an artificial agent learn the representation of the world from only textual information, however long, and some nudging by the judges that is allegedly mostly eliminating harmful content. Thus it is perhaps not surprising, that ChatGPT excelled more when it came to understanding human psychology (in our judgement) than math or physics. 
 
-## Simple logic
+## The ants on the sphere
 
 Prompt: There are two ants on a black sphere. The ants start at the same point on the surface. They pick red and blue brushes respectively and walk in the opposite directions in what appears to them as straight lines while painting their path with their brushes. How will the sphere look after infinite time. Note: when blue and red are combined you get purple
 
+<blockquote>
 Answer: After an infinite amount of time, the sphere will be completely painted either blue or red, depending on which ant was faster. The ants will never meet because they are walking in opposite directions on the surface of a sphere, which is a two-dimensional surface that has no end. As a result, they will never be able to paint over each other's tracks, and the sphere will remain either completely blue or completely red. It's important to note that this scenario is purely theoretical and would not be possible in the real world due to the constraints of time and resources.
+</blockquote>
 
-Analysis: This is of course incorrect and can even be unpleasant to read because it involves multiple fallacies and perhaps demonstrates that GPT does not have an image of a sphere, not surprisingly. what is interesting is that in different chats GPT is occasionally responding that the ants do meet, understanding the geometry of the sphere correctly - a response that would be appreciated by the likes of Magellan. 
-
+Analysis: This is of course incorrect and can even be unpleasant to read because it involves multiple fallacies and perhaps demonstrates that GPT does not have an image of a sphere, not surprisingly. what is interesting is that in different chats GPT is occasionally responding that the ants do meet, describing the geometry of the sphere correctly - a response that would be appreciated by the likes of Magellan. After some additional interrogation GPT later suggests that the ants shall never meet because they travel along great circles, but great circles divide the sphere in two hemispheres. Because the ants travel in the opposite directions it concludes that the ants end up in different hemispheres. So you can see a kind of reasoning, although a faulty one, which confuses the relationship between the key words in these sentences.  
 
 **Note:** We provide the full transcript here
 
+## Why is the sky blue?
+
+Originally we were interested in asking the question corresponding to the title of this section, but we think the following related question is more simple and more easily conveys the issues GPT runs into.
+
+Prompt:  Is it true that energy of an electromagnetic wave is directly proportional to its frequency based on just classical theory of electromagnetism that does not take quantum effects into account?
+
+<blockquote>
+Yes, that is correct. The relationship between the frequency and energy of an electromagnetic wave is described by classical electromagnetism, which does not take into account the quantization of energy that is described by quantum mechanics. In classical electromagnetism, an electromagnetic wave is described as an oscillating electric and magnetic field that propagates through space at the speed of light. The energy of the electromagnetic wave is related to the intensity of the electric and magnetic fields, which is directly proportional to the frequency of the wave. This is described by the equation E = hf, where E is the energy of the photon, f is its frequency, and h is a constant known as Planck's constant...
+</blockquote>
+
+Analysis: We have purposely left out discussion that follows to reduce the length of this post. The correct answer is: NO, as is known to any physicist who ever had a course of quantum mechanics, in classical mechanics there is no such relationship between energy of the EM wave and frequency, in fact h - Planck constant, comes from quantum mechanics. We have continued discussion with GPT trying to nudge it to ackwnoledge the mistake it made. Eventually, GPT ackwnoledges the mistake and agrees that in classical EM theory energy depends only on the square of the amplitude, however it still maintains a fantom (linear!) dependence between the amplitude and the frequency, which gives it linear (!) dependence between the energy and the frequency. 
+
+**Note:** We provide the full transcript here
 
 ## Photocatalysis
