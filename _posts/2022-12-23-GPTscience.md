@@ -13,6 +13,8 @@ authors:
     url: "https://www.univ-lyon1.fr/"
     affiliations:
       name: Université Lyon 1
+      
+bibliography: 2018-12-22-distill.bib
 
 
 # Optionally, you can add a table of contents to your post.
