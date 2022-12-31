@@ -70,7 +70,7 @@ Below we give assessment of the ChatGPT responses to two such users, us. It will
 
 Here we will concentrate more on scientific quieries which GPT answers gladly and is thus one of the intended uses. OpenAI does indicate that the chatbot can be fallible. Our impression is that given a simple question, such as "explain how internal combustion engine works" the generated response will be mostly reliable. But once the user asks to clarify some basic concepts there can be issues. Whether these issues are just related to scale of GPT, or the training protocol, or even the architecture is not clear. One may wonder to what extent can an artificial agent learn the representation of the world from only textual information, however long, and some nudging by the judges that is allegedly mostly eliminating harmful content. Thus it is perhaps not surprising, that ChatGPT excelled more when it came to understanding human psychology (in our judgement) than math or physics. 
 
-## Magnetic reconnection
+## Simple logic
 
 **Note:** Below we will give more clear explanation 
 
