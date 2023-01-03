@@ -2,96 +2,102 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: George Miloshevich
+    - name: Place of Birth
+      value: Tbilisi, Georgia
     - name: Languages
-      value: English, German
+      value: English, Georgian, Russian, French, Serbian, German
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: The University of Texas at Austin, United States
+      year: 2018
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Subdepartment: Institute of Fusion Studies
+        - Thesis: Hamiltonian description of Hall and sub-electron scales
+in collisionless plasmas
+            - Inverse cascade in strongly magnetized plasma
+            -Hamiltonian action principles for the extended MHD
+    - title: MS in Physics
+      institution: Tbilisi State University, Georgia
+      year: 2012
       description:
-        - Description 1.
-        - Description 2.
+        - Thesis: 3D modeling of Solar Coronal Closed structure formation
+and heating due to magneto-fluid coupling
+    - title: BS in Physics
+      institution: Tbilisi State University, Georgia
+      year: 2010
+      description:
+        - Thesis: Magnetic Reconnection
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Postdoctoral fellow
+      institution: LSCE, CEA Saclay, France
+      year: 2022 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Coupling machine learning and rare event algorithms
+        - Reinforcement Learning, Stochastic Weather Generators
+    - title: Postdoctoral fellow
+      institution: ENS de Lyon, France
+      year: 2020 - 2022
       description:
-        - Description 1.
-        - Description 2.
+        - Finding committor functions for extreme heatwaves in climate models
+        - Deep learning, ECMWF, and GCM model analysis
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Postdoctoral fellow
+      institution: Observatoire de la Côte d'Azur, Nice, France.
+      year: 2019 - 2020
       description:
+        - Cascades in strong imbalanced kinetic Alfvén wave turbulence
+        - 3D numerical simulations in C and Python
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Postdoctoral fellow
+      institution: Mathematical Sciences Research Institute, Berkeley, CA
+      year: 2018
+      description:
+        - The states of plasmas that do not radiate self-consistently
+        - Asymptotic slow-fast manifold expansion of Maxwell-Vlasov
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2017
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - Awarded GS University of Texas Graduate Continuing Summer Fellowship
+        - Nominated for prestigious GS University Graduate Continuing Fellowship 2017 - 2018
+    - year: 2016
       items: 
-        - Max Planck Medal
+        - 3rd place in University of Texas Visualizing Science Contest: [Standard Nontwist Map](https://cns.utexas.edu/news/visualizing-science-2016)
+    - year: 2012
+      items: 
+        - University of Texas Graduate Recruitment Scholarship
+    - year: 2011
+      items: 
+        - Prof. Estate Khmaladze’s award in Theoretical Physics 
+        - Prof. Antonino Zichichi’s World Federation of Scientists’ Scholarship
+    - year: 2006
+      items:
+        - Silver Medal in 7th Asian Physics Olympiad in Almaty
+        - Best participant among the debutant countries (team Georgia)
+    - year: 2004 - 2006
+      items:
+        - Numerous awards in Soros and State Olympiads in Physics, Tbilisi, Georgia
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Machine Learning in Physical Science
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+        - Earth Sciencies
+        - Fluid Dynamics
+        - Plasma Physics
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Music, Dance
