@@ -2,14 +2,14 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">École normale supérieure de Lyon</a>. Address. Contacts. Moto. Etc.
+description: <a href="#">LSCE, CEA Saclay</a>. Orme des Merisiers, Saint-Aubin, France
 
 profile:
   align: right
   image: photo.jpeg
   address: >
-    <p>Laboratoire de Physique</p>
-    <p>ENS de Lyon</p>
+    <p>LSCE</p>
+    <p>IPSL, CEA Saclay</p>
     <p>France</p>
 
 news: true  # includes a list of news items
