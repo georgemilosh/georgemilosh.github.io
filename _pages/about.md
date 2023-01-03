@@ -27,15 +27,15 @@ Events that are rare present challanges, since they are hard to measure or estim
 
 1. Heat waves and cold spells
 2. More generally tipping points in climate
-3. Coronal mass ejetctions
+3. Coronal mass ejections
 4. Tokamak disruptions
 
 ### Machine Learning
 
 I am involved currently in **Machine learning**, which is becoming a _maintstream_ tool in various fields of science and engineering. My intersts include
 
-1. Deep neural networks
-2. Physically inspired neural networks
+1. Machine learning in physics related fields
+2. Physics based constraints in neural networks
 
 
 ```markdown
@@ -45,6 +45,6 @@ print("Hello World!)
 
 ### Support or Contact
 
-You can contact me on george(dot)miloshevich(at)ens-lyon(dot)fr
+You can contact me on gmiloshe(at)lsce(dot)ipsl(dot)fr
 
 Visit my [Google Scholar profile](https://scholar.google.com/citations?user=XtOrmGAAAAAJ&hl=fr&oi=ao) for more information
