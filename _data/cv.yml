@@ -6,7 +6,7 @@
     - name: Place of Birth
       value: Tbilisi, Georgia
     - name: Languages
-      value: English, Russian
+      value: English, Russian, Georgian, French, Serbian, German
 
 - title: Education
   type: time_table
