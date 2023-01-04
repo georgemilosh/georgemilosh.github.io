@@ -26,7 +26,7 @@ bibliography: 2018-12-22-distill.bib
 toc:
   - name: ChatGPT overview
   - name: The ants on the sphere
-  - name: Why is the sky blue?
+  - name: Why is the sky blue
   - name: Photocatalysis
   - name: Conclusions
 
@@ -59,7 +59,7 @@ Analysis: This is of course incorrect and can even be unpleasant to read because
 
 **Note:** We provide the full transcript here
 
-## Why is the sky blue?
+## Why is the sky blue
 
 Originally we were interested in asking the question corresponding to the title of this section, but we think the following related question is more simple and more easily conveys the issues GPT runs into.
 
