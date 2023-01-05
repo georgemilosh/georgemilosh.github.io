@@ -26,14 +26,8 @@
       institution: Tbilisi State University
       year: 2012
       description:
-        - 3D modeling of Solar Coronal Closed structure formation
-and heating due to magneto-fluid coupling
-
-    - title: BS in Physics
-      institution: Tbilisi State University
-      year: 2010
-      description:
-        - Magnetic Reconnection
+        - Description 1.
+        - Description 2.
 
 - title: Experience
   type: time_table
