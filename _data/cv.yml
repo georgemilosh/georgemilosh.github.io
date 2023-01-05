@@ -52,11 +52,17 @@
     - title: Postdoctoral fellow
       institution: Universite de la Cote dAzure, Nice
       year: 2019 - 2020
+      description:
+        - Cascades in strong imbalanced kinetic Alfvén wave turbulence
+        - 3D numerical simulations in C and data analysis in Python
 
     - title: Postdoctoral fellow
       institution: Mathematical Sciences Research Institute, Berkeley
       year: 2018
       description:
+        - The states of plasmas that do not radiate self-consistently
+        - Asymptotic slow-fast manifold expansion of Maxwell-Vlasov
+
 
 - title: Open Source Projects
   type: time_table
