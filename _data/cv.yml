@@ -86,14 +86,14 @@
         - Silver Medal in 7th Asian Physics Olympiad
         
 - title: Was referee for journals
-  type: nested_list
+  type: list
   contents:
-    - title: Environmental Data Science
-    - title: Zeitschrift für Naturforschung A
-    - title: Physics of Plasmas
-    - title: Journal of Plasma Physics
-    - title: European Physical Journal: Special Topics
-    - title: Communications in Nonlinear Science and Numerical Simulation
+    - Environmental Data Science
+    - Zeitschrift für Naturforschung A
+    - Physics of Plasmas
+    - Journal of Plasma Physics
+    - European Physical Journal Special Topics
+    - Communications in Nonlinear Science and Numerical Simulation
 
 - title: Academic Interests
   type: nested_list
