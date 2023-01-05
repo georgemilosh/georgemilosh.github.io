@@ -27,6 +27,7 @@ toc:
   - name: ChatGPT overview
   - name: The ants on the sphere
   - name: Why is the sky blue
+  - name: Give me a reference
   - name: Photocatalysis
   - name: Conclusions
 
@@ -72,6 +73,10 @@ Yes, that is correct. The relationship between the frequency and energy of an el
 Analysis: The correct answer is: NO, as is known to any physicist who ever had a course of electromagnetism, in classical mechanics there is no such relationship between energy of the EM wave and frequency, in fact h - Planck constant, comes from quantum mechanics. We have continued discussion with GPT trying to nudge it to ackwnoledge the mistake it had made. Eventually, GPT ackwnoledged that E = hf is fundamentally quantum and agreed that in classical EM theory energy depends only on the square of the amplitude, however in that same response it continued to support linear dependence between the amplitude and the frequency, which somehow still gave it linear (!) dependence between the energy and the frequency.  I would call this phantom dependence because it is likely that GPT has so much belief in the linear relationship between the energy and the frequency because of the countless sources it was trained on that repeat it and reinforce the belief, which prompts GPT to spit out two logically inconsistent statements <d-footnote> Astute reader will also notice a simple mathematical error: if the dependence between the energy and the frequency must be linear and as correctly stated in classical EM theory energy scales proportional to the square of the amplitude, amplitude must scale as the square root of frequency. Also from quantum mechanics it is known that E = hf can be essentially masked by the number of quanta (photons), so it is not necessary to have Energy scale as square root of the frequency. The bottom line is that if in classical EM the relationship between Energy and frequency was already linear, Einstein wouldn't need to ressurect corpuscules of light after a century of oblivion </d-footnote>. Granted, the wave-particle duality is one of the most complex, even philosophical, issues that has tormented physics students and alike.
 
 **Note:** We provide the full transcript here
+
+## Faking references
+
+We asked GPT to generate the list of highly cited papers in the interface between physics and machine learning, and it generated the list, where some papers were fake. But a few were correct, except one had slightly wrong title. We started arguing with GPT that that one might have a wrong title, it was not agreeing, then we suggested the correct title and then once GPT was given the right title it agreed that the title we suggested was the actually right one and apologized. Then we tried to play an opposite game and picked the paper that GPT assigned the correct title, but we looked up similar sounding paper with the same author. We were able to convince GPT that it was wrong and hence make it produce a fake citations which was a mixture of the two papers: mixing the titles and journals. This issue that has also been noticed by other [users](https://news.ycombinator.com/item?id=33841672) seems to be endemic to ChatGPT due to its transformer architecture, basically when the contextual information is scarce in the `common crawl` on which ChatGPT was trained on, the ouput can be non-factual. The issue with fake citations could be fixed later, by morphing Google and ChatGPT capabilities, but one wonders if the same could be said about other types of scarce data questions. The problem is that ChatGPT itself is not aware that it lacks sufficient training to respond. 
 
 ## Photocatalysis
 

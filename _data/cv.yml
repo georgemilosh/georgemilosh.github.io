@@ -25,8 +25,13 @@
       institution: Tbilisi State University
       year: 2012
       description:
-        - Description 1.
-        - Description 2.
+        - 3D modeling of Solar Coronal Closed structure formation
+and heating due to magneto-fluid coupling
+    - title: BS in Physics
+      institution: Tbilisi State University
+      year: 2010
+      description:
+        - Magnetic Reconnection
 
 - title: Experience
   type: time_table
@@ -35,18 +40,20 @@
       institution: LSCE, CEA Saclay
       year: 2022 - 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Pascal Yiou
+        - title: Topics
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
+            - Coupling machine learning and rare event algorithms
+            - Reinforcement Learning, Stochastic Weather Generators
     - title: Postdoctoral fellow
       institution: ENS de Lyon
       year: 2020 - 2022
       description:
-        - Description 1.
-        - Description 2.
+        - Freddy Bouchet
+        - title: Topics
+          contents:
+        - Finding committor functions for extreme heatwaves in climate models
+        - Deep learning, ECMWF, and GCM model analysis
 
     - title: Postdoctoral fellow
       institution: Universite de la Cote dAzure, Nice
@@ -70,6 +77,13 @@
     - year: 2017
       items: 
         - University of Texas Graduate Continuing Fellowship
+    - year: 2016
+      items: 
+        - 3rd place in University of Texas Visualizing Science
+    - year: 2011
+      items: 
+        - Prof. Estate Khmaladze’s award in Theoretical Physics
+        - Prof. Antonino Zichichi’s World Federation of Scientists’ Scholarship
     - year: 2006
       items: 
         - Silver Medal in 7th Asian Physics Olympiad
