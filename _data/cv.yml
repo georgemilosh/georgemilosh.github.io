@@ -35,12 +35,12 @@
       institution: LSCE, CEA Saclay
       year: 2022 - 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Pascal Yiou
+        - title: Topics
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
+            - Coupling machine learning and rare event algorithms
+            - Reinforcement Learning and Stochastic Weather Generators
+           
     - title: Postdoctoral fellow
       institution: ENS de Lyon
       year: 2020 - 2022
