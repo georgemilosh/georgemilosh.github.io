@@ -48,8 +48,8 @@ These are also topics related to subgrid parametrizations and energy/momentum co
 print("Hello World!)
 ```
 
-## About me
-
+### About me
+I come from a small country nestled in Caucausus, and due to my mixed upbringing have been often exposed to multicultural environment, which I always welcomed. 
 
 ### Support or Contact
 
