@@ -11,7 +11,7 @@ d-byline h3 {
 }
 
 d-byline a, d-article d-byline a {
-  color: var(--global-text-color) !important;
+  color: var(--global-theme-color) !important;
   &:hover {
     color: var(--global-hover-color) !important;
   }
