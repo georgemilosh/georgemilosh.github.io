@@ -19,7 +19,9 @@ social: true  # includes social icons at the bottom of the page
 
 ## Short Summary
 
-I am a physicist involved in the interface between *machine learning* and complex systems such as climate, geophysics, plasma physics, solar wind. I am a postdoc at École normale supérieure de Lyon working in a group of Freddy Bouchet. Together we are involved in a project which aims to provide better understanding of *extreme events* in climate. Throughout my career I have been involved in various subjects including turbulence, statistical physics, systems with long-range interactions, plasma physics and mathematical physics.
+I am a physicist involved in the interface between *machine learning* and physics. I work in complex systems such as plasma physics and geophysics with methods ranging from analytical theory to `numerical simulations` to data analaysis and `machine learning`. Throughout my career I have been involved in various subjects including turbulence, statistical physics, and mathematical physics.
+
+I got my PhD degree from [the University of Texas at Austin](https://www.utexas.edu). I am a postdoc at [La Laboratoire des Sciences du Climat et l'Environement](https://www.lsce.ipsl.fr) at CEA Saclay working in a group of Pascal Yiou. Together we are involved in a project which aims to provide better understanding of *extreme events* in climate using satistics and deep learning. 
 
 ### Extreme events
 
@@ -37,11 +39,9 @@ I am involved currently in **Machine learning**, which is becoming a _maintstrea
 1. Machine learning in physics related fields
 2. Physics based constraints in neural networks
 
-
 ```markdown
 print("Hello World!)
 ```
-
 
 ### Support or Contact
 
