@@ -19,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 
 ## Short Summary
 
-I am a physicist involved in the interface between *machine learning* and physics. I work in complex systems such as plasma physics and geophysics with methods ranging from analytical theory to `numerical simulations` to data analaysis and `deep learning`. Throughout my career I have been involved in various subjects including turbulence, statistical physics, and mathematical physics. I got my PhD degree from [the University of Texas at Austin](https://www.utexas.edu). 
+I am a physicist involved in the interface between *machine learning* and physics. I work in complex systems such as plasma physics and geophysics with methods ranging from analytical theory to `numerical simulations` to data analaysis and `deep learning`. Throughout my career I have been involved in various subjects including turbulence, statistical physics, and mathematical physics. I got my PhD degree from [the University of Texas at Austin](https://www.utexas.edu). I come from a small country nestled in Caucausus, and due to my mixed upbringing have been often exposed to multicultural environment, which I always welcomed. 
 
 Currently, I am a postdoc at [La Laboratoire des Sciences du Climat et l'Environement](https://www.lsce.ipsl.fr) at CEA Saclay working in a group of Pascal Yiou. Together we are involved in a project which aims to provide better sampling and understanding of *extreme events* in climate using statistical methods like `Markov chains` and deep learning. 
 
@@ -47,9 +47,6 @@ These are also topics related to subgrid parametrizations and energy/momentum co
 ```markdown
 print("Hello World!)
 ```
-
-### About me
-I come from a small country nestled in Caucausus, and due to my mixed upbringing have been often exposed to multicultural environment, which I always welcomed. 
 
 ### Support or Contact
 
