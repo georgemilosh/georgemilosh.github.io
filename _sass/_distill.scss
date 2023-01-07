@@ -21,6 +21,17 @@ d-byline a, d-article d-byline a {
     }
 }
 
+a, table.table a {
+  color: var(--global-theme-color);
+  &:hover {
+    color: var(--global-theme-color);
+    text-decoration: underline;
+  }
+  &:hover:after :not(.nav-item.dropdown) {
+    width: 100%;
+  }
+}
+
 d-article {
   border-top-color: var(--global-divider-color) !important;
   p, h1, h2, h3, h4, h5, h6, li, table {
