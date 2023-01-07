@@ -11,10 +11,14 @@ d-byline h3 {
 }
 
 d-byline a, d-article d-byline a {
-  color: var(--global-theme-color) !important;
-  &:hover {
-    color: var(--global-hover-color) !important;
-  }
+  color: var(--global-theme-color);
+    &:hover {
+      color: var(--global-theme-color);
+      text-decoration: underline;
+    }
+    &:hover:after :not(.nav-item.dropdown) {
+      width: 100%;
+    }
 }
 
 d-article {
@@ -25,12 +29,18 @@ d-article {
   h1, h2, hr, table, table th, table td {
     border-bottom-color: var(--global-divider-color) !important;
   }
-  a:link{
+
+  a, table.table a {
     color: var(--global-theme-color);
+    &:hover {
+      color: var(--global-theme-color);
+      text-decoration: underline;
+    }
+    &:hover:after :not(.nav-item.dropdown) {
+      width: 100%;
+    }
   }
-  a:hover {
-    border-bottom-color: var(--global-hover-color) !important;
-  }
+
   b i {
     display: inline;
   }
