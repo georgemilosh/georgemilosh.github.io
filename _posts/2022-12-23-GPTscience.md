@@ -46,16 +46,17 @@ _styles: >
     text-align: center;
     font-size: 16px;
   }
-  a {
+  .d-article a {
   outline: none;
   text-decoration: none;
   padding: 2px 1px 0;
   }
-  a:link {
-    color: #265301;
+  .d-article a:link {
+    color: #00ab37;
   }
-  a:hover {
+  d-article. a:hover {
     border-bottom: 1px solid;
+    text-decoration: underline;
   }
 
 
