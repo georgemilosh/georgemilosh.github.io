@@ -46,6 +46,34 @@ _styles: >
     text-align: center;
     font-size: 16px;
   }
+  a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+  }
+
+  a:link {
+    color: #265301;
+  }
+
+  a:visited {
+    color: #437a16;
+  }
+
+  a:focus {
+    border-bottom: 1px solid;
+    background: #bae498;
+  }
+
+  a:hover {
+    border-bottom: 1px solid;
+    background: #cdfeaa;
+  }
+
+  a:active {
+    background: #265301;
+    color: #cdfeaa;
+  }
 
 ---
 
