@@ -56,23 +56,9 @@ _styles: >
     color: #265301;
   }
 
-  a:visited {
-    color: #437a16;
-  }
-
-  a:focus {
-    border-bottom: 1px solid;
-    background: #bae498;
-  }
-
   a:hover {
     border-bottom: 1px solid;
     background: #cdfeaa;
-  }
-
-  a:active {
-    background: #265301;
-    color: #cdfeaa;
   }
 
 ---
