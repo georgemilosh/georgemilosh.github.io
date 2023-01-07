@@ -45,7 +45,10 @@ _styles: >
     margin: 12px 0;
     text-align: center;
     font-size: 16px;
-  a {
+  .a {
+    color: var(--global-theme-color);
+  }
+  .d-article a {
     color: var(--global-theme-color);
   }
   }
