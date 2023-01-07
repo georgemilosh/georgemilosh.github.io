@@ -46,6 +46,15 @@ _styles: >
     text-align: center;
     font-size: 16px;
   }
+  a {
+  color: var(--global-theme-color);
+  &:hover {
+    color: var(--global-theme-color);
+    text-decoration: underline;
+  }
+  &:hover:after :not(.nav-item.dropdown) {
+    width: 100%;
+  }
 
 ---
 
