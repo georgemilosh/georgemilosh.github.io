@@ -47,14 +47,17 @@ _styles: >
     font-size: 16px;
   }
   a {
-  color: var(--global-theme-color);
-  &:hover {
-    color: var(--global-theme-color);
-    text-decoration: underline;
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
   }
-  &:hover:after :not(.nav-item.dropdown) {
-    width: 100%;
+  a:link {
+    color: #265301;
   }
+  a:hover {
+    border-bottom: 1px solid;
+  }
+
 
 ---
 
