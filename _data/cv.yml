@@ -97,6 +97,20 @@
     - European Physical Journal Special Topics
     - Communications in Nonlinear Science and Numerical Simulation
 
+- title: Summer Schools and Workshops
+  type: time_table
+  contents:
+    - year: 2022
+      items: 
+        - Machine Learning-Assisted Sampling for Scientific Computing – Applications in Physics, Paris
+        - School on Climate Sensitivity & Workshop on Mathematics and Theoretical Physics for Climate Dynamics, ENS Lyon
+        - Summer school on Artificial Intelligence for Detection and Attribution of Climate Extremes at ICTP, Trieste
+    - year: 2009
+      items: 
+        - Summer Program at Deutches Elektronen-Synchrotron, Zeuthen, Germany
+        - Particle Physics and Astronomy, The University of Sheffield
+
+
 - title: Academic Interests
   type: nested_list
   contents:
