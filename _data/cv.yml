@@ -86,16 +86,6 @@
     - year: 2006
       items: 
         - Silver Medal in 7th Asian Physics Olympiad
-        
-- title: Was referee for journals
-  type: list
-  contents:
-    - Environmental Data Science
-    - Zeitschrift für Naturforschung A
-    - Physics of Plasmas
-    - Journal of Plasma Physics
-    - European Physical Journal Special Topics
-    - Communications in Nonlinear Science and Numerical Simulation
 
 - title: Summer Schools and Workshops
   type: time_table
@@ -110,20 +100,12 @@
         - Summer Program at Deutches Elektronen-Synchrotron, Zeuthen, Germany
         - Particle Physics and Astronomy, The University of Sheffield
 
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Physics
-      items: 
-        - Fluids and Plasmas
-        - Climate, Extremes
-    - title: Machine Learning
-      items:
-        - Rare event algorithms
-        - Physics based deep learning
-
-- title: Other Interests
+- title: Was referee for journals
   type: list
   contents:
-    - <u>Hobbies:</u> Music, Dance, etc.
+    - Environmental Data Science
+    - Zeitschrift für Naturforschung A
+    - Physics of Plasmas
+    - Journal of Plasma Physics
+    - European Physical Journal Special Topics
+    - Communications in Nonlinear Science and Numerical Simulation
