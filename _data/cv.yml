@@ -12,10 +12,10 @@
   type: time_table
   contents:
     - title: PhD
-      institution: The University of Texas at Austin
+      institution: <a href="https://www.utexas.edu/">The University of Texas at Austin</a>
       year: 2018
       description:
-        - Institute of Fusion Studies
+        - <a href="https://w3fusion.ph.utexas.edu/ifs/">Institute of Fusion Studies</a>
         - Philip J Morrison
         - title: Hamiltonian description of Hall and sub-electron scales in collisionless plasmas
           contents:
