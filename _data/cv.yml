@@ -12,7 +12,7 @@
   type: time_table
   contents:
     - title: PhD
-      institution: The University of Texas at Austin
+      institution: [The University of Texas at Austin](https://www.utexas.edu/)
       year: 2018
       description:
         - Institute of Fusion Studies
