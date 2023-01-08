@@ -15,7 +15,7 @@
       institution: <a href="https://www.utexas.edu/">The University of Texas at Austin</a>
       year: 2018
       description:
-        - <a href="https://w3fusion.ph.utexas.edu/ifs/">Institute of Fusion Studies</a>
+        - Institute of Fusion Studies
         - Philip J Morrison
         - title: Hamiltonian description of Hall and sub-electron scales in collisionless plasmas
           contents:
@@ -78,7 +78,7 @@
         - University of Texas Graduate Continuing Fellowship
     - year: 2016
       items: 
-        - University of Texas Visualizing Science Award
+        - University of Texas <a href="https://cns.utexas.edu/news/visualizing-science-2016">Visualizing Science Award</a>
     - year: 2011
       items: 
         - Prof. Estate Khmaladze’s award in Theoretical Physics
