@@ -84,7 +84,7 @@ In this blog post we will rather address whether it is a good idea to use ChatGP
 Here the idea is to see if GPT can reason geometrically in idealized environment. Because GPT is a generative model it is possible to try the same prompt several times and get different answers. 
 
 <div class="d-flex justify-content-center">
-  <div>{% responsive_image path: assets/img/DALL·E 2023-01-08 19.21.55 - 2 ants crawling on a sphere drawing a circle digital art.jpeg title: "example image" class: "img-fluid rounded z-depth-1" %}</div>
+  <div>{% responsive_image path: assets/img/DALLE_sphere.jpeg title: "example image" class: "img-fluid rounded z-depth-1" %}</div>
 </div>
 <div class="caption">
     DALLE when prompted "2 ants crawling on a sphere drawing a circle digital art"
