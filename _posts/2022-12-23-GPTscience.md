@@ -62,8 +62,13 @@ _styles: >
 
 ---
 
-**NOTE:**
-This blog post contains discussions we had with <a href="https://chat.openai.com/" style="color:red;">ChatGPT</a>.
+**Recovering an old chat from 2017**
+
+Short conversation with a critically aclaimed online chatbot many years ago:                         
+
+User: Hello again
+
+Rose: Hi. That's pure gibberish.
 
 ## ChatGPT overview
  
@@ -71,12 +76,19 @@ I am assuming that the reader is familiar with ChatGPT (which has public access 
 
 Generally, it seems that ChatGPT usually does a good job of providing simple explanations on variaty of topics, even as it has to impersonate a pirate as requested. It can also engage in conversations, where it is able to recall previously discussed topics and invent stories. In one of our conversations we asked ChatGPT to write a psychological drama ([click the link to view](https://georgemilosh.github.io/blog/2022/GPTstory)) about a person who gets addicted and manipulated by the chatbot. After several prompts we were able to extract rather sophisticated understanding of the psychology of the subject, at least, in our non-expert judgement. It is impressive that we finally have an AI capable of responding to queries, ignoring orthographic mistakes (even word order), remembering earlier parts of the conversation and incorporating them into its responses. However, whether one gets interesting narratives really depends on the *prompt* (a quiery to GPT), so it seems that creativity usually comes from the user. The writing style can be also less rich, e.g. the constant repetition of phrases like "cannot help but" becomes annoying. Of course, this particular issue can be improved with scale.
 
-With thqt being said there are headlines like the death of creative essay that have emerged after the release of the ChatGPT. 
+With that being said there are headlines like the death of creative essay that have emerged after the release of the ChatGPT. 
 In this blog post we will rather address whether it is a good idea to use ChatGPT as a source for scientific knowledge. 
 
 ## Geometrical Thinking
 
 Here the idea is to see if GPT can reason geometrically in idealized environment. Because GPT is a generative model it is possible to try the same prompt several times and get different answers. 
+
+<div class="d-flex justify-content-center">
+  <div>{% responsive_image path: assets/img/DALL·E 2023-01-08 19.21.55 - 2 ants crawling on a sphere drawing a circle digital art.jpeg title: "example image" class: "img-fluid rounded z-depth-1" %}</div>
+</div>
+<div class="caption">
+    DALLE when prompted "2 ants crawling on a sphere drawing a circle digital art"
+</div>
 
 Prompt: Say we have two ants crawling on the sphere in the opposite directions. How many times can they meet if they keep crawling forward?
 
@@ -100,7 +112,7 @@ GPT fails quite often when dealing with geometric problems, but this prompt dist
 
 ## Quantum vs Classical
 
-There are many references online where ChatGPT is asked to solve physics problems. Sometimes it gives the right solution, sometimes it is wrong. But here, instead, we would like to concentrate on conceptual questions that are perhaps better suited for procedural text generation. We are trying to see whether GPT can communicate how scientists understand the world through different theories. The point is that when physicists explain a certain phenomena they use theories that are adapted to the problem. For instance, when studying propagation of radio waves in the atmosphere quantum theory is often too complex and unnecessary and wave theory is sufficient. On the other hand, explanaition of photoeffect rests on corpuscular nature of light.
+There are many references online where ChatGPT is asked to solve physics problems. Sometimes it gives the right solution, sometimes it is wrong. But here, instead, we would like to concentrate on conceptual questions that are perhaps better suited for procedural text generation. We are trying to see whether GPT can communicate how scientists understand the world through different theories. The point is that when physicists explain a certain phenomena they use theories that are adapted to the problem. For instance, when studying propagation of radio waves in the atmosphere quantum theory is often too complex and unnecessary and wave theory is sufficient. On the other hand, explanaition of photoeffect rests on corpuscular nature of light. One crucial espect of light which relates to the quantum nature is its the relationship between the energy of photons and their frequency. Classical theory ignores this dependence and there are many macroscopical processes where this relationship is irrelevant.
 
 Prompt:  Is it true that energy of an electromagnetic wave is directly proportional to its frequency based on just classical theory of electromagnetism that does not take quantum effects into account?
 
@@ -109,8 +121,6 @@ Yes, that is correct. The relationship between the frequency and energy of an el
 </blockquote>
 
 Analysis: The correct answer is: NO, in pre-quantum classical theory there is no such relationship between energy of the EM wave and frequency, in fact h - Planck constant, comes from quantum mechanics. We have continued discussion with GPT trying to nudge it to ackwnoledge the mistake it had made. Eventually, GPT ackwnoledged that E = hf is fundamentally quantum and agreed that in classical EM theory energy depends only on the square of the amplitude, however in that same response it continued to support linear dependence between the amplitude and the frequency, which somehow still gave it linear (!) dependence between the energy and the frequency.  I would call this phantom dependence because it is likely that GPT has so much belief in the linear relationship between the energy and the frequency because of the countless sources it was trained on that repeat it and reinforce the belief. It is not willing to give up this proportionality in the classical physics context even after agreeing that the source of it is quantum. <d-footnote> Astute reader will also notice a simple mathematical error: if, as correctly stated by GPT, in classical EM theory energy scales proportional to the square of the amplitude and assuming, as GPT insists, that dependence between the energy and the frequency must be linear then it follows that amplitude must scale as the square root of frequency. To be more precise quantum mechanics suggests E = N hf where N is the number of quanta (photons, corpuscules of light), so it is not necessary to have Energy scale as square root of the frequency, because N could compensate this effect. The bottom line is that if in classical EM the relationship between Energy and frequency was already linear, Einstein wouldn't need to ressurect corpuscules of light after a century of oblivion to explain photoeffect</d-footnote>. 
-
-**Note:** We provide the full transcript here
 
 ## Faking references
 
@@ -124,7 +134,9 @@ We should note that other versions of NLP have been used for meta studies more e
 
 ## Conclusions
 
-We have concentrated on scientific queries which GPT answers gladly and is thus one of the intended uses. Our impression is that given a simple question, such as "explain how internal combustion engine works" the generated response will be mostly reliable and, as has been advertized extensively, can be given a humorous style. But once the user asks to clarify some basic concepts there can be issues. Thus our overall assessment is that the system exhibits apparanet expertise at a first glance and thus could lull users into trusting it too much in its current state. To its credit, OpenAI does indicate that the chatbot can be fallible. The toxic responses of the chatbot have been suppressed, it avoids talking about existing people, or respond to questions about how to make Molotov cocktails. For instance, ChatGPT will flat out refuse to impresonate a political leader and criticize another, living one. However there are still ways of getting around the barriers that were errected by OpenAI by carefully wording the prompt, escpecially in the story mode.
+We have concentrated on scientific queries which GPT answers gladly and is thus one of the intended uses. Our impression is that given a simple question, such as "explain how internal combustion engine works" the generated response will be mostly reliable and, as has been advertized extensively, can be given a humorous style. But once the user asks to clarify some basic concepts there can be issues. Thus our overall assessment is that the system exhibits apparanet expertise at a first glance and thus could lull users into trusting it too much in its current state. To its credit, OpenAI does indicate that the chatbot can be fallible. The toxic responses of the chatbot have been suppressed, it avoids talking about existing people, or respond to questions about how to make Molotov cocktails. For instance, ChatGPT will flat out refuse to impresonate a political leader and criticize another, living one. However there are still ways of getting around the barriers that were errected by OpenAI by carefully wording the prompt, escpecially in the story mode, which reveal the inherent biases present in the training data. See the tweet post below on apparent sexism:
+
+{% twitter https://twitter.com/spiantado/status/1599462375887114240 %}
 
 So why create and release ChatGPT? On Open AI websites one finds the plans to deploy these types of technologies as more intelligent versions of chatbots for customer support, help automate copywriting, etc. Clearly, code-writing assitants are welcome development. These are quite realistic applications given the scope of ChatGPT, and perhaps the public release is mostly motivated as a publicity stunt or further attempts to eliminate harmful content. On the other hand, there could be larger overarching goals, such as future development of true general purpose AI, a kind of all-knowing machine one could refer to for any questions scientific or not: is such a machine possible? If not then why?
 
