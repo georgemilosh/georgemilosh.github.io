@@ -127,7 +127,7 @@ Analysis: The correct answer is: NO, in pre-quantum classical theory there is no
 We asked GPT to generate the list of highly cited papers in the interface between physics and machine learning, and it generated the list, where some papers were fake. But a few were correct, except one had slightly wrong title. We started arguing with GPT that that paper might have a wrong title. At first GPT was adamant it did not make a mistake, but after we suggested the correct title to the machine it agreed that the suggested title was actually the right one and apologized. Then we tried to play an opposite game and picked the paper (say #2) that GPT had previously assigned the correct title, but we looked up similar sounding paper (call it #3) with the same author and suggested that #2 should actually have a title of #3 . We were able to convince GPT that it was wrong (incorrectly) and hence make it produce a fake citations which was a mixture of the two papers: essentially paper #2 with the title #3. 
 
 <div class="d-flex justify-content-center">
-  <div>{% responsive_image path: assets/img/DALLE_typing.jpeg title: "example image" class: "img-fluid rounded z-depth-1" %}</div>
+  <div>{% responsive_image path: assets/img/GPT_typing.jpeg title: "example image" class: "img-fluid rounded z-depth-1" %}</div>
 </div>
 <div class="caption">
     DALLE when prompted "photo of a robot typing in a library"
