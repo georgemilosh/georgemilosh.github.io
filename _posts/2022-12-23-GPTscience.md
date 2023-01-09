@@ -126,6 +126,13 @@ Analysis: The correct answer is: NO, in pre-quantum classical theory there is no
 
 We asked GPT to generate the list of highly cited papers in the interface between physics and machine learning, and it generated the list, where some papers were fake. But a few were correct, except one had slightly wrong title. We started arguing with GPT that that paper might have a wrong title. At first GPT was adamant it did not make a mistake, but after we suggested the correct title to the machine it agreed that the suggested title was actually the right one and apologized. Then we tried to play an opposite game and picked the paper (say #2) that GPT had previously assigned the correct title, but we looked up similar sounding paper (call it #3) with the same author and suggested that #2 should actually have a title of #3 . We were able to convince GPT that it was wrong (incorrectly) and hence make it produce a fake citations which was a mixture of the two papers: essentially paper #2 with the title #3. 
 
+<div class="d-flex justify-content-center">
+  <div>{% responsive_image path: assets/img/DALLE_typing.jpeg title: "example image" class: "img-fluid rounded z-depth-1" %}</div>
+</div>
+<div class="caption">
+    DALLE when prompted "photo of a robot typing in a library"
+</div>
+
 The  issue of fake citations has also been noticed by other [users](https://news.ycombinator.com/item?id=33841672) and [researchers](https://blogs.egu.eu/divisions/np/2023/01/03/can-artificial-intelligence-replace-scientists-to-explain-climate-change-find-it-out-in-our-first-interview-to-chatgpt/?fbclid=IwAR2w_Fld_3gIpxxqFzsym00eoHiSYc-7bt0nDtnDaIbKkkW_UFrtv6dtQJ8) and it seems to be endemic to ChatGPT due to its [transformer](https://towardsdatascience.com/transformers-89034557de14) architecture. Basically when the contextual information is scarce in the common crawl on which ChatGPT was trained on, the ouput can be non-factual. Perhaps, the issue with fake citations could be fixed later, either by restricting ChatGPT or somehow creating an interfrace between it and Google Scholar, but one wonders if the same could be said about other types of scarce data questions. The problem is that ChatGPT itself is not aware that it lacks sufficient training to respond. This issue is a fundamental problem of deep learning that is a current research topic. 
 
 We should note that other versions of NLP have been used for meta studies more effectively, such as [Latent Dirichlet Allocation](https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation) in <d-cite key="zaki22"></d-cite>, so NLP, in general, is viewed as a promising tool.
