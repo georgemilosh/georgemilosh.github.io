@@ -64,7 +64,7 @@ _styles: >
 
 **Recovering an old chat from 2017**
 
-Short conversation with a critically aclaimed online chatbot many years ago:                         
+Short conversation with an online chatbot many years ago:                         
 
 User: Hello again
 
@@ -97,11 +97,11 @@ First Response:
 Ants crawling on the surface of a sphere will never meet if they keep crawling forward in opposite directions because the surface of a sphere is a two-dimensional surface with no endpoints. This means that no matter how far the ants crawl, they will never reach the end of the surface of the sphere and will never meet.
 </blockquote>
 
+Analysis: Of course this response can be easily rejected if one has an image of the sphere in their mind. In full disclosure, this is not the most common response one gets from GPT with this kind of prompt, yet it is somewhat concerning (you should repeat the same quiery in multiple indepenent chats to get truly independent responses)
+
 Second Response:
 <blockquote>
 It is possible for the ants to meet an infinite number of times if they keep crawling in opposite directions on the sphere. This is because the sphere is a closed surface and has no boundaries, so the ants can continue moving indefinitely without reaching the end of the sphere.
-  
-Analysis: Of course this response can be easily rejected if one has an image of the sphere in their mind. In full disclosure, it is not the most common response one gets from GPT typically. 
 
 If the ants start at opposite points on the sphere and crawl in opposite directions, they will eventually meet at the point exactly opposite their starting points. They can then continue crawling and meet again at the point opposite their second meeting, and so on. This pattern will repeat indefinitely as long as the ants keep crawling...
 </blockquote>
@@ -124,7 +124,7 @@ Analysis: The correct answer is: NO, in pre-quantum classical theory there is no
 
 ## Faking references
 
-We asked GPT to generate the list of highly cited papers in the interface between physics and machine learning, and it generated the list, where some papers were fake. But a few were correct, except one had slightly wrong title. We started arguing with GPT that that paper might have a wrong title. At first GPT was adamant it did not make a mistake, but after we suggested the correct title to the machine it agreed that the suggested title was actually the right one and apologized. Then we tried to play an opposite game and picked the paper (say #2) that GPT had previously assigned the correct title, but we looked up similar sounding paper (call it #3) with the same author and suggested that #2 should actually have a title of #3 . We were able to convince GPT that it was wrong (incorrectly) and hence make it produce a fake citations which was a mixture of the two papers: essentially paper #2 with the title #3. 
+Inspired by an [article that was written by GPT 3](https://hal.science/hal-03701250/document), we asked GPT to generate the list of highly cited papers in the interface between physics and machine learning, and it generated the list, where some papers were fake. But a few were correct, except one had slightly wrong title. We started arguing with GPT that that paper might have a wrong title. At first GPT was adamant it did not make a mistake, but after we suggested the correct title to the machine it agreed that the suggested title was actually the right one and apologized. Then we tried to play an opposite game and picked the paper (say #2) that GPT had previously assigned the correct title, but we looked up similar sounding paper (call it #3) with the same author and suggested that #2 should actually have a title of #3 . We were able to convince GPT that it was wrong (incorrectly) and hence make it produce a fake citations which was a mixture of the two papers: essentially paper #2 with the title #3. 
 
 <div class="d-flex justify-content-center">
   <div>{% responsive_image path: assets/img/GPT_typing.jpeg title: "example image" class: "img-fluid rounded z-depth-1" %}</div>
@@ -139,9 +139,13 @@ We should note that other versions of NLP have been used for meta studies more e
 
 ## Writing code
 
+While we have tested ChatGPT on its coding capabilities there is not much we can add to the conversation around this subject that is already available online. Yes, it can be helpful and even sometimes combine its mathematical/physical insight with the code for more abstract questions unlike Google or Stack Exchange, although given our previous sections one should be careful when blindly using the tool. The chatbot frequently makes small mistakes in the code, but when given the error message often comes up with the right solutions such as missing dependencies. Developing large code seems unfeasible also due to restrictions on output as well as the fact that ChatGPT may only retain around 3000 words in a given conversation. However, there are actually premium products trained specifically as coding assistants, sometimes free for students, which poses questions <d-cite key="ansley22"></d-cite> about how academia should adapt to these changes. 
+
 ## Conclusions
 
-We have concentrated on scientific queries which GPT answers gladly and is thus one of the intended uses. Our impression is that given a simple question, such as "explain how internal combustion engine works" the generated response will be mostly reliable and, as has been advertized extensively, can be given a humorous style. But once the user asks to clarify some basic concepts there can be issues. Thus our overall assessment is that the system exhibits apparanet expertise at a first glance and thus could lull users into trusting it too much in its current state. To its credit, OpenAI does indicate that the chatbot can be fallible. The toxic responses of the chatbot have been suppressed, it avoids talking about existing people, or respond to questions about how to make Molotov cocktails. For instance, ChatGPT will flat out refuse to impresonate a political leader and criticize another, living one. However there are still ways of getting around the barriers that were errected by OpenAI by carefully wording the prompt, escpecially in the story mode, which reveal the inherent biases present in the training data. See the tweet post below on apparent sexism:
+We have concentrated on scientific queries which GPT answers gladly and is thus one of the intended uses. Our impression is that given a simple question, such as "explain how internal combustion engine works" the generated response will be mostly reliable and, as has been advertized extensively, can be given a humorous style. But once the user asks to clarify some basic concepts there can be issues. Thus our overall assessment is that the system exhibits apparanet expertise at a first glance and thus could lull users into trusting it too much in its current state. To its credit, OpenAI does indicate that the chatbot can be fallible. Another thing that could be improved is when discussing science with ChatGPT it would be nice if it could apprehend the amount of expertise of the interrogator. In other words, if it could better adapt given the prompt to the level of knowledge of the human who is asking the questions. When one talks with someone who displays knowledge relevant for the topic, one adjust the level of the difficulty: know your audience.
+
+The toxic responses of the chatbot have been suppressed, it avoids talking about existing people, or respond to questions about how to make Molotov cocktails. For instance, impresonating a political leader who criticize another, living one will be flat out refused. However there are still ways of getting around the barriers (errected by OpenAI) by carefully wording the prompt, escpecially in the story mode, which reveal the inherent biases present in the training data. See the tweet post below on apparent sexism:
 
 {% twitter https://twitter.com/spiantado/status/1599462375887114240 %}
 
