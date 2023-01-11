@@ -50,9 +50,16 @@ _styles: >
     text-align: center;
     font-size: 16px;
   }
-  a.two:link {color:#ff0000;}
-  a.two:visited {color:#0000ff;}
-  a.two:hover {font-size:150%;}
+  a.two {
+    color: var(--global-theme-color);
+    &:hover {
+      color: var(--global-theme-color);
+      text-decoration: underline;
+    }
+    &:hover:after :not(.nav-item.dropdown) {
+      width: 100%;
+    }
+  }
 
 
 ---
