@@ -50,6 +50,9 @@ _styles: >
     text-align: center;
     font-size: 16px;
   }
+  a.two:link {color:#ff0000;}
+  a.two:visited {color:#0000ff;}
+  a.two:hover {font-size:150%;}
 
 
 ---
@@ -66,7 +69,7 @@ chatbot: Hi. That's pure gibberish.
 "I'm sorry, Dave. I'm afraid I can't do that." - HAL 9000 in 2001: A Space Odyssey
 </blockquote>
  
-I am assuming that the reader is familiar with ChatGPT, a chatbot that everyone talks about now (and who is also good at suggesting apt quotes). The important point to retain is that <d-cite key="ouyang2022training"></d-cite> it is based on recent developments in AI, in particular, [attention mechanism](https://towardsdatascience.com/transformers-89034557de14), trained on `common crawl`, essentially an archive of world wide web and fine-tuned with the help of user judges based on a technique called <a href="https://en.wikipedia.org/wiki/Reinforcement_learning">reinforcement learning</a> to generate more reliable responses and eliminate apparent bias and harmful content. The public release of this chatbot attracted widespread interest with a mix of awe, surprise, [doubts and criticism](https://youtu.be/PBdZi_JtV4c). 
+I am assuming that the reader is familiar with ChatGPT, a chatbot that everyone talks about now (and who is also good at suggesting apt quotes). The important point to retain is that <d-cite key="ouyang2022training"></d-cite> it is based on recent developments in AI, in particular, <a class="two" href="https://towardsdatascience.com/transformers-89034557de14" target="_blank">attention mechanism</a>, trained on `common crawl`, essentially an archive of world wide web and fine-tuned with the help of user judges based on a technique called <a href="https://en.wikipedia.org/wiki/Reinforcement_learning">reinforcement learning</a> to generate more reliable responses and eliminate apparent bias and harmful content. The public release of this chatbot attracted widespread interest with a mix of awe, surprise, [doubts and criticism](https://youtu.be/PBdZi_JtV4c). 
 
 In fact, we have enjoyed discussions with the chatbot so much so that we have even tasked it to write a psychological drama ([click the link to view](https://georgemilosh.github.io/blog/2022/GPTstory)) about a person who gets addicted and manipulated by the chatbot. ChatGPT seems capable of producing a text displaying sophisticated understanding of human psychology, at least, in our non-expert judgement. It is impressive that we finally have an AI capable of responding to queries, ignoring orthographic mistakes (even word order), remembering earlier parts of the conversation and incorporating them into its responses. Whether one gets interesting narratives really depends on the *prompt* (a query to GPT), so our opinion is that creative storylines usually come from the human interrogator, which is ok. However, barring the discussion on the impressive narratives that are generated, in this blog post we will rather address how reliable ChatGPT is as a source of scientific knowledge providing three examples.
 
