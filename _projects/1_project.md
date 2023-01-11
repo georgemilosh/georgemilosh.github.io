@@ -11,13 +11,13 @@ In this project the idea is to model ion and sub-ion scales that one finds in so
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% responsive_image path: assets/img/solarwind.jpg title: "example image" class: "img-fluid rounded z-depth-1" %}
+        {% include figure.html path: assets/img/solarwind.jpg title: "example image" class: "img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% responsive_image path: assets/img/SPP-shown-along-its-orbit.jpg title: "example image" class: "img-fluid rounded z-depth-1" %}
+        {% include figure.html path: assets/img/SPP-shown-along-its-orbit.jpg title: "example image" class: "img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-3 mt-3 mt-md-0">
-        {% responsive_image path: assets/img/Wicksimbalance.png title: "example image" class: "img-fluid rounded z-depth-1" %}
+        {% include figure.html path: assets/img/Wicksimbalance.png title: "example image" class: "img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -40,7 +40,7 @@ where $$V_{ph}$$ is the KAW phase velocity. The system of equations is modelled 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% responsive_image path: assets/img/R14BVortex.png title: "example image" class: "img-fluid rounded z-depth-1" %}
+        {% include figure.html path: assets/img/R14BVortex.png title: "example image" class: "img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -54,10 +54,10 @@ The second component of our work was to study `decay instability` which consists
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% responsive_image path: assets/img/R10T8FFT3.png title: "example image" class: "img-fluid rounded z-depth-1" %}
+        {% include figure.html path: assets/img/R10T8FFT3.png title: "example image" class: "img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% responsive_image path: assets/img/omegak2.jpg title: "example image" class: "img-fluid rounded z-depth-1" %}
+        {% include figure.html path: assets/img/omegak2.jpg title: "example image" class: "img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
