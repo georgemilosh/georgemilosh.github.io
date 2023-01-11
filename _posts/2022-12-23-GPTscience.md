@@ -79,9 +79,9 @@ chatbot: Hi. That's pure gibberish.
 
 ## ChatGPT overview
 
-<blockquote2>
+<blockquote3>
 "I'm sorry, Dave. I'm afraid I can't do that." - HAL 9000 in 2001: A Space Odyssey
-</blockquote2>
+</blockquote3>
  
 I am assuming that the reader is familiar with ChatGPT, a chatbot that everyone talks about now (and who is also good at suggesting apt quotes). The important point to retain is that <d-cite key="ouyang2022training"></d-cite> it is based on recent developments in AI, in particular, <a class="two" href="https://towardsdatascience.com/transformers-89034557de14" target="_blank">attention mechanism</a>, trained on `common crawl`, essentially an archive of world wide web and fine-tuned with the help of user judges based on a technique called <a href="https://en.wikipedia.org/wiki/Reinforcement_learning">reinforcement learning</a> to generate more reliable responses and eliminate apparent bias and harmful content. The public release of this chatbot attracted widespread interest with a mix of awe, surprise, [doubts and criticism](https://youtu.be/PBdZi_JtV4c). 
 
@@ -104,18 +104,18 @@ Interestingly GPT is actually not extremely good at arithmetic, which some specu
 Prompt: Say we have two ants crawling on the sphere in the opposite directions. How many times can they meet if they keep crawling forward?
 
 First Response:
-<blockquote>
+<blockquote3>
 <b>ChatGPT: Ants crawling on the surface of a sphere will never meet</b> if they keep crawling forward in opposite directions because the surface of a sphere is a two-dimensional surface with no endpoints. This means that no matter how far the ants crawl, they will never reach the end of the surface of the sphere and will never meet.
-</blockquote>
+</blockquote3>
 
 Analysis: Of course this response can be easily rejected if one has an image of the sphere in their mind. In full disclosure, this is not the most common response to this question that one gets from GPT, yet it is somewhat concerning. Below we repeat the same query in a second independent chat to get truly independent response:
 
 Second Response:
-<blockquote>
+<blockquote3>
 ChatGPT: It is possible for the ants to meet an infinite number of times if they keep crawling in opposite directions on the sphere. This is because the sphere is a closed surface and has no boundaries, so the ants can continue moving indefinitely without reaching the end of the sphere.
 
 If the ants <b>start at opposite points on the sphere and crawl in opposite directions</b>, they will eventually meet at the point exactly opposite their starting points. They can then continue crawling and meet again at the point opposite their second meeting, and so on. This pattern will repeat indefinitely as long as the ants keep crawling...
-</blockquote>
+</blockquote3>
 
 Analysis: This response starts in a way that could be appreciated by the likes of Magellan. But the second paragraph is a bit odd, since from opposite ends it is not well defined what "opposite directions" mean. When asked what it meant, GPT responded that the ants could be moving in the clockwise and counterclockwise directions around the circumference of a sphere (great circle). Then the response ignores the ants shall meet midway, prior to reaching the opposite ends (exchanging places). 
 
@@ -127,9 +127,9 @@ If physics is not your forte you are free to skip this section if you are so inc
 
 Prompt:  Is it true that energy of an electromagnetic wave is directly proportional to its frequency based on just classical theory of electromagnetism that **does not take quantum effects** into account?
 
-<blockquote>
+<blockquote3>
 ChatGPT: <b>Yes</b>, that is correct. The relationship between the frequency and energy of an electromagnetic wave is described by classical electromagnetism, which does not take into account the quantization of energy that is described by quantum mechanics. In classical electromagnetism, an electromagnetic wave is described as an oscillating electric and magnetic field that propagates through space at the speed of light. The energy of the electromagnetic wave is related to the intensity of the electric and magnetic fields, which is directly proportional to the frequency of the wave. This is described by the equation <b>E = hf</b>, where E is the energy of the photon, f is its frequency, and h is a constant known as Planck's constant...
-</blockquote>
+</blockquote3>
 
 Analysis: The correct answer is: **No**, what's more, we got the same response on multiple independent occasions. In pre-quantum classical theory there is no such relationship between energy of the EM wave and frequency, in fact h - Planck constant, comes from quantum mechanics. We have continued discussion with GPT trying to nudge it to acknowledge the mistake it had made. Eventually, GPT agreed that E = hf is fundamentally quantum and that in classical EM theory energy depends only on the square of the amplitude, however in that same response, few lines below, it introduced linear dependence between the amplitude and the frequency, which somehow still gave it linear dependence between the energy and the frequency. It is likely that GPT has so much belief in the linear relationship between the energy and the frequency because of the countless sources (textbooks on quantum physics, chemistry, wikipedia) it was trained on that repeat it and reinforce the belief. It is not willing to give up this proportionality in the classical physics context even after agreeing that the source of it is quantum. <d-footnote> Astute reader will also notice a simple mathematical error: if, as correctly stated by GPT, in classical EM theory energy scales proportional to the square of the amplitude and assuming, as GPT insists, that dependence between the energy and the frequency must be linear then it follows that amplitude must scale as the square root of frequency. To be more precise quantum mechanics suggests E = N hf where N is the number of quanta (photons, corpuscules of light), so it is not necessary to have Energy scale as square root of the frequency, because N could compensate this effect. The bottom line is that if in classical EM the relationship between Energy and frequency was already linear, Einstein wouldn't need to resurrect corpuscules of light after a century of oblivion to explain photoeffect. Note that, it doesn't mean that when charges move the energy of EM wave is necessarily independent of frequency in classical EM. For instance, the power radiated by harmonically oscillating charge is proportional to the frequency to the fourth power, however, in general, one may have arbitrary motion of charges and no h is involved in the process.</d-footnote>. 
 
@@ -156,9 +156,9 @@ There is not much to say here, try it yourself. We recommend that the reader che
 
 ## Discussion
 
-<blockquote>
+<blockquote3>
 "Knowledge is power. Information is liberating. Education is the premise of progress, in every society, in every family." - Kofi Annan
-</blockquote>
+</blockquote3>
 
 Make no mistake, GPT responses can be **quite impressive**. If you were to ask it to explain how a quantum computing works, or basic tenets of Buddhism (and yes, in the pirate speak), it would likely provide a reliable and understandable answer. But, as we've discovered, things can get a bit tricky when it comes to more fundamental questions. The model exhibits expertise at first glance, but could **lull users to trust** it too much. To be fair, OpenAI does warn that the GPT isn't infallible. After all, users of Wikipedia were also ridiculed in past, until it became mainstream tool of getting the first hand information, although, Wikipedia usually provides more reliable links to the source material.
 
