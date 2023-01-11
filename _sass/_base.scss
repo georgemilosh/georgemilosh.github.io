@@ -37,6 +37,7 @@ figure, img {
 }
 
 blockquote {
+  color: var(--global-theme-color);
   background: var(--global-bg-color);
   border-left: 2px solid var(--global-theme-color);
   margin: 1.5em 10px;
