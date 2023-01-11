@@ -2,11 +2,12 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">LSCE, CEA Saclay</a>. Orme des Merisiers, Saint-Aubin, France
+subtitle: <a href='#'>LSCE, CEA Saclay</a>. Orme des Merisiers, Saint-Aubin, France
 
 profile:
   align: right
   image: photo.jpeg
+  image_circular: false # crops the image to make it circular
   address: >
     <p>LSCE</p>
     <p>IPSL, CEA Saclay</p>
