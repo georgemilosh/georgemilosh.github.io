@@ -40,7 +40,7 @@ where $$V_{ph}$$ is the KAW phase velocity. The system of equations is modelled 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/R14BVortex.png" image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/R14BVortex.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
