@@ -11,7 +11,7 @@ d-byline h3 {
 }
 
 d-byline a, d-article d-byline a {
-  color: var(--global-theme-color) !important;
+  color: var(--global-text-color) !important;
   &:hover {
     color: var(--global-hover-color) !important;
   }
@@ -47,17 +47,6 @@ d-article {
       minmax(8px, 1fr) [toc] auto
       minmax(8px, 1fr) [toc-line] 1px
       minmax(32px, 2fr);
-    a {
-    outline: none;
-    text-decoration: none;
-    padding: 2px 1px 0;
-    }
-    a:link {
-      color: #00ab37;
-    }
-    a:hover {
-      border-bottom-color: var(--global-hover-color) !important;
-    }
     nav {
       grid-column: toc;
       a {
