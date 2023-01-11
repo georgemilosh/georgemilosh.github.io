@@ -16,14 +16,7 @@ d-byline a, d-article d-byline a {
     color: var(--global-hover-color);
   }
 }
-blockquote {
-  color: var(--global-theme-color);
-  background: var(--global-bg-color);
-  border-left: 2px solid var(--global-theme-color);
-  margin: 1.5em 10px;
-  padding: 0.5em 10px;
-  font-size: 1.2rem;
-}
+
 d-article {
   border-top-color: var(--global-divider-color);
   p, h1, h2, h3, h4, h5, h6, li, table {
@@ -32,14 +25,7 @@ d-article {
   h1, h2, hr, table, table th, table td {
     border-bottom-color: var(--global-divider-color);
   }
-  blockquote {
-    color: var(--global-theme-color);
-    background: var(--global-bg-color);
-    border-left: 2px solid var(--global-theme-color);
-    margin: 1.5em 10px;
-    padding: 0.5em 10px;
-    font-size: 1.2rem;
-  }
+  
   
   b i {
     display: inline;
@@ -72,24 +58,8 @@ d-article {
       minmax(8px, 1fr) [toc] auto
       minmax(8px, 1fr) [toc-line] 1px
       minmax(32px, 2fr);
-    blockquote {
-        color: var(--global-theme-color);
-        background: var(--global-bg-color);
-        border-left: 2px solid var(--global-theme-color);
-        margin: 1.5em 10px;
-        padding: 0.5em 10px;
-        font-size: 1.2rem;
-      }
     nav {
       grid-column: toc;
-      blockquote {
-        color: var(--global-theme-color);
-        background: var(--global-bg-color);
-        border-left: 2px solid var(--global-theme-color);
-        margin: 1.5em 10px;
-        padding: 0.5em 10px;
-        font-size: 1.2rem;
-      }
       a {
         color: var(--global-theme-color);
         &:hover {
