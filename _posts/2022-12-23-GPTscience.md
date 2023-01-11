@@ -50,15 +50,15 @@ _styles: >
     text-align: center;
     font-size: 16px;
   }
-  .d-article a {
+  a {
   outline: none;
   text-decoration: none;
   padding: 2px 1px 0;
   }
-  .d-article a:link {
+  a:link {
     color: #00ab37;
   }
-  d-article. a:hover {
+  a:hover {
     border-bottom: 1px solid;
     text-decoration: underline;
   }
@@ -78,7 +78,7 @@ chatbot: Hi. That's pure gibberish.
 "I'm sorry, Dave. I'm afraid I can't do that." - HAL 9000 in 2001: A Space Odyssey
 </blockquote>
  
-I am assuming that the reader is familiar with ChatGPT, a chatbot that everyone talks about now (and who is also good at suggesting apt quotes). If not, check out this [website](https://openai.com/blog/chatgpt). The important point to retain is that <d-cite key="ouyang2022training"></d-cite> it is based on recent developments in AI, in particular, [attention mechanism](https://towardsdatascience.com/transformers-89034557de14), trained on `common crawl`, essentially an archive of world wide web and fine-tuned with the help of user judges based on a technique called <a href="https://en.wikipedia.org/wiki/Reinforcement_learning">reinforcement learning</a> to generate more reliable responses and eliminate apparent bias and harmful content. The public release of this chatbot attracted widespread interest with a mix of awe, surprise, doubts and criticism. Our intention in this blog post is to challange ChatGPT more on science topics .
+I am assuming that the reader is familiar with ChatGPT, a chatbot that everyone talks about now (and who is also good at suggesting apt quotes). If not, check out this [website](https://openai.com/blog/chatgpt). The important point to retain is that <d-cite key="ouyang2022training"></d-cite> it is based on recent developments in AI, in particular, [attention mechanism](https://towardsdatascience.com/transformers-89034557de14), trained on `common crawl`, essentially an archive of world wide web and fine-tuned with the help of user judges based on a technique called <a href="https://en.wikipedia.org/wiki/Reinforcement_learning">reinforcement learning</a> to generate more reliable responses and eliminate apparent bias and harmful content. The public release of this chatbot attracted widespread interest with a mix of awe, surprise, [doubts and criticism](https://youtu.be/PBdZi_JtV4c). Our intention in this blog post is to challange ChatGPT more on science topics .
 
 In fact, we have enjoyed discussions with the chatbot so much that we have even tasked it to write a psychological drama ([click the link to view](https://georgemilosh.github.io/blog/2022/GPTstory)) about a person who gets addicted and manipulated by the chatbot. ChatGPT seems capable of producing a text displaying sophisticated understanding of human psychology, at least, in our non-expert judgement. It is impressive that we finally have an AI capable of responding to queries, ignoring orthographic mistakes (even word order), remembering earlier parts of the conversation and incorporating them into its responses. However, whether one gets interesting narratives really depends on the *prompt* (a query to GPT), so our opinion is that creative storylines usually come from the human interrogator, which is ok. However, barring the discussion on the impressive narratives that are generated, in this blog post we will rather address how reliable ChatGPT is as a source of scientific knowledge providing three examples.
 
@@ -155,7 +155,6 @@ There is not much to say here, try it yourself. We recommend that the reader che
 <blockquote>
 "Knowledge is power. Information is liberating. Education is the premise of progress, in every society, in every family." - Kofi Annan
 </blockquote>
-Naturally we couldn't resist asking GPT for some cool quote to start this section (Yes, Google does as it as well)...
 
 Make no mistake, GPT responses can be *quite impressive*. If you were to ask it to explain how a quantum computing works, or basic tenets of Buddhism (and yes, in the pirate speak), it would likely provide a reliable and understandable answer. But, as we've discovered, things can get a bit tricky when it comes to more fundamental questions. The model exhibits expertise at first glance, but could *lull users to trust* it too much. To be fair, OpenAI does warn that the GPT isn't infallible. After all, users of Wikipedia were also ridiculed in past, until it became mainstream tool of getting the first hand information, although, Wikipedia usually provides more reliable links to the source material.
 
@@ -165,7 +164,7 @@ Clearly, copywriting, code-writing assistants are welcome development. These are
 
 {% twitter https://twitter.com/spiantado/status/1599462375887114240 %}
 
-With that being said, one month after the release we found it quite politically correct, although this could be the consequence of training on the user data as suggested in [this article](https://www.bloomberg.com/news/newsletters/2022-12-08/chatgpt-open-ai-s-chatbot-is-spitting-out-biased-sexist-results) 
+With that being said, one month after the release we found it quite politically correct, although this is the consequence of training on the user data as suggested in [this article](https://www.bloomberg.com/news/newsletters/2022-12-08/chatgpt-open-ai-s-chatbot-is-spitting-out-biased-sexist-results) 
 . Probably the most problematic concerns relate to the possibility of using this technology for automatic generation of fake news, and when combined with deep fakes, it seems an inescapable source of high quality misinformation that could geopardise already fragile democracies shaken by social media.
 
 It's natural to question how much an artificial agent like ChatGPT can truly grasp about the world by solely relying on text-based information. It's no surprise, then, that we found ChatGPT to excel more in areas like understanding ([human psychology](https://georgemilosh.github.io/blog/2022/GPTstory)) or providing insightful political commentary than in more concrete subjects like geometry. Despite these limitations, it's clear that we're rapidly approaching an age of more advanced intelligent assistants. There's potential for not only market disruption but also new scientific discoveries. Let's not forget just how far we've come. It is important to keep in mind the pace of AI research, and soon we could see AI agents with better representation of the world that are not solely based on text information but also multimedia, that can go beyond the current limitations. 
