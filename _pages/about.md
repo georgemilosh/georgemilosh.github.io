@@ -50,6 +50,4 @@ print("Hello World!)
 
 ### Support or Contact
 
-You can contact me on gmiloshe(at)lsce(dot)ipsl(dot)fr
-
-Visit my [Google Scholar profile](https://scholar.google.com/citations?user=XtOrmGAAAAAJ&hl=fr&oi=ao) for more information
+See the links at the bottom of the page for contacts
