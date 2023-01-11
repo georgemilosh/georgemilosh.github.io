@@ -3,35 +3,43 @@
  ******************************************************************************/
 
 d-byline {
-  border-top-color: var(--global-divider-color) !important;
+  border-top-color: var(--global-divider-color);
 }
 
 d-byline h3 {
-  color: var(--global-text-color) !important;
+  color: var(--global-text-color);
 }
 
 d-byline a, d-article d-byline a {
-  color: var(--global-text-color) !important;
+  color: var(--global-theme-color);
   &:hover {
-    color: var(--global-hover-color) !important;
+    color: var(--global-hover-color);
   }
 }
 
 d-article {
-  border-top-color: var(--global-divider-color) !important;
-  a, p, h1, h2, h3, h4, h5, h6, li, table {
-    color: var(--global-text-color) !important;
+  border-top-color: var(--global-divider-color);
+  p, h1, h2, h3, h4, h5, h6, li, table {
+    color: var(--global-text-color);
   }
-  a, h1, h2, hr, table, table th, table td {
-    border-bottom-color: var(--global-divider-color) !important;
+  h1, h2, hr, table, table th, table td {
+    border-bottom-color: var(--global-divider-color);
   }
-  a:hover {
-    border-bottom-color: var(--global-hover-color) !important;
-  }
+  
   b i {
     display: inline;
   }
 
+  a {
+    color: var(--global-theme-color);
+    &:hover {
+      color: var(--global-theme-color);
+      text-decoration: underline;
+    }
+    &:hover:after :not(.nav-item.dropdown) {
+      width: 100%;
+    }
+  }
   d-contents {
     align-self: start;
     grid-column: 1 / 4;
@@ -49,13 +57,16 @@ d-article {
       minmax(8px, 1fr) [toc] auto
       minmax(8px, 1fr) [toc-line] 1px
       minmax(32px, 2fr);
-
     nav {
       grid-column: toc;
       a {
-        border-bottom: none !important;
+        color: var(--global-theme-color);
         &:hover {
-          border-bottom: 1px solid var(--global-text-color) !important;
+          color: var(--global-theme-color);
+          text-decoration: underline;
+        }
+        &:hover:after :not(.nav-item.dropdown) {
+          width: 100%;
         }
       }
       h3 {
@@ -94,15 +105,15 @@ d-article {
 }
 
 d-appendix {
-  border-top-color: var(--global-divider-color) !important;
-  color: var(--global-distill-app-color) !important;
+  border-top-color: var(--global-divider-color);
+  color: var(--global-distill-app-color);
   h3, li, span {
-    color: var(--global-distill-app-color) !important;
+    color: var(--global-distill-app-color);
   }
   a, a.footnote-backlink {
-    color: var(--global-distill-app-color) !important;
+    color: var(--global-distill-app-color);
     &:hover {
-      color: var(--global-hover-color) !important;
+      color: var(--global-hover-color);
     }
   }
 }
