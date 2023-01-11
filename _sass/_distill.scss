@@ -11,7 +11,7 @@ d-byline h3 {
 }
 
 d-byline a, d-article d-byline a {
-  color: var(--global-text-color);
+  color: var(--global-theme-color);
   &:hover {
     color: var(--global-hover-color);
   }
@@ -60,9 +60,13 @@ d-article {
     nav {
       grid-column: toc;
       a {
-        border-bottom: none;
+        color: var(--global-theme-color);
         &:hover {
-          border-bottom: 1px solid var(--global-text-color);
+          color: var(--global-theme-color);
+          text-decoration: underline;
+        }
+        &:hover:after :not(.nav-item.dropdown) {
+          width: 100%;
         }
       }
       h3 {
