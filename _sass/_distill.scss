@@ -30,6 +30,16 @@ d-article {
     display: inline;
   }
 
+  a {
+    color: var(--global-theme-color);
+    &:hover {
+      color: var(--global-theme-color);
+      text-decoration: underline;
+    }
+    &:hover:after :not(.nav-item.dropdown) {
+      width: 100%;
+    }
+  }
   d-contents {
     align-self: start;
     grid-column: 1 / 4;
