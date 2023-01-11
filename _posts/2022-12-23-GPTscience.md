@@ -81,7 +81,7 @@ Generally, it seems that ChatGPT usually does a good job of providing simple exp
 Here the idea is to see if GPT can reason geometrically in an idealized environment. Because GPT is a generative model it is possible to try the same prompt several times and get different answers. 
 
 <div class="d-flex justify-content-center">
-  <div>{% include figure.html path="assets/img/DALLE_sphere.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}</div>
+  <div>{% include figure.html path="assets/img/DALLE_sphere.jpeg" class="img-fluid rounded z-depth-1" %}</div>
 </div>
 <div class="caption">
     DALLE when prompted "2 ants crawling on a sphere drawing a circle digital art"
@@ -124,7 +124,7 @@ Analysis: The correct answer is: NO, what's more, we got the same response on mu
 Inspired by an [article that was written by GPT 3](https://hal.science/hal-03701250/document), we asked GPT to generate the list of highly cited papers on the interface between physics and machine learning, and it generated the list, where some papers were fake. But a few were correct, except one had a slightly wrong title (say #1). We started arguing with GPT that #1 might have a wrong title. At first, GPT objected to this statement, but after it was suggested the correct title GPT agreed that the suggested title was actually the right one and apologized. Then we tried to play an opposite game and picked the paper (say #2) that GPT had previously assigned the correct title, but we Googled similar sounding paper (#3) with the same author and suggested that #2 should actually have a title of #3 . We were able to convince GPT that it was wrong (incorrectly) and hence made it produce another fake citations which was a mixture of the two papers: essentially paper #2 with the title #3. 
 
 <div class="d-flex justify-content-center">
-  <div>{% include figure.html path="assets/img/GPT_typing.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}</div>
+  <div>{% include figure.html path="assets/img/GPT_typing.jpeg" class="img-fluid rounded z-depth-1" %}</div>
 </div>
 <div class="caption">
     DALLE when prompted "photo of a robot typing in a library"
