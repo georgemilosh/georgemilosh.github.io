@@ -44,13 +44,6 @@ blockquote {
   font-size: 1.2rem;
 }
 
-greentext {
-  background: var(--global-theme-color);
-  margin: 1.5em 10px;
-  padding: 0.5em 10px;
-  font-size: 1.2rem;
-}
-
 // Math
 
 .equation {
@@ -66,6 +59,7 @@ greentext {
   margin-bottom: 1.5rem;
   text-align: center;
 }
+
 // Card
 
 .card {
@@ -91,6 +85,7 @@ greentext {
 }
 
 // Citation
+
 .citation, .citation-number {
   color: var(--global-theme-color);
 }
@@ -98,7 +93,6 @@ greentext {
 // Profile
 
 .profile {
-  margin-left: 1rem;
   width: 100%;
 
   .address {
@@ -198,7 +192,7 @@ greentext {
     a {
       i::before {
         color: var(--global-text-color);
-        -webkit-transition: all 0.2s ease-in-out;
+        transition-property: all 0.2s ease-in-out;
       }
       &:hover {
         i::before {
@@ -244,16 +238,14 @@ greentext {
   }
 }
 
-
-// News
-
-.news table td {
-  font-size: 1rem;
+#light-toggle {
+  padding: 0;
+  border: 0;
+  background-color: inherit;
   color: var(--global-text-color);
-}
-
-.news table th {
-  color: var(--global-text-color);
+  &:hover {
+    color: var(--global-hover-color);
+  }
 }
 
 // Social (bottom)
@@ -265,7 +257,7 @@ greentext {
     a {
       i::before {
         color: var(--global-text-color);
-        -webkit-transition: all 0.2s ease-in-out;
+        transition-property: all 0.2s ease-in-out;
       }
       &:hover {
         i::before {
@@ -334,7 +326,6 @@ footer.sticky-bottom {
   }
 }
 
-
 // Blog
 
 .header-bar {
@@ -365,7 +356,6 @@ footer.sticky-bottom {
     }
   }
 }
-
 
 .post-list {
   margin: 0;
@@ -443,9 +433,6 @@ footer.sticky-bottom {
     img {
       width: 100%;
     }
-    .card-title {
-      color: $black-color;
-    }
   }
 
   .card-item {
@@ -458,7 +445,7 @@ footer.sticky-bottom {
     }
   }
 
-  .grid-item {
+  .grid-sizer, .grid-item {
     width: 250px;
     margin-bottom: 10px;
   }
@@ -570,12 +557,24 @@ footer.sticky-bottom {
           }
         }
       }
+      .badges {
+        span {
+          display: inline-block;
+          color: $black-color;
+          height: 100%;
+          padding-left: 0.5rem;
+          vertical-align: middle;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
       .hidden {
         font-size: 0.875rem;
         max-height: 0px;
         overflow: hidden;
         text-align: justify;
-        -webkit-transition: 0.15s ease;
+        transition-property: 0.15s ease;
         -moz-transition: 0.15s ease;
         -ms-transition: 0.15s ease;
         -o-transition: 0.15s ease;
@@ -593,7 +592,7 @@ footer.sticky-bottom {
       }
       .hidden.open {
         max-height: 100em;
-        -webkit-transition: 0.15s ease;
+        transition-property: 0.15s ease;
         -moz-transition: 0.15s ease;
         -ms-transition: 0.15s ease;
         -o-transition: 0.15s ease;
@@ -664,15 +663,64 @@ html.transition *:after {
     }
   }
   .post-content{
-        blockquote {
-          border-left: 5px solid var(--global-theme-color);
-          padding: 8px;
-      }
-}
+    blockquote {
+      border-left: 5px solid var(--global-theme-color);
+      padding: 8px;
+    }
+  }
 }
 
-.post-tags {
-  color: var(--global-text-color-light);
-  font-size: 0.875rem;
-  padding-top: 0.25rem;
-}
+progress {
+     /* Positioning */
+     position: fixed;
+     left: 0;
+     top: 56px;
+     z-index: 10;
+   
+     /* Dimensions */
+     width: 100%;
+     height: 1px;
+   
+     /* Reset the appearance */
+     -webkit-appearance: none;
+        -moz-appearance: none;
+             appearance: none;
+   
+     /* Get rid of the default border in Firefox/Opera. */
+     border: none;
+   
+     /* Progress bar container for Firefox/IE10  */
+     background-color: transparent;
+   
+     /* Progress bar value for IE10  */
+     color: var(--global-theme-color);
+ }
+ 
+ progress::-webkit-progress-bar {
+     background-color: transparent;
+ }
+   
+ progress::-webkit-progress-value {
+     background-color: var(--global-theme-color);
+ }
+   
+ progress::-moz-progress-bar {
+     background-color: var(--global-theme-color);
+ }
+ 
+ .progress-container {
+     width: 100%;
+     background-color: transparent;
+     position: fixed;
+     top: 56px;
+     left: 0;
+     height: 5px;
+     display: block;
+ }
+ 
+ .progress-bar {
+     background-color: var(--global-theme-color);
+     width: 0%;
+     display: block;
+     height: inherit;
+ }
