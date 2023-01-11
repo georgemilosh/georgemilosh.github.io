@@ -79,9 +79,9 @@ chatbot: Hi. That's pure gibberish.
 
 ## ChatGPT overview
 
-<blockquote3>
+<blockquote2>
 "I'm sorry, Dave. I'm afraid I can't do that." - HAL 9000 in 2001: A Space Odyssey
-</blockquote3>
+</blockquote2>
  
 I am assuming that the reader is familiar with ChatGPT, a chatbot that everyone talks about now (and who is also good at suggesting apt quotes). The important point to retain is that <d-cite key="ouyang2022training"></d-cite> it is based on recent developments in AI, in particular, <a class="two" href="https://towardsdatascience.com/transformers-89034557de14" target="_blank">attention mechanism</a>, trained on `common crawl`, essentially an archive of world wide web and fine-tuned with the help of user judges based on a technique called <a href="https://en.wikipedia.org/wiki/Reinforcement_learning">reinforcement learning</a> to generate more reliable responses and eliminate apparent bias and harmful content. The public release of this chatbot attracted widespread interest with a mix of awe, surprise, [doubts and criticism](https://youtu.be/PBdZi_JtV4c). 
 
