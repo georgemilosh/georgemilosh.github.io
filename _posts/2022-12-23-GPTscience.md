@@ -1,8 +1,8 @@
 ---
 layout: distill
 title: ChatGPT on scientific questions
-description: Discussions with ChatGPT on reconnection and photocatalysis
-date: 2023-1-3
+description: Discussions with ChatGPT on science
+date: 2023-1-12
 
 authors:
   - name: George Miloshevich
