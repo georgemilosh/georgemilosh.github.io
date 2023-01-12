@@ -79,7 +79,7 @@ chatbot: Hi. That's pure gibberish.
 
 ## ChatGPT overview
 
-<blockquote class"two">
+<blockquote class="two">
 "I'm sorry, Dave. I'm afraid I can't do that." - HAL 9000 in 2001: A Space Odyssey
 </blockquote>
  
@@ -88,7 +88,7 @@ I am assuming that the reader is familiar with ChatGPT, a chatbot that everyone 
 In fact, we have enjoyed discussions with the chatbot so much so that we have even tasked it to write a psychological drama ([click the link to view](https://georgemilosh.github.io/blog/2022/GPTstory)) about a person who gets addicted and manipulated by the chatbot. ChatGPT seems capable of producing a text displaying sophisticated understanding of human psychology, at least, in our non-expert judgement. It is impressive that we finally have an AI capable of responding to queries, ignoring orthographic mistakes (even word order), remembering earlier parts of the conversation and incorporating them into its responses. Whether one gets interesting narratives really depends on the *prompt* (a query to GPT), so our opinion is that creative storylines usually come from the human interrogator, which is ok. However, barring the discussion on the impressive narratives that are generated, in this blog post we will rather address how reliable ChatGPT is as a source of scientific knowledge providing three examples.
 
 ## Geometrical Thinking
-<blockquote  class"two">
+<blockquote  class="two">
 "By natural selection our mind has adapted itself to the conditions of the external world. It has adopted the geometry most advantageous to the species or, in other words, the most convenient. Geometry is not true, it is advantageous." - Henri Poincaré
 </blockquote>
 
