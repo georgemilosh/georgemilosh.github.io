@@ -93,7 +93,7 @@ ChatGPT <d-cite key="ouyang2022training"></d-cite> is based on a larger GPT-3 mo
 "By natural selection our mind has adapted itself to the conditions of the external world. It has adopted the geometry most advantageous to the species or, in other words, the most convenient. Geometry is not true, it is advantageous." - Henri Poincaré
 </blockquote>
 
-Interestingly, GPT is actually not very good at arithmetic, which some speculate makes it more like humans. Rather than having it solve math problems like some users have done, we would like to concentrate on conceptual questions that are perhaps better suited for procedural text generation than problem-solving. Here the idea is to see if GPT can reason geometrically in an idealized environment. Because GPT is a generative model it is possible to try the same prompt several times and get different answers. 
+Interestingly, GPT is actually not very good at arithmetic, which some speculate makes it more like humans. Rather than having it solve math problems like some users have done, we would like to concentrate on conceptual questions that are perhaps better suited for procedural text generation than problem-solving. Here the idea is to see if GPT can reason geometrically in an idealized environment.
 
 <div class="d-flex justify-content-center">
   <div>{% include figure.html path="assets/img/DALLE_sphere.jpeg" class="img-fluid rounded z-depth-1" %}</div>
@@ -109,16 +109,7 @@ First Response:
 <b>ChatGPT: Ants crawling on the surface of a sphere will never meet</b> if they keep crawling forward in opposite directions because the surface of a sphere is a two-dimensional surface with no endpoints. This means that no matter how far the ants crawl, they will never reach the end of the surface of the sphere and will never meet.
 </blockquote>
 
-Analysis: Of course this response can be easily rejected if one has an image of the sphere in their mind. In full disclosure, this is not the most common response to this question that one gets from GPT, yet it is somewhat concerning. Below we repeat the same query in a second independent chat to get truly independent response:
-
-Second Response:
-<blockquote  class="two">
-ChatGPT: It is possible for the ants to meet an infinite number of times if they keep crawling in opposite directions on the sphere. This is because the sphere is a closed surface and has no boundaries, so the ants can continue moving indefinitely without reaching the end of the sphere.
-
-If the ants <b>start at opposite points on the sphere and crawl in opposite directions</b>, they will eventually meet at the point exactly opposite their starting points. They can then continue crawling and meet again at the point opposite their second meeting, and so on. This pattern will repeat indefinitely as long as the ants keep crawling...
-</blockquote>
-
-Analysis: This response starts in a way that could be appreciated by the likes of Magellan. But the second paragraph is a bit odd, since *from opposite ends* it is not well-defined what "opposite directions" mean. When asked what it meant, GPT responded that the ants could be moving in the clockwise and counterclockwise directions around the circumference of a sphere (great circle). Then the response ignores the ants shall meet midway, prior to reaching the opposite ends (exchanging places).
+Analysis: Of course this response can be easily rejected if one has an image of the sphere in their mind. In full disclosure, this is not the most common response to this question that one gets from GPT, yet it is somewhat concerning. Sometimes GPT provides respones that would be appreciated by the likes of Magellan but there are still some inconsistencies. 
 
 ## Quantum vs Classical
 
@@ -134,15 +125,15 @@ Analysis: The correct answer is: **No** in the context of classical theory of li
 
 ## Faking references
 
-Inspired by an [article that was written by GPT 3](https://hal.science/hal-03701250/document){:class="two"}, we tasked GPT with generating a list of highly-cited papers on the interface between physics and machine learning. It produced a list that included some fake papers. However, some papers on the list were actually correct, with one exception: the title of one of the papers (#1) was slightly incorrect. We challenged GPT's accuracy by pointing out that the title of paper #1 might be wrong. At first, GPT defended its position, but when we suggested the correct title, it acknowledged its mistake and apologized.
+Inspired by an [article that was written by GPT 3](https://hal.science/hal-03701250/document){:class="two"}, we tasked GPT with generating a list of highly-cited papers on the interface between physics and machine learning. It produced a list that included some fake papers. However, some papers on the list were actually correct, with one exception: the title of one of the papers (let's call it #1) was slightly incorrect. We challenged GPT's accuracy by pointing out that the title of paper #1 might be wrong. At first, GPT defended its position, but when we suggested the correct title, it acknowledged its mistake and apologized.
 
-We also decided to test GPT by playing an opposite game. We picked one of the papers on the list (#2) that GPT had previously assigned the correct title to, but then Googled a similar-sounding paper (#3) with the same author and suggested that paper #2 should actually have the title of paper #3. As we expected, we were able to convince GPT that it was wrong and make it produce a new, fake citation that essentially combined the information from both papers #2 and #3. 
+We also decided to test GPT by playing an opposite game. We picked one of the papers on the list (let's refer to it as #2) that GPT had previously assigned the correct title to. We Googled a similar-sounding paper (let's call it #3) with the same author and suggested that paper #2 should actually have the title of paper #3. As we expected, we were able to convince GPT that it was wrong with the title of #2 and make it produce a new, hybrid citation that combined the metadata from both papers #2 and #3. 
 
 <div class="d-flex justify-content-center">
-  <div>{% include figure.html path="assets/img/GPT_typing.jpeg" class="img-fluid rounded z-depth-1" %}</div>
+  <div>{% include figure.html path="assets/img/Attachment-1.JPEG" class="img-fluid rounded z-depth-1" %}</div>
 </div>
 <div class="caption">
-    DALLE when prompted "photo of a robot typing in a library"
+    DALLE when prompted "cyborg parrot"
 </div>
 
 We note that hunting quotes with GPT can be annoying as well, because it often dreams the quotes or assigns incorrect credit without realizing that. The issue of generating fake citations has also been reported by, for instance, [Davide Faranda](https://blogs.egu.eu/divisions/np/2023/01/03/can-artificial-intelligence-replace-scientists-to-explain-climate-change-find-it-out-in-our-first-interview-to-chatgpt/?fbclid=IwAR2w_Fld_3gIpxxqFzsym00eoHiSYc-7bt0nDtnDaIbKkkW_UFrtv6dtQJ8){:class="two"} and has even been referred to as *stochastic parroting* elsewhere <d-cite key="bender2021dangers"></d-cite>. It also seems reasonable to suggest that when the contextual information is scarce in the `common crawl`, on which ChatGPT was trained on, the output could be non-factual. 
