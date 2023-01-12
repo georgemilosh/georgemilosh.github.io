@@ -3,44 +3,33 @@
  ******************************************************************************/
 
 d-byline {
-  border-top-color: var(--global-divider-color);
+  border-top-color: var(--global-divider-color) !important;
 }
 
 d-byline h3 {
-  color: var(--global-text-color);
+  color: var(--global-text-color) !important;
 }
 
 d-byline a, d-article d-byline a {
-  color: var(--global-theme-color);
+  color: var(--global-text-color) !important;
   &:hover {
-    color: var(--global-hover-color);
+    color: var(--global-hover-color) !important;
   }
 }
 
 d-article {
-  border-top-color: var(--global-divider-color);
+  border-top-color: var(--global-divider-color) !important;
   p, h1, h2, h3, h4, h5, h6, li, table {
-    color: var(--global-text-color);
+    color: var(--global-text-color) !important;
   }
   h1, h2, hr, table, table th, table td {
-    border-bottom-color: var(--global-divider-color);
+    border-bottom-color: var(--global-divider-color) !important;
   }
-  
   
   b i {
     display: inline;
   }
 
-  a {
-    color: var(--global-theme-color);
-    &:hover {
-      color: var(--global-theme-color);
-      text-decoration: underline;
-    }
-    &:hover:after :not(.nav-item.dropdown) {
-      width: 100%;
-    }
-  }
   d-contents {
     align-self: start;
     grid-column: 1 / 4;
@@ -61,13 +50,9 @@ d-article {
     nav {
       grid-column: toc;
       a {
-        color: var(--global-theme-color);
+        border-bottom: none !important;
         &:hover {
-          color: var(--global-theme-color);
-          text-decoration: underline;
-        }
-        &:hover:after :not(.nav-item.dropdown) {
-          width: 100%;
+          border-bottom: 1px solid var(--global-text-color) !important;
         }
       }
       h3 {
@@ -106,15 +91,15 @@ d-article {
 }
 
 d-appendix {
-  border-top-color: var(--global-divider-color);
-  color: var(--global-distill-app-color);
+  border-top-color: var(--global-divider-color) !important;
+  color: var(--global-distill-app-color) !important;
   h3, li, span {
-    color: var(--global-distill-app-color);
+    color: var(--global-distill-app-color) !important;
   }
   a, a.footnote-backlink {
-    color: var(--global-distill-app-color);
+    color: var(--global-distill-app-color) !important;
     &:hover {
-      color: var(--global-hover-color);
+      color: var(--global-hover-color) !important;
     }
   }
 }
