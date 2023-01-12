@@ -43,9 +43,9 @@ _styles: >
     font-size: 16px;
   }
   a.two {
-    color: var(--global-theme-color);
+    color: var(--global-theme-color) !important;
     &:hover {
-      color: var(--global-theme-color);
+      color: var(--global-theme-color) !important;
       text-decoration: underline;
     }
     &:hover:after :not(.nav-item.dropdown) {
@@ -63,7 +63,7 @@ _styles: >
 
 ---
 
-Below I paste the discussion I had with ChatGPT to nudge it to write the following story. It is one of my favorite discussion I had. The prompt will be given using quotation formatting, whereas responses of ChatGPT will be inside special colored boxes. The story could be long to read, but I recommend if someone is interested in seeing how GPT can provide textual interpretations for people's actions and how it can be interrogated about its own script.
+Below I paste the discussion I had with ChatGPT where I nudged it to write the following story. It is one of my favorite discussion I had. The prompt will be given using quotation formatting, whereas responses of ChatGPT will be inside special colored boxes. The story could be long to read, but I recommend if someone is interested in seeing how GPT can provide textual interpretations for people's actions and how it can be interrogated about the behavior of responsible AI. 
 
 ## GPT Manipulation
 
