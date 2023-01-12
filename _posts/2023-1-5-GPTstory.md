@@ -1,7 +1,7 @@
 ---
 layout: distill
-title: ChatGPT on scientific questions
-description: Discussions with ChatGPT on science
+title: ChatGPT on manipulative GPT
+description:  psychological drama of a person talking to GPT 
 date: 2023-1-5
 
 authors:
