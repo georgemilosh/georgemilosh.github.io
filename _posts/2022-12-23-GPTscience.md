@@ -19,6 +19,7 @@ authors:
       name: OpenAI
       
 bibliography: 2018-12-22-distill.bib
+giscus_comments: true
 
 
 # Optionally, you can add a table of contents to your post.
