@@ -139,10 +139,10 @@ Inspired by an [article that was written by GPT 3](https://hal.science/hal-03701
 We also decided to test GPT by playing an opposite game. We picked one of the papers on the list (#2) that GPT had previously assigned the correct title to, but then Googled a similar-sounding paper (#3) with the same author and suggested that paper #2 should actually have the title of paper #3. As we expected, we were able to convince GPT that it was wrong and make it produce a new, fake citation that essentially combined the information from both papers #2 and #3. 
 
 <div class="d-flex justify-content-center">
-  <div>{% include figure.html path="assets/img/GPT_typing.jpeg" class="img-fluid rounded z-depth-1" %}</div>
+  <div>{% include figure.html path="assets/img/Attachment-1.JPEG" class="img-fluid rounded z-depth-1" %}</div>
 </div>
 <div class="caption">
-    DALLE when prompted "photo of a robot typing in a library"
+    DALLE when prompted "cyborg parrot"
 </div>
 
 We note that hunting quotes with GPT can be annoying as well, because it often dreams the quotes or assigns incorrect credit without realizing that. The issue of generating fake citations has also been reported by, for instance, [Davide Faranda](https://blogs.egu.eu/divisions/np/2023/01/03/can-artificial-intelligence-replace-scientists-to-explain-climate-change-find-it-out-in-our-first-interview-to-chatgpt/?fbclid=IwAR2w_Fld_3gIpxxqFzsym00eoHiSYc-7bt0nDtnDaIbKkkW_UFrtv6dtQJ8){:class="two"} and has even been referred to as *stochastic parroting* elsewhere <d-cite key="bender2021dangers"></d-cite>. It also seems reasonable to suggest that when the contextual information is scarce in the `common crawl`, on which ChatGPT was trained on, the output could be non-factual. 
