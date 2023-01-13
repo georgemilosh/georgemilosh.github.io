@@ -52,9 +52,9 @@ _styles: >
     font-size: 16px;
   }
   a.two {
-    color: var(--global-theme-color) !important;
+    color: var(--global-theme-color2) !important;
     &:hover {
-      color: var(--global-theme-color) !important;
+      color: var(--global-theme-color2) !important;
       text-decoration: underline;
     }
     &:hover:after :not(.nav-item.dropdown) {
@@ -62,8 +62,8 @@ _styles: >
     }
   }
   blockquote.two {
-        color: var(--global-theme-color);
-        background: var(--global-bg-color);
+        color: var(--global-theme-color2);
+        background: var(--global-bg-color2);
         border-left: 2px solid var(--global-theme-color);
         margin: 1.5em 10px;
         padding: 0.5em 10px;
@@ -136,7 +136,7 @@ We also decided to test GPT by playing an opposite game. We picked one of the pa
     DALLE when prompted "cyborg parrot"
 </div>
 
-We note that hunting quotes with GPT can be annoying as well, because it often dreams the quotes or assigns incorrect credit without realizing that. The issue of generating fake citations has also been reported by, for instance, [Davide Faranda](https://blogs.egu.eu/divisions/np/2023/01/03/can-artificial-intelligence-replace-scientists-to-explain-climate-change-find-it-out-in-our-first-interview-to-chatgpt/?fbclid=IwAR2w_Fld_3gIpxxqFzsym00eoHiSYc-7bt0nDtnDaIbKkkW_UFrtv6dtQJ8){:class="two"} and has even been referred to as *stochastic parroting* elsewhere <d-cite key="bender2021dangers"></d-cite>. It also seems reasonable to suggest that when the contextual information is scarce in the `common crawl`, on which ChatGPT was trained on, the output could be non-factual. 
+We note that hunting quotes with GPT can be annoying as well, because it often dreams the quotes or assigns incorrect credit without realizing that. The issue of generating fake citations has also been reported by, for instance, [Davide Faranda](https://blogs.egu.eu/divisions/np/2023/01/03/can-artificial-intelligence-replace-scientists-to-explain-climate-change-find-it-out-in-our-first-interview-to-chatgpt/?fbclid=IwAR2w_Fld_3gIpxxqFzsym00eoHiSYc-7bt0nDtnDaIbKkkW_UFrtv6dtQJ8){:class="two"} and has even been referred to as `stochastic parroting` elsewhere <d-cite key="bender2021dangers"></d-cite>. It also seems reasonable to suggest that when the contextual information is scarce in the common crawl, on which ChatGPT was trained on, the output could be non-factual. 
 
 Perhaps, the issue with fake citations could be fixed later, either by restricting ChatGPT or somehow creating an interface between it and Google Scholar, but one wonders if the same could be said about other types of scarce data questions. The problem is that **ChatGPT itself is not aware that it lacks sufficient training to respond**. This issue is a fundamental problem of deep learning that is a current research topic. We should note that other versions of Natural Language Processing (NLP) have been used for meta studies more effectively, such as [Latent Dirichlet Allocation](https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation){:class="two"} in <d-cite key="zaki22"></d-cite>, or even using neural nets <d-cite key="Yan22"></d-cite> so NLP, in general, is viewed as a promising tool for these types of things.
 
@@ -162,4 +162,4 @@ Perhaps the public release is mostly motivated as a publicity stunt and further 
 
 With that being said, one month after the release we found ChatGPT quite politically correct, although this is the consequence of training on the user data as suggested in [this article](https://www.bloomberg.com/news/newsletters/2022-12-08/chatgpt-open-ai-s-chatbot-is-spitting-out-biased-sexist-results){:class="two"}. Probably the most problematic concerns relate to the possibility of using this technology for automatic generation of fake news, and when combined with deep fakes, it seems an inescapable source of high quality misinformation that could jeopardize already fragile democracies shaken by social media.
 
-It's natural to [question](https://www.forbes.com/sites/robtoews/2020/07/19/gpt-3-is-amazingand-overhyped/?sh=3349356f1b1c){:class="two"} how much an artificial agent, like ChatGPT, can truly grasp about the world by solely relying on text-based information. It's no surprise then that we found ChatGPT to excel more in areas like providing in-depth analysis of human psychology ([click the link to view the story](https://georgemilosh.github.io/blog/2023/GPTstory/){:class="two"}) or generating insightful political commentary than geometry. There are some AI researchers who are not happy about deep learning approach. Despite these limitations, it's clear that we are rapidly approaching an age of more advanced intelligent assistants. We could see AI agents with better representation of the world that are not solely based on text information but also multimedia. There's potential for not only market disruption but also new scientific discoveries. With that being said, we must stay alert to societal risks these tools could pose and not blindly embrace them without considering their potential consequences.
+It's natural to [question](https://www.forbes.com/sites/robtoews/2020/07/19/gpt-3-is-amazingand-overhyped/?sh=3349356f1b1c){:class="two"} how much an artificial agent, like ChatGPT, can truly grasp about the world by solely relying on text-based information (for a comparisons humans did not evolve to reason based on reading entire World Wide Web).  It is no surprise then that we found the OpenAI model to excel more in areas like providing in-depth analysis of human psychology ([click the link to view the story](https://georgemilosh.github.io/blog/2023/GPTstory/){:class="two"}) or generating reasonable political commentary than geometry or physics, although this should be taken with a huge grain of salt because any kind of factual associations could be hallucinated by ChatGPT, see the issue with `stochastic parroting` in Section on ([Faking references](https://georgemilosh.github.io/blog/2023/GPTonscience/#faking-references){:class="two"}). There are some AI researchers who are not happy with this *black box* approach to general intelligence which lacks understanding. Despite these limitations and objections, it's clear that we are rapidly approaching an age of more advanced intelligent assistants. We could see AI agents with better representation of the world that are not solely based on text information but also multimedia. There is a potential for not only market disruption but also new scientific perspectives. With that being said, we must stay alert to societal risks that these tools could pose and not blindly embrace them without considering their potential consequences.

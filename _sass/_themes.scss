@@ -9,6 +9,8 @@
   --global-text-color-light: #{$grey-color};
   --global-theme-color: #{$dark-burned-orange};
   --global-hover-color: #{$burned-orange};
+  --global-theme-color2: #{$purple-color};
+  --global-hover-color2: #{$light-purple-color};
   --global-footer-bg-color: #{$grey-color-dark};
   --global-footer-text-color: #{$grey-color-light};
   --global-footer-link-color: #{$white-color};
@@ -40,6 +42,8 @@ html[data-theme='dark'] {
   --global-text-color-light: #{$grey-color-light};
   --global-theme-color: #{$burned-orange};
   --global-hover-color: #{$light-burned-orange};
+  --global-theme-color2: #{$cyan-color};
+  --global-hover-color2: #{$light-cyan-color};
   --global-footer-bg-color: #{$grey-color-light};
   --global-footer-text-color: #{$grey-color-dark};
   --global-footer-link-color: #{$black-color};

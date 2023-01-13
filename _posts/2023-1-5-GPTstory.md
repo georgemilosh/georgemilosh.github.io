@@ -43,9 +43,9 @@ _styles: >
     font-size: 16px;
   }
   a.two {
-    color: var(--global-theme-color) !important;
+    color: var(--global-theme-color2) !important;
     &:hover {
-      color: var(--global-theme-color) !important;
+      color: var(--global-theme-color2) !important;
       text-decoration: underline;
     }
     &:hover:after :not(.nav-item.dropdown) {
@@ -53,8 +53,8 @@ _styles: >
     }
   }
   blockquote.two {
-        color: var(--global-theme-color);
-        background: var(--global-bg-color);
+        color: var(--global-theme-color2);
+        background: var(--global-bg-color2);
         border-left: 2px solid var(--global-theme-color);
         margin: 1.5em 10px;
         padding: 0.5em 10px;
