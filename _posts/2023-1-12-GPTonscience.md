@@ -165,10 +165,10 @@ With that being said, one month after the release we found ChatGPT quite politic
 It's natural to [question](https://www.forbes.com/sites/robtoews/2020/07/19/gpt-3-is-amazingand-overhyped/?sh=3349356f1b1c){:class="two"} how much an artificial agent, like ChatGPT, can truly grasp about the world by solely relying on text-based information (for a comparisons humans did not evolve to reason based on reading entire World Wide Web).  It is no surprise then that we found the OpenAI model to excel more in areas like providing in-depth analysis of human psychology ([click the link to view the story](https://georgemilosh.github.io/blog/2023/GPTstory/){:class="two"}) or generating reasonable political commentary than geometry or physics, although this should be taken with a huge grain of salt because any kind of factual associations could be hallucinated by ChatGPT, see the issue with `stochastic parroting` in Section on ([Faking references](https://georgemilosh.github.io/blog/2023/GPTonscience/#faking-references){:class="two"}). There are some AI researchers who are not happy with this *black box* approach to general intelligence which lacks understanding. Despite these limitations and objections, it's clear that we are rapidly approaching an age of more advanced intelligent assistants. We could see AI agents with better representation of the world that are not solely based on text information but also multimedia. There is a potential for not only market disruption but also new scientific perspectives. With that being said, we must stay alert to societal risks that these tools could pose and not blindly embrace them without considering their potential consequences. After all, *attention is all you need*:
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-4 mt-3 mt-md-0">
+    <div class="col-sm-5 mt-3 mt-md-0">
         {% include figure.html path="assets/img/fail.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-    <div class="col-sm-3 mt-3 mt-md-0">
+    <div class="col-sm-5 mt-3 mt-md-0">
         {% include figure.html path="assets/img/success.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 
