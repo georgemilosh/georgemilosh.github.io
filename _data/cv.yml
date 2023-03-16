@@ -39,7 +39,7 @@
         - title: Topics
           contents:
             - Coupling machine learning and rare event algorithms
-            - Reinforcement Learning and Stochastic Weather Generators
+            - Working with GPUs on Jean-Zay and Stochastic Weather Generators
            
     - title: Postdoctoral fellow
       institution: ENS de Lyon
