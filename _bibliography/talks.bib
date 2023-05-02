@@ -3,16 +3,30 @@
 
 @string{aps = {American Physical Society,}}
 
-
+@INPROCEEDINGS{Miloshevich23b, 
+  author = {{Miloshevich}, George and {Lucente}, Dario  and {Yiou}, Pascal and {Bouchet}, Freddy},
+  title = {Stochastic weather generator and deep learning approach for predicting and sampling extreme European heatwaves},
+  booktitle = {EGU General Assembly Conference Abstracts},
+  year = 2023,
+  month = april,
+  series = {EGU General Assembly Conference Abstracts},
+  doi = {https://doi.org/10.5194/egusphere-egu23-6131},
+  abstract = {Sampling rare events such as extreme heatwaves whose return period is larger than the length of available observations requires developing and benchmarking new  simulation methods. There is growing interest in applying deep learning alongside already existing statistical approaches to better generate and predict rare events. Our goal is to benchmark Stochastic Weather Generator (SWG) [1] based on analogs of circulation, soil moisture and temperature as a tool for sampling tails of distribution as well as forecasting heatwaves in France and Scandinavia using data from General Circulation Model (GCM). Analog method has been successfully implemented in rare event algorithms for low dimensional climate models [2]. SWG is implemented using a Markov chain with hidden states (.e.g. geopotential height at 500 hPa) with Euclidean metric. When applying such methods to climate data two challenges emerge: a large number of degrees of freedom and the difficulty of including slow drivers such as soil moisture alongside circulation patterns. Consequently, we are going to discuss ways of adjusting the distance metric of the analog Markov chain and dimensionality reduction techniques such as EOFs and variational auto encoder. By choosing the correct combination of weighted variables in the Euclidean metric and using analogs of only 100 years and generating long synthetic sequences we are able to correctly estimate return times of order 7000 years, which is validated based on a 7200 year long control run. The teleconnection patterns generated thus also look reliable compared to the control run. Next we compare SWG forecasts of heatwaves with a direct supervised approach based on a Convolutional Neural Network (CNN). Both CNN and SWG are trained and validated on exactly the same GCM runs which allows us to conclude that CNN performs better in both regions. One could consider SWG as a baseline approach for CNN for this task.},
+  bibtex_show={true},
+  abbr={EGU},
+  html = {https://meetingorganizer.copernicus.org/EGU23/EGU23-6131.html},
+  slides = {EGU23.pdf}
+}
 
 @INPROCEEDINGS{Miloshevich23a, 
   author = {{Miloshevich}, George and {Lucente}, Dario  and {Yiou}, Pascal and {Bouchet}, Freddy},
   title = {Stochastic weather generator and deep learning approach for predicting and sampling extreme European heatwaves},
   booktitle = {Climate Informatics},
   year = 2023,
+  bibtex_show={true},
   html = {https://www.youtube.com/watch?v=K_A1q_r9HVU&list=PL3PByZO-B6dO6Wokz9YlwSsPAsF32vGg7&index=3},
   slides = {Poster_CI2023.pdf},
-  abb={CI}
+  abbr={CI}
 }
 
 @INPROCEEDINGS{Miloshevich22e,
@@ -50,7 +64,7 @@
   year = 2022,
   html = {https://ncics.org/news/events/ci2022/agenda/},
   slides = {2022-05-12_Miloshevich.pdf},
-  abb={CI}
+  abbr={CI}
 }
 
 @INPROCEEDINGS{Miloshevich22b, 
@@ -58,7 +72,7 @@
   title = {Imbalanced collisionless Alfvén wave turbulence and the inverse cascade of the generalized cross-helicity},
   booktitle = {RAS Specialist Discussion Meeting: "Future Solar and Heliospheric Assets for Space Weather Prediction: Instruments, Modelling and Machine-Learning"},
   year = 2022,
-  abb={RAS},
+  abbr={RAS},
   html={https://ras.ac.uk/events-and-meetings/ras-meetings/future-solar-and-heliospheric-assets-space-weather-prediction/}
 }
 
@@ -68,7 +82,7 @@
   title = {Probabilistic forecasting of heat waves with deep learning},
   booktitle = {Machine Learning and sampling methods for climate and physics},
   year = 2022,
-  abb={IZZI},
+  abbr={IZZI},
   html={https://www.youtube.com/watch?v=-gJgLoPb15U},
   slides={ixxi_talk.pdf},
   abstract={Deep Neural Networks are rapidly growing foothold in Earth Sciences and elsewhere e.g. in surrogate modeling. These developments serve interests of both weather prediction and climate modeling. Among various difficulties stands reducing uncertainties in future climatologies and meteorological forecasting of extreme events such as heat waves and droughts. By nature, data is scarce for rare events, and so their study is a major challenge.
