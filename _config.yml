@@ -77,7 +77,7 @@ scholar_userid: QMFVv0AAAAAJ # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 orcid_id: https://orcid.org/0000-0001-9896-1704 # your ORCID ID
-medium_username: georgemilosh # your Medium username
+medium_username: # georgemilosh # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
 research_gate_profile: # your profile on ResearchGate
@@ -95,7 +95,7 @@ unsplash_id: # your unsplash id
 instagram_id: # your instagram id
 facebook_id: # your facebook id
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
-discord_id: georgian#2743 # your discord id (18-digit unique numerical identifier)
+discord_id: # georgian#2743 # your discord id (18-digit unique numerical identifier)
 
 contact_note: >
   The best way to reach me is by e-mail.
