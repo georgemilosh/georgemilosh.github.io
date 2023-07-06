@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: /projects/2_project/
+Disallow:
 
 Sitemap: https://georgemilosh.github.io/sitemap.xml
