@@ -3,6 +3,7 @@ layout: post
 title: Our work presented at APS DFD!
 date: 2021-12-07 16:11:00-0400
 inline: false
+related_posts: false
 ---
 Deep neural network provides an unprecedented forecasting tool up to two weeks before the onset of an extreme heat event
 
