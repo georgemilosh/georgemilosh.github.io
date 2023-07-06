@@ -1,4 +1,4 @@
- module Jekyll
+module Jekyll
   module HideCustomBibtex
     def hideCustomBibtex(input)
 	  keywords = @context.registers[:site].config['filtered_bibtex_keywords']
