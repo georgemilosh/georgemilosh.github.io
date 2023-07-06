@@ -6,6 +6,10 @@ date: 2023-06-05
 description: useful resources for practical tutorials on deep learning
 tags: deep-learning machine-learning tutorials resources
 categories: how-to
+giscus_comments: true
+related_posts: false
+toc:
+  sidebar: left
 ---
 
 Below I list various sources that I found myself or through friends for people wishing to follow `pedagogical tutorials` on modern `deep learning` techniques.  
@@ -18,7 +22,9 @@ This is is quite nice but targets french speakers: [CNRS-Fidle](https://gricad-g
 
 [A gentle introduction](http://jalammar.github.io/illustrated-transformer/){:target="\_blank"} by Jay Alammar into how multi-head self-attention mechanism was implemented in the original paper on transformers. The jupyter notebook that is available is a bit dated since it is based on `tensorflow 1`. You will find other useful links in this introduction such as pytorch anotated code that goes with the famous article [Attention is all you need](https://arxiv.org/abs/1706.03762).
 
-This course on [Natural Language Processing](https://huggingface.co/learn/nlp-course/chapter1/1) is recommended if you want practical tips on how to pick up pre-trained transformers from `Hugging Face` 🤗 repository and fine-tune them for your downstream task. 
+This course on [Natural Language Processing](https://huggingface.co/learn/nlp-course/chapter1/1) is recommended if you want practical tips on how to pick up pre-trained transformers from `Hugging Face` 🤗 repository and fine-tune them for your downstream task.
+
+Interestingly some argue that transformers are a version of Graph Neural Network (GNN): [Source: Gradient website](https://thegradient.pub/transformers-are-graph-neural-networks/) 
 
 ## Diffusion models
 
