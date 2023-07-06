@@ -9,7 +9,7 @@ categories: how-to
 giscus_comments: true
 related_posts: false
 toc:
-  sidebar: left
+  sidebar: right
 ---
 
 Below I list various sources that I found myself or through friends for people wishing to follow `pedagogical tutorials` on modern `deep learning` techniques.  
