@@ -1,6 +1,24 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Morrison":
+  - firstname: ["Philip", "P.", "P. J.", "Philip J."]
+    url: https://web2.ph.utexas.edu/~morrison/
+
+"Khomeriki":
+  - firstname: ["Ramaz", "R."]
+
+"Yiou":
+  - firstname: ["Pascal", "P."]
+    url: https://www.lsce.ipsl.fr/Phocea/Pisp/index.php?nom=pascal.yiou/
+"Bouchet":
+  - firstname: ["Freddy", "F."]
+    url: http://perso.ens-lyon.fr/freddy.bouchet/
+    
+"Dauxois":
+  - firstname: ["Thierry", "T."]
+    url: http://perso.ens-lyon.fr/thierry.dauxois/
+    
+"Lingam":
+  - firstname: ["Manasvi", "M."]
+    url: https://lmanasvi.wixsite.com/website
 
 "Podolsky":
   - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]

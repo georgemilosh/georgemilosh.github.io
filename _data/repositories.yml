@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - georgemilosh
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - georgemilosh/georgemilosh.github.io
+  - georgemilosh/Climate-Learning
+  - georgemilosh/qgs
+  - AlessandroLovo/EW2-heatwaves
