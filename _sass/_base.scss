@@ -747,3 +747,43 @@ progress {
      display: block;
      height: inherit;
  }
+
+
+ /* Copy button */
+.code-display-wrapper {
+  position: relative;
+
+  .copy {
+    background: var(--global-card-bg-color);
+    border-color: var(--global-bg-color);
+    border-radius: .3rem;
+    border-style: none;
+    color: var(--global-text-color);
+    font-size: medium;
+    opacity: 0;
+    position: absolute;
+    right: .15rem;
+    top: .15rem;
+  }
+  
+  &:active .copy,
+  &:focus .copy,
+  &:hover .copy {
+    color: var(--global-hover-color);
+    opacity: 1;
+  }
+}
+
+nav[data-toggle="toc"] {
+  top: 5rem;
+}
+
+/* small screens */
+@media (max-width: 576px) {
+  /* override stickyness so that the navigation does not follow scrolling */
+  nav[data-toggle="toc"] {
+    visibility: hidden;
+    height: 0;
+    top: 0;
+  }
+}
