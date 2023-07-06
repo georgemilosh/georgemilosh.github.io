@@ -2,66 +2,64 @@
   type: map
   contents:
     - name: Full Name
-      value: George Miloshevich
-    - name: Place of Birth
-      value: Tbilisi, Georgia
+      value: Albert Einstein
+    - name: Date of Birth
+      value: 14th March 1879
     - name: Languages
-      value: English (C2), Russian (C2), Georgian (C1), French (B2), Serbian (B1), German (A1)
+      value: English, German
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: <a href="https://www.utexas.edu/">The University of Texas at Austin</a>
-      year: 2018
+      institution: University of Zurich, Zurich, Switzerland
+      year: 1905
       description:
-        - Institute of Fusion Studies
-        - Philip J Morrison
-        - title: Hamiltonian description of Hall and sub-electron scales in collisionless plasmas
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
           contents:
-            - Inverse cascade in strongly magnetized plasma simulations
-            - Hamiltonian action principles for the extended MHD
-            
-    - title: MS in Physics
-      institution: Tbilisi State University
-      year: 2012
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: Federal teaching diploma
+      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
+      year: 1900
       description:
-        - 3D modeling of Solar Coronal Closed structure formation and heating due to magneto-fluid coupling
+        - Description 1.
+        - Description 2.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Postdoctoral fellow
-      institution: LSCE, CEA Saclay
-      year: 2022 - 2023
+    - title: Professor of Theoretical Physics
+      institution: Institute for Advanced Study, Princeton University
+      year: 1933 - 1955
       description:
-        - Pascal Yiou
-        - title: Topics
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
           contents:
-            - Coupling machine learning and rare event algorithms
-            - Working with GPUs on Jean-Zay and Stochastic Weather Generators
-           
-    - title: Postdoctoral fellow
-      institution: ENS de Lyon
-      year: 2020 - 2022
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: Visiting Professor
+      institution: California Institute of Technology, Pasadena, California, US
+      year: 1933
       description:
-        - Finding committor functions for extreme heatwaves in climate models
-        - Deep learning, ECMWF, and GCM model output analysis
+        - Description 1.
+        - Description 2.
 
-    - title: Postdoctoral fellow
-      institution: Universite de la Cote dAzure, Nice
-      year: 2019 - 2020
+    - title: Director
+      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
+      year: 1917-1933
+
+    - title: Professor of Theoretical Physics
+      institution: Karl-Ferdinand University, Prague, Czechoslovakia
+      year: 1911 - 1917
       description:
-        - Cascades in strong imbalanced kinetic Alfvén wave turbulence
-        - 3D numerical simulations in C and data analysis in Python
 
-    - title: Postdoctoral fellow
-      institution: Mathematical Sciences Research Institute, Berkeley
-      year: 2018
-      description:
-        - The states of plasmas that do not radiate self-consistently
-        - Asymptotic slow-fast manifold expansion of Maxwell-Vlasov
-
+    - title: Associate Professor of Theoretical Physics
+      institution: University of Zurich, Zurich, Switzerland
+      year: 1909 - 1911
 
 - title: Open Source Projects
   type: time_table
@@ -73,39 +71,27 @@
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 2017
+    - year: 1921
       items: 
-        - University of Texas Graduate Continuing Fellowship
-    - year: 2016
+        - Nobel Prize in Physics 
+        - Matteucci Medal
+    - year: 2029
       items: 
-        - University of Texas <a href="https://cns.utexas.edu/news/visualizing-science-2016">Visualizing Science Award</a>
-    - year: 2011
-      items: 
-        - Prof. Estate Khmaladze’s award in Theoretical Physics
-        - Prof. Antonino Zichichi’s World Federation of Scientists’ Scholarship
-    - year: 2006
-      items: 
-        - Silver Medal in 7th Asian Physics Olympiad
+        - Max Planck Medal
 
-- title: Summer Schools and Workshops
-  type: time_table
+- title: Academic Interests
+  type: nested_list
   contents:
-    - year: 2022
+    - title: Topic 1.
       items: 
-        - Machine Learning-Assisted Sampling for Scientific Computing – Applications in Physics, Paris
-        - School on Climate Sensitivity & Workshop on Mathematics and Theoretical Physics for Climate Dynamics, ENS Lyon
-        - Summer school on Artificial Intelligence for Detection and Attribution of Climate Extremes at ICTP, Trieste
-    - year: 2009
-      items: 
-        - Summer Program at Deutches Elektronen-Synchrotron, Zeuthen, Germany
-        - Particle Physics and Astronomy, The University of Sheffield
+        - Description 1.
+        - Description 2.
+    - title: Topic 2.
+      items:
+        - Description 1.
+        - Description 2.
 
-- title: Was referee for journals
+- title: Other Interests
   type: list
   contents:
-    - Environmental Data Science
-    - Zeitschrift für Naturforschung A
-    - Physics of Plasmas
-    - Journal of Plasma Physics
-    - European Physical Journal Special Topics
-    - Communications in Nonlinear Science and Numerical Simulation
+    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.

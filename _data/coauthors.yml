@@ -1,24 +1,6 @@
-"Morrison":
-  - firstname: ["Philip", "P.", "P. J.", "Philip J."]
-    url: https://web2.ph.utexas.edu/~morrison/
-
-"Khomeriki":
-  - firstname: ["Ramaz", "R."]
-
-"Yiou":
-  - firstname: ["Pascal", "P."]
-    url: https://www.lsce.ipsl.fr/Phocea/Pisp/index.php?nom=pascal.yiou/
-"Bouchet":
-  - firstname: ["Freddy", "F."]
-    url: http://perso.ens-lyon.fr/freddy.bouchet/
-    
-"Dauxois":
-  - firstname: ["Thierry", "T."]
-    url: http://perso.ens-lyon.fr/thierry.dauxois/
-    
-"Lingam":
-  - firstname: ["Manasvi", "M."]
-    url: https://lmanasvi.wixsite.com/website
+"Adams":
+  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
+    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
 
 "Podolsky":
   - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
@@ -34,3 +16,19 @@
 
   - firstname: ["Carl Philipp Emanuel", "C. P. E."]
     url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+
+"Przibram":
+  - firstname: ["Karl"]
+    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+
+"Schrödinger":
+  - firstname: ["Erwin"]
+    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+
+"Lorentz":
+  - firstname: ["Hendrik Antoon"]
+    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+
+"Planck":
+  - firstname: ["Max"]
+    url: https://en.wikipedia.org/wiki/Max_Planck
