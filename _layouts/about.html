@@ -30,7 +30,9 @@ layout: default
             {% endif -%}
             {%- if page.profile.address %}
             <div class="address">
-              {{ page.profile.address }}
+              <div class="navbar-brand social">
+                {% include social.html %}
+              </div>
             </div>
             {%- endif %}
           </div>
