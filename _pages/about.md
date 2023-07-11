@@ -8,19 +8,15 @@ profile:
   align: right
   image: photo.jpeg
   image_circular: false # crops the image to make it circular
-  #address: 
+  #address:  # if address is not included navbar will appear
 
 news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
 
 ## Short Summary
-
-<div class="navbar-brand social">
-            {% include social.html %}
-          </div>
 
 I am a physicist involved in the interface between *machine learning* and physics. I work in complex systems such as plasma physics and geophysics with methods ranging from analytical theory to `numerical simulations` to data analysis and `deep learning`. Throughout my career I have been involved in various subjects including turbulence, statistics and mathematical physics. I got my PhD degree from [the University of Texas at Austin](https://www.utexas.edu). But originally I come from a small country, nestled in Caucausus and growing up in a diverse family, I have always enjoyed and appreciated multicultural settings. 
 
