@@ -8,8 +8,7 @@ profile:
   align: right
   image: photo.jpeg
   image_circular: false # crops the image to make it circular
-  address: 
-   
+  #address: 
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
