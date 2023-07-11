@@ -8,7 +8,7 @@ profile:
   align: right
   image: photo.jpeg
   image_circular: false # crops the image to make it circular
-  address: >
+  address: 
     <div class="navbar-brand social">
             {% include social.html %}
           </div>
