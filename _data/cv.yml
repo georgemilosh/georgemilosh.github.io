@@ -16,7 +16,7 @@
       year: 2018
       description:
         - Advisor - Philip J Morrison
-        - title: Hamiltonian description of Hall and sub-electron scales in collisionless plasmas
+        - title: <a href="https://repositories.lib.utexas.edu/bitstream/handle/2152/68628/MILOSHEVICH-DISSERTATION-2018.pdf?sequence=1">Hamiltonian description of Hall and sub-electron scales in collisionless plasmas</a>
           contents:
             - Inverse cascade in strongly magnetized plasma simulations
             - Hamiltonian action principles for the extended MHD
@@ -32,7 +32,7 @@
   type: time_table
   contents:
     - title: Postdoctoral fellow
-      institution: LSCE, CEA Saclay, Saint-Aubin, France
+      institution: <a href="https://www.lsce.ipsl.fr/">LSCE</a>, CEA Saclay, Saint-Aubin, France
       year: 2022 - 2023
       description:
         - Pascal Yiou
@@ -49,7 +49,7 @@
 
 
     - title: Postdoctoral fellow
-      institution: École normale supérieure de Lyon, France
+      institution: <a href="https://www.ens-lyon.fr/">École normale supérieure de Lyon</a>, France
       year: 2020 - 2022
       description:
         - Finding committor functions for extreme heatwaves in climate models
@@ -60,7 +60,7 @@
           contents: Freddy Bouchet
 
     - title: Postdoctoral fellow
-      institution: Universite de la Côte d'Azure, Nice, France
+      institution: <a href="https://www.oca.eu/fr/>Observatoire de la Côte d'Azure</a>, Nice, France
       year: 2019 - 2020
       description:
         - Cascades in strong imbalanced kinetic Alfvén wave turbulence
@@ -69,19 +69,20 @@
         - title: Advisor
           contents: Thierry Passot
     - title: Postdoctoral fellow
-      institution: Simons Laufer Mathematical Sciences Institute, Berkeley, USA
+      institution: <a href="https://www.msri.org/">Simons Laufer Mathematical Sciences Institute</a>, Berkeley, USA
       year: 2018
       description:
         - The states of plasmas that do not radiate self-consistently
         - Asymptotic slow-fast manifold expansion of Maxwell-Vlasov
         - Related manuscript, <a href="https://www.cambridge.org/core/journals/journal-of-plasma-physics/article/abs/hamiltonian-reduction-of-vlasovmaxwell-to-a-dark-slow-manifold/F9319EB99A53B344597DCE810492BA87">Journal of Plasma Physics</a>
     - title: Research Project
-      institution: École normale supérieure de Lyon, France
+      institution: <a href="https://www.ens-lyon.fr/">École normale supérieure de Lyon</a>, France
       year: 2018
       description:
         - Stochastic transitions in dipolar lattices between ferromagnetic states
-        - Relaxation to statistical equilibrium and solitons in long-range extensions of FPUT.
+        - Relaxation to equilibrium and solitons in long-range extensions of FPUT.
         - Simulations were performed using C and MATLAB.
+        - Related manuscripts, <a href="https://iopscience.iop.org/article/10.1209/0295-5075/104/17011">Europhysics Letters</a>, <a href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.91.032927">Physical Review E</a> and <a href="https://iopscience.iop.org/article/10.1088/1751-8121/aa5fcf">Journal of Physics A Mathematical and Theoretical</a>
         - title: Advisor
           contents: Stefano Ruffo
         
