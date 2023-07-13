@@ -57,7 +57,7 @@
         - <a href="https://github.com/georgemilosh/Climate-Learning">GitHub repo</a> of the project
         - Related manuscripts, <a href="https://journals.aps.org/prfluids/abstract/10.1103/PhysRevFluids.8.040501">Physical Review Fluids</a> and <a href="https://arxiv.org/abs/2306.11769">arXiv</a>
         - title: Advisor
-          contetns: Freddy Bouchet
+          contents: Freddy Bouchet
 
     - title: Postdoctoral fellow
       institution: Universite de la Côte d'Azure, Nice, France
@@ -65,12 +65,26 @@
       description:
         - Cascades in strong imbalanced kinetic Alfvén wave turbulence
         - 3D numerical simulations in C and data analysis in Python
+        - Related manuscripts, <a href="https://www.cambridge.org/core/journals/journal-of-plasma-physics/article/abs/inverse-cascade-and-magnetic-vortices-in-kinetic-alfvenwave-turbulence/2161FACEE036D89CB897E15F20DF2000">Journal of Plasma Physics</a> and <a href="https://iopscience.iop.org/article/10.3847/2041-8213/ab60b1/meta">Astrophysical Journal Letters</a>
+        - title: Advisor
+          contents: Thierry Passot
     - title: Postdoctoral fellow
       institution: Simons Laufer Mathematical Sciences Institute, Berkeley, USA
       year: 2018
       description:
         - The states of plasmas that do not radiate self-consistently
         - Asymptotic slow-fast manifold expansion of Maxwell-Vlasov
+        - Related manuscript, <a href="https://www.cambridge.org/core/journals/journal-of-plasma-physics/article/abs/hamiltonian-reduction-of-vlasovmaxwell-to-a-dark-slow-manifold/F9319EB99A53B344597DCE810492BA87">Journal of Plasma Physics</a>
+    - title: Research Project
+      institution: École normale supérieure de Lyon, France
+      year: 2018
+      description:
+        - Stochastic transitions in dipolar lattices between ferromagnetic states
+        - Relaxation to statistical equilibrium and solitons in long-range extensions of FPUT.
+        - Simulations were performed using C and MATLAB.
+        - title: Advisor
+          contents: Stefano Ruffo
+        
 - title: Honors and Awards
   type: time_table
   contents:
