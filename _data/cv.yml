@@ -12,22 +12,24 @@
   type: time_table
   contents:
     - title: PhD
-      institution: <a href="https://www.utexas.edu/">The University of Texas at Austin</a>
+      institution: <a href="https://www.utexas.edu/">The University of Texas at Austin</a>, Institute of Fusion Studies
       year: 2018
       description:
-        - Institute of Fusion Studies
-        - Philip J Morrison
         - title: Hamiltonian description of Hall and sub-electron scales in collisionless plasmas
           contents:
             - Inverse cascade in strongly magnetized plasma simulations
             - Hamiltonian action principles for the extended MHD
+            - title: Advisor
+              contents: <a href="https://web2.ph.utexas.edu/~morrison/">Philip J Morrison</a>
             
     - title: MS in Physics
-      institution: Tbilisi State University
+      institution: <a href="https://www.tsu.ge/en">Tbilisi State University</a>
       year: 2012
       description:
         - 3D modeling of Solar Coronal Closed structure formation and heating due to magneto-fluid coupling
         - <a href="https://github.com/georgemilosh/3DMHD-Corona">GitHub repo</a> of the project with the uploaded thesis
+        - title: Advisor
+          contents: Nana Shatashvili
 
 - title: Experience
   type: time_table
@@ -51,13 +53,19 @@
         - Finding committor functions for extreme heatwaves in climate models
         - Deep learning, ECMWF, and GCM model output analysis
         - <a href="https://github.com/georgemilosh/Climate-Learning">GitHub repo</a> of the project
+        - Related manuscripts, <a href="https://journals.aps.org/prfluids/abstract/10.1103/PhysRevFluids.8.040501">Physical Review Fluids</a> and  <a href="https://arxiv.org/abs/2306.11769">arXiv</a> 
+        - title: Advisor
+          contents: Freddy Bouchet
 
     - title: Postdoctoral fellow
-      institution: Universite de la Cote dAzure, Nice
+      institution: Universite de la Côte d'Azure, Nice
       year: 2019 - 2020
       description:
         - Cascades in strong imbalanced kinetic Alfvén wave turbulence
         - 3D numerical simulations in C and data analysis in Python
+        - Related manuscripts, <a href="https://www.cambridge.org/core/journals/journal-of-plasma-physics/article/abs/inverse-cascade-and-magnetic-vortices-in-kinetic-alfvenwave-turbulence/2161FACEE036D89CB897E15F20DF2000">Journal of Plasma Physics</a> and <a href="https://iopscience.iop.org/article/10.3847/2041-8213/ab60b1/meta">Astrophysical Journal Leters</a>
+        - title: Advisor
+          contents: Thierry Passot
 
     - title: Postdoctoral fellow
       institution: Mathematical Sciences Research Institute, Berkeley
@@ -65,14 +73,20 @@
       description:
         - The states of plasmas that do not radiate self-consistently
         - Asymptotic slow-fast manifold expansion of Maxwell-Vlasov
+        - Related manuscripts, <a href="https://www.cambridge.org/core/journals/journal-of-plasma-physics/article/abs/hamiltonian-reduction-of-vlasovmaxwell-to-a-dark-slow-manifold/F9319EB99A53B344597DCE810492BA87">Journal of Plasma Physics</a>
+    - title: Research project
+      institution: École normale supérieure de Lyon
+        year: 2012
+        description:
+          - Stochastic transitions in dipolar lattices between ferromagnetic states
+          - Relaxation to statistical equilibrium and solitons in long-range extensions of Fermi-Pasta-Ulam-Tsingou chains
+          - Anumerics were performed using C and MATLAB
+          - title: Related manuscripts
+            contents: 
+              - <a href="https://iopscience.iop.org/article/10.1209/0295-5075/104/17011">Europhysics Letters</a>
+              - <a href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.91.032927">Physical Review E</a>
+              - <a href="https://iopscience.iop.org/article/10.1088/1751-8121/aa5fcf">Journal of Physics A Mathematical and Theoretical</a>
 
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
 - title: Honors and Awards
   type: time_table
@@ -83,8 +97,6 @@
     - year: 2016
       items: 
         - Nomination for Graduate School UT Austin graduate fellowship  
-    - year: 2016
-      items: 
         - University of Texas <a href="https://cns.utexas.edu/news/visualizing-science-2016">Visualizing Science Award</a>
     - year: 2012
       items:
@@ -100,6 +112,9 @@
 - title: Summer Schools and Workshops
   type: time_table
   contents:
+    - year: 2023
+      items:
+        - ECMWF MOOC on Machine Learning in Weather and Climate 
     - year: 2022
       items: 
         - Machine Learning-Assisted Sampling for Scientific Computing – Applications in Physics, Paris
