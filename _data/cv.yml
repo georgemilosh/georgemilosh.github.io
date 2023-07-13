@@ -6,7 +6,7 @@
     - name: Place of Birth
       value: Tbilisi, Georgia
     - name: Languages
-      value: English (C2), Russian (C2), Georgian (C1), French (B2), Serbian (B1), German (A1)
+      value: English (C2), Russian (C2), Georgian (C1), French (B2), Serbian (B1), German (A2)
 
 - title: Education
   type: time_table
@@ -27,6 +27,7 @@
       year: 2012
       description:
         - 3D modeling of Solar Coronal Closed structure formation and heating due to magneto-fluid coupling
+        - <a href="https://github.com/georgemilosh/3DMHD-Corona">GitHub repo</a> of the project with the uploaded thesis
 
 - title: Experience
   type: time_table
@@ -35,11 +36,13 @@
       institution: LSCE, CEA Saclay
       year: 2022 - 2023
       description:
-        - Pascal Yiou
-        - title: Topics
-          contents:
-            - Coupling machine learning and rare event algorithms
-            - Working with GPUs on Jean-Zay and Stochastic Weather Generators
+        - Coupling machine learning and rare event algorithms
+        - Working with GPUs on Jean-Zay and Stochastic Weather Generators
+        - <a href="https://github.com/georgemilosh/Climate-Learning">GitHub repo</a> of the project
+        - Related manuscripts, <a href="https://hal.science/hal-03921111/">HAL link</a>
+        - title: Advisor
+          contents: Pascal Yiou
+           
            
     - title: Postdoctoral fellow
       institution: ENS de Lyon
@@ -47,6 +50,7 @@
       description:
         - Finding committor functions for extreme heatwaves in climate models
         - Deep learning, ECMWF, and GCM model output analysis
+        - <a href="https://github.com/georgemilosh/Climate-Learning">GitHub repo</a> of the project
 
     - title: Postdoctoral fellow
       institution: Universite de la Cote dAzure, Nice
@@ -78,7 +82,13 @@
         - University of Texas Graduate Continuing Fellowship
     - year: 2016
       items: 
+        - Nomination for Graduate School UT Austin graduate fellowship  
+    - year: 2016
+      items: 
         - University of Texas <a href="https://cns.utexas.edu/news/visualizing-science-2016">Visualizing Science Award</a>
+    - year: 2012
+      items:
+        - University of Texas Graduate scholarship
     - year: 2011
       items: 
         - Prof. Estate Khmaladze’s award in Theoretical Physics
