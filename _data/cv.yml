@@ -23,7 +23,7 @@
               contents: <a href="https://web2.ph.utexas.edu/~morrison/">Philip J Morrison</a>
             
     - title: MS in Physics
-      institution: <a href="https://www.tsu.ge/en">Tbilisi State University</a>
+      institution: Tbilisi State University
       year: 2012
       description:
         - 3D modeling of Solar Coronal Closed structure formation and heating due to magneto-fluid coupling
@@ -40,8 +40,6 @@
       description:
         - Coupling machine learning and rare event algorithms
         - Working with GPUs on Jean-Zay and Stochastic Weather Generators
-        - <a href="https://github.com/georgemilosh/Climate-Learning">GitHub repo</a> of the project
-        - Related manuscripts, <a href="https://hal.science/hal-03921111/">HAL link</a>
         - title: Advisor
           contents: Pascal Yiou
            
@@ -52,20 +50,13 @@
       description:
         - Finding committor functions for extreme heatwaves in climate models
         - Deep learning, ECMWF, and GCM model output analysis
-        - <a href="https://github.com/georgemilosh/Climate-Learning">GitHub repo</a> of the project
-        - Related manuscripts, <a href="https://journals.aps.org/prfluids/abstract/10.1103/PhysRevFluids.8.040501">Physical Review Fluids</a> and  <a href="https://arxiv.org/abs/2306.11769">arXiv</a> 
-        - title: Advisor
-          contents: Freddy Bouchet
 
     - title: Postdoctoral fellow
-      institution: Universite de la Côte d'Azure, Nice
+      institution: Universite de la Cote dAzure, Nice
       year: 2019 - 2020
       description:
         - Cascades in strong imbalanced kinetic Alfvén wave turbulence
         - 3D numerical simulations in C and data analysis in Python
-        - Related manuscripts, <a href="https://www.cambridge.org/core/journals/journal-of-plasma-physics/article/abs/inverse-cascade-and-magnetic-vortices-in-kinetic-alfvenwave-turbulence/2161FACEE036D89CB897E15F20DF2000">Journal of Plasma Physics</a> and <a href="https://iopscience.iop.org/article/10.3847/2041-8213/ab60b1/meta">Astrophysical Journal Leters</a>
-        - title: Advisor
-          contents: Thierry Passot
 
     - title: Postdoctoral fellow
       institution: Mathematical Sciences Research Institute, Berkeley
@@ -73,7 +64,7 @@
       description:
         - The states of plasmas that do not radiate self-consistently
         - Asymptotic slow-fast manifold expansion of Maxwell-Vlasov
-        - Related manuscripts, <a href="https://www.cambridge.org/core/journals/journal-of-plasma-physics/article/abs/hamiltonian-reduction-of-vlasovmaxwell-to-a-dark-slow-manifold/F9319EB99A53B344597DCE810492BA87">Journal of Plasma Physics</a>
+
     - title: Research project
       institution: École normale supérieure de Lyon
         year: 2012
