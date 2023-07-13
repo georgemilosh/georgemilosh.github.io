@@ -6,7 +6,6 @@
     - name: Place of Birth
       value: Tbilisi, Georgia
     - name: Languages
-      value: English (C2), Russian (C2), Georgian (C1), French (B2), Serbian (B1), German (A1)
       value: English (C2), Russian (C2), Georgian (C1), French (B2), Serbian (B1), German (A2)
 
 - title: Education
@@ -33,7 +32,7 @@
   type: time_table
   contents:
     - title: Postdoctoral fellow
-      institution: LSCE, CEA Saclay
+      institution: LSCE, CEA Saclay, Saint-Aubin, France
       year: 2022 - 2023
       description:
         - Pascal Yiou
@@ -50,39 +49,34 @@
 
 
     - title: Postdoctoral fellow
-      institution: École normale supérieure de Lyon
+      institution: École normale supérieure de Lyon, France
       year: 2020 - 2022
       description:
         - Finding committor functions for extreme heatwaves in climate models
         - Deep learning, ECMWF, and GCM model output analysis
         - <a href="https://github.com/georgemilosh/Climate-Learning">GitHub repo</a> of the project
+        - Related manuscripts, <a href="https://journals.aps.org/prfluids/abstract/10.1103/PhysRevFluids.8.040501">Physical Review Fluids</a> and <a href="https://arxiv.org/abs/2306.11769">arXiv</a>
+        - title: Advisor
+          contetns: Freddy Bouchet
 
     - title: Postdoctoral fellow
-      institution: Universite de la Côte d'Azure, Nice
+      institution: Universite de la Côte d'Azure, Nice, France
       year: 2019 - 2020
       description:
         - Cascades in strong imbalanced kinetic Alfvén wave turbulence
         - 3D numerical simulations in C and data analysis in Python
     - title: Postdoctoral fellow
-      institution: Mathematical Sciences Research Institute, Berkeley
+      institution: Simons Laufer Mathematical Sciences Institute, Berkeley, USA
       year: 2018
       description:
         - The states of plasmas that do not radiate self-consistently
         - Asymptotic slow-fast manifold expansion of Maxwell-Vlasov
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 - title: Honors and Awards
   type: time_table
   contents:
     - year: 2017
       items: 
         - University of Texas Graduate Continuing Fellowship
-    - year: 2016
-      items: 
         - Nomination for Graduate School UT Austin graduate fellowship  
     - year: 2016
       items: 
@@ -100,6 +94,9 @@
 - title: Summer Schools and Workshops
   type: time_table
   contents:
+    - year: 2023
+      items:
+        - ECMWF MOOC on Machine Learning in Weather and Climate
     - year: 2022
       items: 
         - Machine Learning-Assisted Sampling for Scientific Computing – Applications in Physics, Paris
