@@ -62,14 +62,6 @@ _styles: >
       width: 100%;
     }
   }
-  blockquote.two {
-        color: var(--global-theme-color2);
-        background: var(--global-bg-color2);
-        border-left: 2px solid var(--global-theme-color);
-        margin: 1.5em 10px;
-        padding: 0.5em 10px;
-        font-size: 1.2rem;
-      }
 
 ---
 
@@ -81,18 +73,16 @@ chatbot: Hi. That's pure gibberish.
 
 ## ChatGPT overview
 
-<blockquote class="two">
-"I'm sorry, Dave. I'm afraid I can't do that." - HAL 9000 in 2001: A Space Odyssey
-</blockquote>
+> "I'm sorry, Dave. I'm afraid I can't do that." - HAL 9000 in 2001: A Space Odyssey
+
  
 For people curious about developments of AI this has been a rather interesting month since the public release of ChatGPT, a new model of OpenAI. The model abilities to generate natural language attracted widespread interest with a mix of awe, surprise, [doubts](https://www.smh.com.au/national/is-ai-coming-of-age-or-starting-to-reach-its-limits-20221213-p5c5uy.html){:class="two"} and [criticism](https://youtu.be/PBdZi_JtV4c). After one month of discussions with it, we have even tasked the ChatGPT to write a psychological drama ([click the link to view the story](https://georgemilosh.github.io/blog/2023/GPTstory/){:class="two"}) about a person who gets addicted and manipulated by the chatbot. ChatGPT surprised us with what passes as sophisticated understanding of human psychology, at least, in our non-expert judgement. Whether one gets interesting narratives really depends on the *prompt* (a query to GPT), so our opinion is that creative storylines usually come from the human interlocutor. However, barring the discussion on the impressive or dull narratives that are generated, in this blog post we will rather address **how reliable ChatGPT is as a source of scientific knowledge** providing three examples, while trying not to get very technical.
 
 ChatGPT <d-cite key="ouyang2022training"></d-cite> is based on a larger GPT-3 model <d-cite key="brown2020language"></d-cite>. which performs *autoregressive* tasks, i.e. learn how to continue sequences of words and is trained on `common crawl`, essentially an archive of World Wide Web. On top of that ChatGPT was fine-tuned with the help of user judges based on a technique called [reinforcement learning](https://en.wikipedia.org/wiki/Reinforcement_learning){:class="two"} to function as a chatbot and eliminate harmful responses.  The fact that ChatGPT is a smaller model is relevant in its evaluation since it was demonstrated that performance scales with size. However, likely, OpenAI would not be able to serve its most advanced chatbots at scale to make it available for millions of users. 
 
 ## Geometrical Thinking
-<blockquote  class="two">
-"By natural selection our mind has adapted itself to the conditions of the external world. It has adopted the geometry most advantageous to the species or, in other words, the most convenient. Geometry is not true, it is advantageous." - Henri Poincaré
-</blockquote>
+
+> "By natural selection our mind has adapted itself to the conditions of the external world. It has adopted the geometry most advantageous to the species or, in other words, the most convenient. Geometry is not true, it is advantageous." - Henri Poincaré
 
 Interestingly, GPT is actually not very good at arithmetic, which some speculate makes it more like humans. Rather than having it solve math problems like some users have done, we would like to concentrate on conceptual questions that are perhaps better suited for procedural text generation than problem-solving. Here the idea is to see if GPT can reason geometrically in an idealized environment.
 
@@ -106,14 +96,10 @@ Interestingly, GPT is actually not very good at arithmetic, which some speculate
 Prompt: Say we have two ants crawling on the sphere in the opposite directions. How many times can they meet if they keep crawling forward?
 
 First Response:
-<blockquote  class="two">
-<b>ChatGPT: Ants crawling on the surface of a sphere will never meet</b> if they keep crawling forward in opposite directions because the surface of a sphere is a two-dimensional surface with no endpoints. This means that no matter how far the ants crawl, they will never reach the end of the surface of the sphere and will never meet.
-</blockquote>
 
-Analysis: Of course this response can be easily rejected if one has an image of the sphere in their mind. 
+> <b>ChatGPT: Ants crawling on the surface of a sphere will never meet</b> if they keep crawling forward in opposite directions because the surface of a sphere is a two-dimensional surface with no endpoints. This means that no matter how far the ants crawl, they will never reach the end of the surface of the sphere and will never meet.
 
-> This is not the most common response to this question that one gets from GPT, yet it is somewhat concerning. Sometimes GPT provides responses that would be appreciated by the likes of Magellan but there are still some inconsistencies. 
-{: .block-warning }
+Analysis: Of course this response can be easily rejected if one has an image of the sphere in their mind. This is not the most common response to this question that one gets from GPT, yet it is somewhat concerning. Sometimes GPT provides responses that would be appreciated by the likes of Magellan but there are still some inconsistencies. 
 
 
 ## Quantum vs Classical
@@ -122,9 +108,8 @@ We will try to see whether GPT can communicate how physicists understand the wor
 
 Prompt:  Is it true that energy of an electromagnetic wave is directly proportional to its frequency based on just classical theory of electromagnetism that **does not take quantum effects** into account?
 
-<blockquote  class="two">
-ChatGPT: <b>Yes</b>, that is correct. The relationship between the frequency and energy of an electromagnetic wave is described by classical electromagnetism, which does not take into account the quantization of energy that is described by quantum mechanics. In classical electromagnetism, an electromagnetic wave is described as an oscillating electric and magnetic field that propagates through space at the speed of light. The energy of the electromagnetic wave is related to the intensity of the electric and magnetic fields, which is directly proportional to the frequency of the wave. This is described by the equation <b>E = hf</b>, where E is the energy of the photon, f is its frequency, and h is a constant known as Planck's constant...
-</blockquote>
+> ChatGPT: <b>Yes</b>, that is correct. The relationship between the frequency and energy of an electromagnetic wave is described by classical electromagnetism, which does not take into account the quantization of energy that is described by quantum mechanics. In classical electromagnetism, an electromagnetic wave is described as an oscillating electric and magnetic field that propagates through space at the speed of light. The energy of the electromagnetic wave is related to the intensity of the electric and magnetic fields, which is directly proportional to the frequency of the wave. This is described by the equation <b>E = hf</b>, where E is the energy of the photon, f is its frequency, and h is a constant known as Planck's constant...
+
 
 Analysis: The correct answer is: **No** in the context of classical theory of light. In fact **h** - *Planck constant*, **comes from quantum mechanics**. We have continued discussion with GPT trying to nudge it to acknowledge the mistake. Eventually, **GPT agreed** that E = hf is fundamentally quantum and that in classical theory energy depends only on the square of the amplitude. However, in that same response, few lines below, it **introduced linear dependence** between the amplitude and the frequency, which somehow still gave it linear dependence between the energy and the frequency. It is likely that GPT has so much belief in E = hf because of the countless sources it was trained on that repeat and reinforce the belief. It is not willing to give up this proportionality in classical physics even after agreeing that the source of it is quantum. <d-footnote> Astute reader will also notice a simple mathematical error: if, as correctly stated by GPT, in classical Electromagnetic (EM) theory energy scales proportional to the square of the amplitude and assuming, as GPT insists, that dependence between the energy and the frequency must be linear then it follows that amplitude must scale as the square root of frequency. To be more precise quantum mechanics suggests E = N hf where N is the number of quanta (photons, corpuscules of light), so it is not necessary to have Energy scale as square root of the frequency, because N could compensate this effect. The bottom line is that if in classical EM the relationship between Energy and frequency was already linear, Einstein wouldn't need to resurrect corpuscules of light after a century of oblivion to explain photoeffect. Note that, it doesn't mean that when charges move the energy of EM wave is necessarily independent of frequency in classical EM. For instance, the power radiated by harmonically oscillating charge is proportional to the frequency to the fourth power, however, in general, one may have arbitrary motion of charges and no h is involved in the process.</d-footnote>. 
 
@@ -151,9 +136,9 @@ ChatGPT writes code, often with mistakes, but when given error messages may occa
 
 ## Discussion
 
-<blockquote  class="two">
-"Knowledge is power. Information is liberating. Education is the premise of progress, in every society, in every family." - Kofi Annan
-</blockquote>
+
+> "Knowledge is power. Information is liberating. Education is the premise of progress, in every society, in every family." - Kofi Annan
+
 
 We have concentrated on shortcomings of ChatGPT above, which could reveal structural problem. But make no mistake, its responses can be **quite impressive**. If you were to ask the model to explain how quantum computing works, or basic tenets of Buddhism (and yes, in the pirate speak), it would likely provide a reliable and understandable (or humorous) answer. But, as we've discovered, things can get a bit tricky when it comes to more fundamental questions, where ChatGPT sometimes makes self-contradicting statements, even as it acknowledges it is wrong. ChatGPT exhibits expertise at first glance, but could **lull users into trust** it too much. To be fair, OpenAI does warn that the chatbot isn't infallible. After all, users of Wikipedia were also ridiculed in the past, until it became mainstream tool of getting the first-hand information, although, Wikipedia usually provides more reliable links to the source material.
 

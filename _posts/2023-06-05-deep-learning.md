@@ -7,7 +7,7 @@ description: useful resources for practical tutorials on deep learning
 tags: deep-learning machine-learning tutorials resources
 categories: how-to
 giscus_comments: true
-related_posts: false
+related_posts: true
 toc:
   sidebar: right
 ---
@@ -16,7 +16,16 @@ Below I list various sources that I found myself or through friends for people w
 
 ## General resources
 
-This is is quite nice but targets french speakers: [CNRS-Fidle](https://gricad-gitlab.univ-grenoble-alpes.fr/talks/fidle){:target="\_blank"}. They cover the basics and the modern tools of machine learning from A to Z with practical exercises and offerring a convenient docker or an option to use personal python environment. They also have a [youtube channel](https://www.youtube.com/@CNRS-FIDLE) with all the lectures.
+Artificial Intelligence is highly dynamic and hyped field: [AI Index](https://aiindex.stanford.edu/report/){:target="\_blank"} is a good place to start if you want to get a sense of the field.
+
+> ##### TIP
+>
+> Join a journal club, or start your own where you and your peers would review the latest papers to stay updated on the trends. 
+{: .block-tip }
+
+I recommend joining the [mailing list](https://listes.ipsl.fr/sympa/info/mljournalclub) of our journal club which brings together geophysicists interested in the applications of machine learning.
+
+This one is quite nice but targets french speakers: [CNRS-Fidle](https://gricad-gitlab.univ-grenoble-alpes.fr/talks/fidle){:target="\_blank"}. They cover the basics and the modern tools of machine learning from A to Z with practical exercises and offerring a convenient docker or an option to use personal python environment. They also have a [youtube channel](https://www.youtube.com/@CNRS-FIDLE) with all the lectures.
 
 ## Transformers
 
