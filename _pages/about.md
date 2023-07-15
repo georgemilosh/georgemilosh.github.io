@@ -27,5 +27,3 @@ This fall I am starting a postdoc at [KU Leuven](https://www.kuleuven.be/english
 ### Data driven closure
 
 A promising approach is to learn adaptable closures which are `physics-based models` that combine `data-driven` component such parametrization in a way that generalizes better if conservational laws are respected
-
-### Support or Contact
