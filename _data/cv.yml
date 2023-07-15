@@ -111,7 +111,7 @@
   contents:
     - year: 2023
       items:
-        - ECMWF MOOC on Machine Learning in Weather and Climate
+        - <a href="https://github.com/georgemilosh.github.io/assets/pdf/Certificate_of_Completion.pdf">ECMWF MOOC on Machine Learning in Weather and Climate</a>
     - year: 2022
       items: 
         - Machine Learning-Assisted Sampling for Scientific Computing – Applications in Physics, Paris
