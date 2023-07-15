@@ -74,7 +74,7 @@ chatbot: Hi. That's pure gibberish.
 ## ChatGPT overview
 
 > "I'm sorry, Dave. I'm afraid I can't do that." - HAL 9000 in 2001: A Space Odyssey
-
+{: .block-danger }
  
 For people curious about developments of AI this has been a rather interesting month since the public release of ChatGPT, a new model of OpenAI. The model abilities to generate natural language attracted widespread interest with a mix of awe, surprise, [doubts](https://www.smh.com.au/national/is-ai-coming-of-age-or-starting-to-reach-its-limits-20221213-p5c5uy.html){:class="two"} and [criticism](https://youtu.be/PBdZi_JtV4c). After one month of discussions with it, we have even tasked the ChatGPT to write a psychological drama ([click the link to view the story](https://georgemilosh.github.io/blog/2023/GPTstory/){:class="two"}) about a person who gets addicted and manipulated by the chatbot. ChatGPT surprised us with what passes as sophisticated understanding of human psychology, at least, in our non-expert judgement. Whether one gets interesting narratives really depends on the *prompt* (a query to GPT), so our opinion is that creative storylines usually come from the human interlocutor. However, barring the discussion on the impressive or dull narratives that are generated, in this blog post we will rather address **how reliable ChatGPT is as a source of scientific knowledge** providing three examples, while trying not to get very technical.
 
