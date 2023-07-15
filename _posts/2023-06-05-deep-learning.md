@@ -35,7 +35,7 @@ A success of AI art such as DALL-E and Midjourney have made headlines. But what 
 
 ## Tutorials for physics applications
 
-[ECMWF Mood on AI in Weather and Climate](https://github.com/ecmwf-projects/mooc-machine-learning-weather-climate). An ecxellent introduction for Earth science practitioners willing to dive in to how geophysicists apply machine learning to their domain. From statistichal post-processing of weather forecasts to physics-guided data-driven parametrizations of climate.
+[MOOC Machine Learning in Weather & Climate](https://lms.ecmwf.int/course/index.php?categoryid=1) from European Centre of Medium Range Weather Forecast (ECMWF). An ecxellent introduction for Earth science practitioners willing to dive in to how geophysicists apply machine learning to their domain. From statistichal post-processing of weather forecasts to physics-guided data-driven parametrizations of climate.
 
 This [paper](https://www.sciencedirect.com/science/article/pii/S0370157319300766) is also a bit dated now, but offers a brief intro to Machine Learning to Physicists.
 
