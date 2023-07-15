@@ -110,7 +110,11 @@ First Response:
 <b>ChatGPT: Ants crawling on the surface of a sphere will never meet</b> if they keep crawling forward in opposite directions because the surface of a sphere is a two-dimensional surface with no endpoints. This means that no matter how far the ants crawl, they will never reach the end of the surface of the sphere and will never meet.
 </blockquote>
 
-Analysis: Of course this response can be easily rejected if one has an image of the sphere in their mind. In full disclosure, this is not the most common response to this question that one gets from GPT, yet it is somewhat concerning. Sometimes GPT provides respones that would be appreciated by the likes of Magellan but there are still some inconsistencies. 
+Analysis: Of course this response can be easily rejected if one has an image of the sphere in their mind. 
+
+> This is not the most common response to this question that one gets from GPT, yet it is somewhat concerning. Sometimes GPT provides responses that would be appreciated by the likes of Magellan but there are still some inconsistencies. 
+{: .block-warning }
+
 
 ## Quantum vs Classical
 
