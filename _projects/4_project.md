@@ -10,9 +10,9 @@ At the time (around 2011-2012) I was a big fan of [Khanacademy](https://www.khan
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.html path="https://www.youtube.com/watch?v=EbLNltJk5Wc" class="img-fluid rounded z-depth-1" %}
+        {% include video.html path="https://www.youtube.com/embed/EbLNltJk5Wc" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.html path="https://www.youtube.com/watch?v=iDq0ncFIp3k" class="img-fluid rounded z-depth-1" %}
+        {% include video.html path="https://www.youtube.com/embed/iDq0ncFIp3k" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
