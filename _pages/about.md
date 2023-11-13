@@ -22,8 +22,8 @@ I am a physicist who applies *machine learning* to solve problems in physics. My
 
 Originally I come from a small country, nestled in Caucasus and growing up in a diverse family, I have always enjoyed and appreciated multicultural settings. 
 
-This fall I am starting a postdoc at [KU Leuven](https://www.kuleuven.be/english/kuleuven/index.html) in a group of [Giovanni Lapenta](https://www.kuleuven.be/wieiswie/en/person/00052182). Together we are involved in a project which aims to provide better prediction and understanding of *solar flares* in space weather using deep learning approaches. Events that are rare present challenges, since they are hard to measure or estimate, yet they may have societal impact. In many of these fields forecasting of the events happen both with `physics-based models` that are computationally expensive. A competitive approach is to rely on machine learning only. However, this poses a risk of overfitting to specific conditions which could change
+This fall I have started a postdoc at [KU Leuven](https://www.kuleuven.be/english/kuleuven/index.html) in a group of [Giovanni Lapenta](https://www.kuleuven.be/wieiswie/en/person/00052182). Currently I am working with his master and a PhD student. Together we are involved in a project which aims to provide better prediction and understanding of *solar flares* in space weather using deep learning approaches. Events that are rare present challenges, since they are hard to measure or estimate, yet they may have societal impact. In many of these fields forecasting of the events happen both with `physics-based models` that are computationally expensive. A competitive approach is to rely on machine learning only. To improve the reliability and generalisability it could be advantages to merge physics based models with machine learning. 
 
-### Data driven closure
+### Data-driven closure
 
 A promising approach is to learn adaptable closures which are `physics-based models` that combine `data-driven` component such parametrization in a way that generalizes better if conservational laws are respected
