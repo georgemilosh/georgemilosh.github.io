@@ -43,7 +43,7 @@
         - Coupling machine learning and rare event algorithms
         - Working with GPUs on Jean-Zay and Stochastic Weather Generators
         - <a href="https://github.com/georgemilosh/Climate-Learning">GitHub repo</a> of the project
-        - Related manuscripts, <a href="https://hal.science/hal-03921111/">HAL link</a>
+        - Related manuscripts, <a href="https://www.nature.com/articles/s41612-023-00500-5">npj Climate and Atmospheric Science</a>
         - title: Advisor
           contents: Pascal Yiou
 
@@ -54,13 +54,14 @@
       description:
         - Finding committor functions for extreme heatwaves in climate models
         - Deep learning, ECMWF, and GCM model output analysis
+        - Co-advised one master student and one PhD studentws
         - <a href="https://github.com/georgemilosh/Climate-Learning">GitHub repo</a> of the project
         - Related manuscripts, <a href="https://journals.aps.org/prfluids/abstract/10.1103/PhysRevFluids.8.040501">Physical Review Fluids</a> and <a href="https://arxiv.org/abs/2306.11769">arXiv</a>
         - title: Advisor
           contents: Freddy Bouchet
 
     - title: Postdoctoral fellow
-      institution: <a href="https://www.oca.eu/fr/>Observatoire de la Côte d'Azure</a>, Nice, France
+      institution: <a href="https://www.oca.eu/fr/">Observatoire de la Côte d'Azure</a>, Nice, France
       year: 2019 - 2020
       description:
         - Cascades in strong imbalanced kinetic Alfvén wave turbulence
