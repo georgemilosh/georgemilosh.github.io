@@ -7,7 +7,6 @@
       value: Tbilisi, Georgia
     - name: Languages
       value: English (C2), Russian (C2), Georgian (C1), French (B2), Serbian (B1), German (A2)
-
 - title: Education
   type: time_table
   contents:
@@ -27,30 +26,14 @@
       description:
         - 3D modeling of Solar Coronal Closed structure formation and heating due to magneto-fluid coupling
         - <a href="https://github.com/georgemilosh/3DMHD-Corona">GitHub repo</a> of the project with the uploaded thesis
-
 - title: Experience
   type: time_table
   contents:
-    - title: Teaching
-      institution: USA, Belgium, Georgia
-      year: 2010 - 2023
-      description:
-        - <a href="https://georgemilosh.github.io/teaching/">More details in my section on teaching</a>
-
-    - title: Postdoctoral fellow
-      institution: <a href="https://www.kuleuven.be/kuleuven">KU Leuven</a>, Campus Arenberg, Belgium
-      year: 2023 - 2024
-      description:
-        - title: Topics
-          contents:
-            - Predicting space weather events, solar activity, ionosphere etc
-            - Using [equation discovery](https://towardsdatascience.com/on-data-driven-equation-discovery-5069795d239d) for reduced order modelling
-        - title: Advisor
-          contents: Giovanni Lapenta
     - title: Postdoctoral fellow
       institution: <a href="https://www.lsce.ipsl.fr/">LSCE</a>, CEA Saclay, Saint-Aubin, France
       year: 2022 - 2023
       description:
+        - Pascal Yiou
         - title: Topics
           contents:
             - Coupling machine learning and rare event algorithms
@@ -61,6 +44,8 @@
         - Related manuscripts, <a href="https://www.nature.com/articles/s41612-023-00500-5">npj Climate and Atmospheric Science</a>
         - title: Advisor
           contents: Pascal Yiou
+
+
     - title: Postdoctoral fellow
       institution: <a href="https://www.ens-lyon.fr/">École normale supérieure de Lyon</a>, France
       year: 2020 - 2022
@@ -72,7 +57,6 @@
         - Related manuscripts, <a href="https://journals.aps.org/prfluids/abstract/10.1103/PhysRevFluids.8.040501">Physical Review Fluids</a> and <a href="https://arxiv.org/abs/2306.11769">arXiv</a>
         - title: Advisor
           contents: Freddy Bouchet
-
     - title: Postdoctoral fellow
       institution: <a href="https://www.oca.eu/fr/">Observatoire de la Côte d'Azure</a>, Nice, France
       year: 2019 - 2020
@@ -116,43 +100,7 @@
     - year: 2011
       items: 
         - Prof. Estate Khmaladze’s award in Theoretical Physics
-        - World Federation of Scientists’ Scholarship
+        - Prof. Antonino Zichichi’s World Federation of Scientists’ Scholarship
     - year: 2006
       items: 
         - Silver Medal in 7th Asian Physics Olympiad
-- title: Summer Schools and Workshops
-  type: time_table
-  contents:
-    - year: 2023
-      items:
-        - <a href="https://github.com/georgemilosh.github.io/assets/pdf/Certificate_of_Completion.pdf">ECMWF MOOC on Machine Learning in Weather and Climate</a>
-    - year: 2022
-      items: 
-        - Machine Learning-Assisted Sampling for Scientific Computing – Applications in Physics, Paris
-        - School on Climate Sensitivity & Workshop on Mathematics and Theoretical Physics for Climate Dynamics, ENS Lyon
-        - Summer school on Artificial Intelligence for Detection and Attribution of Climate Extremes at ICTP, Trieste
-    - year: 2009
-      items: 
-        - Summer Program at Deutches Elektronen-Synchrotron, Zeuthen, Germany
-        - Particle Physics and Astronomy, The University of Sheffield
-- title: Public Outreach
-  type: time_table
-  contents:
-    - year: 2023
-      items:
-        - Seminar at LSCE/IPSL, Saint-Aubin, France - Space weather for Earth scientist - what is above? 
-    - year: 2016
-      items: 
-        - Molotov seminar at UT Austin -  <a href="https://calendar.utexas.edu/event/molotov_seminar_25_the_theory_of_music_george_miloshevich"> Theory of music</a>.
-    - year: 2009
-      items: 
-        - Seminar at Tbilisi State University “Big bang nucleosynthesis” for high school students
-- title: Was referee for journals
-  type: list
-  contents:
-    - Environmental Data Science
-    - Zeitschrift für Naturforschung A
-    - Physics of Plasmas
-    - Journal of Plasma Physics
-    - European Physical Journal Special Topics
-    - Communications in Nonlinear Science and Numerical Simulation
