@@ -49,7 +49,6 @@
       institution: <a href="https://www.lsce.ipsl.fr/">LSCE</a>, CEA Saclay, Saint-Aubin, France
       year: 2022 - 2023
       description:
-        - Pascal Yiou
         - title: Topics
           contents:
             - Coupling machine learning and rare event algorithms
