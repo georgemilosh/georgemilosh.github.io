@@ -11,6 +11,12 @@
 - title: Teaching
   type: time_table
   contents:
+    - title: Substitute lecturer for Introduction to Plasma Dynamics
+      institution: KU Leuven
+      year: 2023
+      description:
+        - Plasma fluid closures
+        - Magnetohydrodynamics and waves
     - title: Teaching Assistant
       institution: the University of Texas at Austin
       year: 2012 - 2016

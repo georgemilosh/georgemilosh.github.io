@@ -31,11 +31,26 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Teaching
+      institution: USA, Belgium, Georgia
+      year: 2010 - 2023
+      description:
+        - <a href="https://georgemilosh.github.io/teaching/">More details in my section on teaching</a>
+
+    - title: Postdoctoral fellow
+      institution: <a href="https://www.kuleuven.be/kuleuven">KU Leuven</a>, Campus Arenberg, Belgium
+      year: 2023 - 2024
+      description:
+        - title: Topics
+          contents:
+            - Predicting space weather events, solar activity, ionosphere etc
+            - Using [equation discovery](https://towardsdatascience.com/on-data-driven-equation-discovery-5069795d239d) for reduced order modelling
+        - title: Advisor
+          contents: Giovanni Lapenta
     - title: Postdoctoral fellow
       institution: <a href="https://www.lsce.ipsl.fr/">LSCE</a>, CEA Saclay, Saint-Aubin, France
       year: 2022 - 2023
       description:
-        - Pascal Yiou
         - title: Topics
           contents:
             - Coupling machine learning and rare event algorithms
@@ -46,8 +61,6 @@
         - Related manuscripts, <a href="https://www.nature.com/articles/s41612-023-00500-5">npj Climate and Atmospheric Science</a>
         - title: Advisor
           contents: Pascal Yiou
-
-
     - title: Postdoctoral fellow
       institution: <a href="https://www.ens-lyon.fr/">École normale supérieure de Lyon</a>, France
       year: 2020 - 2022
@@ -103,7 +116,7 @@
     - year: 2011
       items: 
         - Prof. Estate Khmaladze’s award in Theoretical Physics
-        - Prof. Antonino Zichichi’s World Federation of Scientists’ Scholarship
+        - World Federation of Scientists’ Scholarship
     - year: 2006
       items: 
         - Silver Medal in 7th Asian Physics Olympiad
