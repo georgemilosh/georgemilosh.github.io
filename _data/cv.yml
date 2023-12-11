@@ -29,6 +29,22 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Teaching
+      institution: USA, Belgium, Georgia
+      year: 2010 - 2023
+      description:
+        - <a href="https://georgemilosh.github.io/teaching/">More details in my section on teaching</a>
+
+    - title: Postdoctoral fellow
+      institution: <a href="https://www.kuleuven.be/kuleuven">KU Leuven</a>, Campus Arenberg, Belgium
+      year: 2023 - 2024
+      description:
+        - title: Topics
+          contents:
+            - Predicting space weather events, solar activity, ionosphere etc
+            - Using [equation discovery](https://towardsdatascience.com/on-data-driven-equation-discovery-5069795d239d) for reduced order modelling
+        - title: Advisor
+          contents: Giovanni Lapenta
     - title: Postdoctoral fellow
       institution: <a href="https://www.lsce.ipsl.fr/">LSCE</a>, CEA Saclay, Saint-Aubin, France
       year: 2022 - 2023
