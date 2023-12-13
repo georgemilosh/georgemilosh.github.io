@@ -42,7 +42,7 @@
         - title: Topics
           contents:
             - Predicting space weather events, solar activity, ionosphere etc
-            - Using [equation discovery](https://towardsdatascience.com/on-data-driven-equation-discovery-5069795d239d) for reduced order modelling
+            - Using <a href="https://towardsdatascience.com/on-data-driven-equation-discovery-5069795d239d">equation discovery</a> for reduced order modelling
         - title: Advisor
           contents: Giovanni Lapenta
     - title: Postdoctoral fellow
