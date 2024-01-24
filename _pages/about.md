@@ -18,7 +18,7 @@ social: true  # includes social icons at the bottom of the page
 
 ## Short Summary
 
-I am a physicist working on the interface between plasma logistics and scientific `machine learning`. My PhD from [the University of Texas at Austin](https://www.utexas.edu) was on the effects of microscopic physics in turbulent plasmas, relying on analytical and numerical simulations. In the last three years I have enriched my experience by working on data-driven prediction of extreme events in climate science.  Throughout my career I have been involved in various subjects including statistics and nonlinear dynamics. 
+I am a physicist working on the interface between plasma physics and scientific `machine learning`. My PhD from [the University of Texas at Austin](https://www.utexas.edu) was on the effects of microscopic physics in turbulent plasmas, relying on analytical and numerical simulations. In the last three years I have enriched my experience by working on environmental data science with the focus on extreme events.  Throughout my career I have been involved in various subjects including statistics and nonlinear dynamics. 
 
 Originally I come from a small country, nestled in Caucasus and growing up in a diverse family, I have always enjoyed and appreciated multicultural settings. 
 
