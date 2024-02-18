@@ -21,7 +21,9 @@ pagination:
   {% if blog_name_size > 0 or blog_description_size > 0 %}
   <div class="header-bar">
     <div class="d-flex justify-content-center">
-      <div>{% include figure.html path="assets/img/blog.jpeg" class="img-fluid rounded z-depth-1" %}</div>
+      {%- assign page_image = page.image | prepend: 'assets/img/blog.jpeg' -%}
+      {%- assign page_image_class = "img-fluid z-depth-1" -%}
+      <div>{% include figure.html path=page_image class=page_image_class %}</div>
     </div>
   </div>
   {% endif %}
