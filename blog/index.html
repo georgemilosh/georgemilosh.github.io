@@ -20,8 +20,9 @@ pagination:
 
   {% if blog_name_size > 0 or blog_description_size > 0 %}
   <div class="header-bar">
-    <h1>{{ site.blog_name }}</h1>
-    <h2>{{ site.blog_description }}</h2>
+    <div class="d-flex justify-content-center">
+      <div>{% include figure.html path="assets/img/blog.jpeg" class="img-fluid rounded z-depth-1" %}</div>
+    </div>
   </div>
   {% endif %}
 

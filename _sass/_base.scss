@@ -218,7 +218,7 @@ blockquote {
     }
   }
 
-  .navbar-nav .nav-item.active>.nav-link {
+  .navbar-nav .nav-item.active>.nav-link { // active navigation item
     background-color: inherit;
     font-weight: bolder;
     color: var(--global-theme-color);
@@ -419,8 +419,8 @@ footer.sticky-bottom {
 .header-bar {
   border-bottom: 1px solid var(--global-divider-color);
   text-align: center;
-  padding-top: 2rem;
-  padding-bottom: 3rem;
+  padding-top: 0rem; // 2rem;
+  padding-bottom: 0rem; // 3rem;
 
   h1 {
     color: var(--global-theme-color);
