@@ -4,5 +4,7 @@ github_users:
 github_repos:
   - georgemilosh/3DMHD-Corona
   - georgemilosh/Climate-Learning
-  - georgemilosh/qgs
+  - https://github.com/PhIMaL/DeePyMoD
   - AlessandroLovo/EW2-heatwaves
+  - https://github.com/AlessandroLovo/general_purpose
+  - https://github.com/georgemilosh/DeePyMoD_torch
