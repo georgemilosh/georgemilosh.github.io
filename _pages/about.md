@@ -7,7 +7,7 @@ subtitle: <a href='#'>KU Leuven</a>. Centre for mathematical Plasma-Astrophysics
 profile:
   align: right
   image: photo.jpeg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   #address:  # if address is not included navbar will appear
 
 news: true  # includes a list of news items
