@@ -42,6 +42,7 @@
         - title: Topics
           contents:
             - Predicting space weather events, solar activity, ionosphere etc
+            - Co-advising three master students and one PhD student
             - Using <a href="https://towardsdatascience.com/on-data-driven-equation-discovery-5069795d239d">equation discovery</a> for reduced order modelling
         - title: Advisor
           contents: Giovanni Lapenta
@@ -51,10 +52,9 @@
       description:
         - title: Topics
           contents:
+            - Predicting and estimating risk of extreme European heatwaves
             - Coupling machine learning and rare event algorithms
-            - Working with GPUs on Jean-Zay and Stochastic Weather Generators
-        - Coupling machine learning and rare event algorithms
-        - Working with GPUs on Jean-Zay and Stochastic Weather Generators
+            - Working with GPUs on Jean-Zay supercomputer training Stochastic Weather Generators
         - <a href="https://github.com/georgemilosh/Climate-Learning">GitHub repo</a> of the project
         - Related manuscripts, <a href="https://www.nature.com/articles/s41612-023-00500-5">npj Climate and Atmospheric Science</a>
         - title: Advisor
@@ -65,9 +65,9 @@
       institution: <a href="https://www.ens-lyon.fr/">École normale supérieure de Lyon</a>, France
       year: 2020 - 2022
       description:
-        - Finding committor functions for extreme heatwaves in climate models
-        - Deep learning, ECMWF, and GCM model output analysis
-        - Co-advised one master student and one PhD studentws
+        - Predicting extreme heatwaves
+        - Deep learning, ECMWF reanalysis, and General Circulation Model output analysis
+        - Co-advised one master student and one PhD student
         - <a href="https://github.com/georgemilosh/Climate-Learning">GitHub repo</a> of the project
         - Related manuscripts, <a href="https://journals.aps.org/prfluids/abstract/10.1103/PhysRevFluids.8.040501">Physical Review Fluids</a> and <a href="https://arxiv.org/abs/2306.11769">arXiv</a>
         - title: Advisor
