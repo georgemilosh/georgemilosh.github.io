@@ -54,7 +54,8 @@
           contents:
             - Predicting and estimating risk of extreme European heatwaves
             - Coupling machine learning and rare event algorithms
-            - Working with GPUs on Jean-Zay supercomputer training Stochastic Weather Generators
+            - Convolutional Variational Autoencoders, Principal Components Analysis
+            - Working with GPUs on Jean-Zay supercomputer to train Stochastic Weather Generators
         - <a href="https://github.com/georgemilosh/Climate-Learning">GitHub repo</a> of the project
         - Related manuscripts, <a href="https://www.nature.com/articles/s41612-023-00500-5">npj Climate and Atmospheric Science</a>
         - title: Advisor
