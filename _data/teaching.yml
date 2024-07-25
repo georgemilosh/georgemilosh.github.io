@@ -1,6 +1,13 @@
 - title: Workshop instructing
   type: time_table
   contents:
+    - title: Summer of Science, Data science in space plasmas
+      institution: KU Leuven, Belgium
+      year: 2024
+      description:
+        - George Miloshevich and Francesco Carella
+        - <a href="https://github.com/f-carella/SoS-ML4-Sun">SoS data science repository</a>
+        
     - title: Machine Learning workshop in Rare Events in Weather and Climate in Netherlands
       institution: Berg en Dal, Netherlands
       year: 2022
