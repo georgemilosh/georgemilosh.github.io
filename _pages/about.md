@@ -18,10 +18,17 @@ social: true  # includes social icons at the bottom of the page
 
 ## Short Summary
 
-I am a physicist working on the interface between plasma physics and scientific `machine learning`. My PhD from [the University of Texas at Austin](https://www.utexas.edu) was on the effects of microscopic physics in turbulent plasmas, relying on analytical and numerical simulations. In the last three years I have enriched my experience by working on environmental data science with the focus on extreme events.  Throughout my career I have been involved in various subjects including statistics and nonlinear dynamics. 
+I am a Marie Skłodowska-Curie fellow  at [KU Leuven](https://www.kuleuven.be/english/kuleuven/index.html) working on the interface between plasma physics and scientific machine learning (ML): Project STRIDE aims to improve representation of particle effects in plasma fluid and hybrid models using neural networks and symbolic regression trained on high-fidelity particle simulations.
+
+I am also project manager of [ASAP](https://asap-space.eu/), a project that aims to develop the AI algorithms and the required software/hardware to be deployed on board of space missions in order to facilitate and improve space science and exploration. 
+
+My research interests:
+
+- Machine learning for space weather and space plasmas
+- Physics-informed machine learning
+- Extreme events in environmental data science
+- Turbulence and reconnection in plasmas
+
+My PhD from [the University of Texas at Austin](https://www.utexas.edu) was on the effects of microscopic kinetic effects in turbulent plasmas, relying on analytical and numerical simulations. In the last three years I have enriched my experience by working on environmental data science with the focus on extreme events.  Throughout my career I have been involved in various subjects including statistics and nonlinear dynamics. 
 
 Originally I come from a small country, nestled in Caucasus and growing up in a diverse family, I have always enjoyed and appreciated multicultural settings. 
-
-This fall I have started a postdoc at [KU Leuven](https://www.kuleuven.be/english/kuleuven/index.html). My focus is on improving forecasting of space weather events with machine learning. 
-
-Events that are rare present challenges, since they are hard to measure or estimate, yet they may have societal impact. In many of these fields forecasting of the events happen both with `physics-based models` that are computationally expensive. A competitive approach is to rely on Machine Learning only (ML). To improve the reliability and generalisability it could be effective to merge physics based models with ML. Of particular interest to me are ML surrogate models. 
