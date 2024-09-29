@@ -3,10 +3,22 @@
 
 @string{aps = {American Physical Society,}}
 
+@INPROCEEDINGS{miloshevich2024espm,
+  title={Moment closure problem: equation discovery and deep learning techniques applied to kinetic plasma simulations},
+  author={{Miloshevich}, George and {Arró}, Guiseppe and {Jess}, Emanuel and {Carella}, Francesco and {Köhne}, Sophia and {Lautenbach}, Simon and {Lapenta}, Giovanni and {Poedts}, Stefaan and {Innocenti}, Maria Elena},
+  booktitle={ESPM-17},
+  abstract={Reduced order modelling (ROM) plays an important role in the descriptions of different plasma environments such as heliosphere, solar wind and beyond. ROMs can be obtained via analytical closures; however, such approaches are limited when distribution functions are far from Maxwellian and/or in weaker guide fields. To push the envelope of ROMs in plasmas we apply machine learning frameworks that seek to extract the relevant terms that need to be kept in the equations for moments (EoMs), identifying terms such as anisotropic pressure in the momentum equation.  This is done systematically on several datasets generated via kinetic simulations: 1D Landau damping, 2D decaying turbulence, 2D magnetic reconnection. The sparse/symbolic regression techniques used include wSINDy and PDE-Net. We show examples of successful identification of EoMs.  These approaches are compared with multi-layer perceptron and fully connected convolutional neural network trained to reconstruct the pressure tensor and heat flux as a function of local lower-order moments. We show that the method is successful, assuming the test data comes from simulations with guide fields of comparable values to at least a few runs in the training dataset. Interestingly, accuracy of the predicted pressure tensor increases as we add extra runs corresponding to stronger guide fields. These results are promising for the development of global surrogate models for space plasmas that capture Finite Larmor Radius (FLR) effects.},
+  abbr={ESPM},
+  month = september,
+  series = {European Solar Physics Meeting},
+  year={2024},
+  bibtex_show={true},
+}
+
 @INPROCEEDINGS{lapenta2023learning,
   title={Learning closure of fluid equations from kinetic simulations of reconnection using machine learning},
   author={{Lapenta}, Giovanni and {Laperre}, Brecht and {Amaya}, Jorge and {Miloshevich}, George},
-  bookttitle={AGU Fall Meeting},
+  booktitle={AGU Fall Meeting},
   abstract={A classic problem in space plasma theory is how to represent the complex behaviour of electrons and ions that include complex non Maxwellian velocity distributions within fluid models. Fluid models are based on a closed set of moments of the velocity distributions function, for example in MHD density, velocity and pressure. However this set is not complete as the equations for the moments selected always include higher order terms not present in the fluid model. For example in the study of reconnection, the generalised Ohm’s law includes the full pressure tensor that is not available within a MHD model. If an equation is added for the pressure tensor then the third order moments (energy fluxes) are needed and so forth. The solution is to introduce the so-called closure relations. These are equations that express the higher order moments in terms of the available moments. The most classic example is the ideal equation of state to express pressure via density and temperature. In r plasmas, however, obtaining accurate working relationships is very complex, especially in regions where reconnection takes place. Here we will see how progress can be made using machine learning to learn closure relations for the pressure tensor and the heat flux using massively parallel particle in cell (PIC) simulations to train neural networks.},
   abbr={AGU},
   month = december,
