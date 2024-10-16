@@ -1,7 +1,7 @@
 ---
 layout: post
+title: FWO Project HELIOSKILL is looking for (2+1 year) postdoc(s)
 date: 2024-09-01 07:59:00-0400
-redirect: https://www.linkedin.com/posts/george-miloshevich-2b834212a_im-happy-to-share-that-im-starting-a-new-activity-7213811494126272512-M05e?utm_source=share&utm_medium=member_desktop
 inline: false
 ---
 
