@@ -3,27 +3,29 @@
 
 @string{aps = {American Physical Society,}}
 
+@INPROCEEDINGS{miloshevich2024esa,
+  title={Harnessing High-Performance Computing and AI/ML for Advanced Heliophysics and Space Weather Modelling},
+  author={{Miloshevich}, George},
+  booktitle={ESPM-17},
+  abstract={We will explore the pivotal role of High-Performance Computing (HPC) and Artificial Intelligence (AI) in advancing heliophysics and space weather forecasting by exploring recent advancements at the Centre for mathematical Plasma-Astrophysics (CmPA) that exemplify the integration of these technologies to enhance our understanding and forecasting capabilities in heliophysics. Key projects such as the Virtual Space Weather Modelling Centre (VSWMC) will be showcased, illustrating its capacity to consolidate various models and observational data into a cohesive framework for space weather prediction. The talk will address the following two core themes. (1) Integration of HPC in Heliophysics and Space Weather modelling: Demonstrating how HPC and advanced numerical techniques accelerate simulation capabilities, enabling the consideration of more physical effects (such as heating, radiation, thermal conduction, and even time-dependence) leading to more accurate predictions using more realistic global coronal models such as COCONUT, based on object-oriented HPC platform CoolFluid. COCONUT can be coupled (or integrated into) with heliospheric models such as  Icarus and the EUropean Heliospheric FORecasting Information Asset (EUHFORIA), providing critical insights into solar wind and CME propagation and their impact on Earth’s magnetosphere.  More accurate regional modelling of magnetospheres can be achieved using the implicit particle-in-cell (iPic3D) and the energy-conserving particle-in-cell (ECsim).	(2).	Automatics of SpAce exPloration (ASAP) : We will explore the utility of AI and ML algorithms for on-board analysis, prediction of space weather events within the context of the EU funded ASAP project. (3) AI-based surrogate modelling: We will discuss how high-fidelity surrogate models can be trained to potentially replace expensive physics modules further accelerating space weather products.},
+  abbr={ESAC},
+  month = october,
+  series = {IHDEA/DASH meeting at ESAC in Madrid},
+  html = {https://www.cosmos.esa.int/web/ihdea/scientific-program},
+  year={2024},
+  bibtex_show={true},
+}
+
+
 @INPROCEEDINGS{miloshevich2024espm,
   title={Moment closure problem: equation discovery and deep learning techniques applied to kinetic plasma simulations},
   author={{Miloshevich}, George and {Arró}, Guiseppe and {Jess}, Emanuel and {Carella}, Francesco and {Köhne}, Sophia and {Lautenbach}, Simon and {Lapenta}, Giovanni and {Poedts}, Stefaan and {Innocenti}, Maria Elena},
-  booktitle={ESPM-17},
+  booktitle={17th European Solar Physics Meeting, Turin, Italy},
   abstract={Reduced order modelling (ROM) plays an important role in the descriptions of different plasma environments such as heliosphere, solar wind and beyond. ROMs can be obtained via analytical closures; however, such approaches are limited when distribution functions are far from Maxwellian and/or in weaker guide fields. To push the envelope of ROMs in plasmas we apply machine learning frameworks that seek to extract the relevant terms that need to be kept in the equations for moments (EoMs), identifying terms such as anisotropic pressure in the momentum equation.  This is done systematically on several datasets generated via kinetic simulations: 1D Landau damping, 2D decaying turbulence, 2D magnetic reconnection. The sparse/symbolic regression techniques used include wSINDy and PDE-Net. We show examples of successful identification of EoMs.  These approaches are compared with multi-layer perceptron and fully connected convolutional neural network trained to reconstruct the pressure tensor and heat flux as a function of local lower-order moments. We show that the method is successful, assuming the test data comes from simulations with guide fields of comparable values to at least a few runs in the training dataset. Interestingly, accuracy of the predicted pressure tensor increases as we add extra runs corresponding to stronger guide fields. These results are promising for the development of global surrogate models for space plasmas that capture Finite Larmor Radius (FLR) effects.},
   abbr={ESPM},
   month = september,
   series = {European Solar Physics Meeting},
   year={2024},
-  bibtex_show={true},
-}
-
-@INPROCEEDINGS{lapenta2023learning,
-  title={Learning closure of fluid equations from kinetic simulations of reconnection using machine learning},
-  author={{Lapenta}, Giovanni and {Laperre}, Brecht and {Amaya}, Jorge and {Miloshevich}, George},
-  booktitle={AGU Fall Meeting},
-  abstract={A classic problem in space plasma theory is how to represent the complex behaviour of electrons and ions that include complex non Maxwellian velocity distributions within fluid models. Fluid models are based on a closed set of moments of the velocity distributions function, for example in MHD density, velocity and pressure. However this set is not complete as the equations for the moments selected always include higher order terms not present in the fluid model. For example in the study of reconnection, the generalised Ohm’s law includes the full pressure tensor that is not available within a MHD model. If an equation is added for the pressure tensor then the third order moments (energy fluxes) are needed and so forth. The solution is to introduce the so-called closure relations. These are equations that express the higher order moments in terms of the available moments. The most classic example is the ideal equation of state to express pressure via density and temperature. In r plasmas, however, obtaining accurate working relationships is very complex, especially in regions where reconnection takes place. Here we will see how progress can be made using machine learning to learn closure relations for the pressure tensor and the heat flux using massively parallel particle in cell (PIC) simulations to train neural networks.},
-  abbr={AGU},
-  month = december,
-  series = {AGU Fall Meeting},
-  year={2023},
   bibtex_show={true},
 }
 

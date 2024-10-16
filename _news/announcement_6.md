@@ -5,4 +5,4 @@ redirect: https://www.linkedin.com/posts/george-miloshevich-2b834212a_im-happy-t
 inline: true
 ---
 
-Started a position of Project Manager of [Automatics of SpAce exPloration (ASAP)](https://asap-space.eu/).
+I am pleased to announce that I started a position of Project Manager of [Automatics of SpAce exPloration (ASAP)](https://asap-space.eu/).
