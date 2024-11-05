@@ -6,7 +6,7 @@
     - name: Place of Birth
       value: Tbilisi, Georgia
     - name: Languages
-      value: English (C2), Russian (C2), Georgian (C1), French (B2), Serbian (B1), German (A2)
+      value: English (C2), Russian (C2), Georgian (C2), French (B2), Serbian (B1), German (A2)
 - title: Education
   type: time_table
   contents:
@@ -29,12 +29,27 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Project manager of ASAP
+      institution: KU Leuven
+      year: 2024 - 2026
+      description:
+        - title: Topics
+          contents:
+            - Development of algorithms for space-resilient hardware testbed
+            - Management of the consortium including KU Leuven, INAF Rome, KTH, IngeniArs, UNICAL
     - title: Teaching
       institution: USA, Belgium, Georgia
       year: 2010 - 2023
       description:
         - <a href="https://georgemilosh.github.io/teaching/">More details in my section on teaching</a>
-
+    - title: Marie Skłodowska-Curie fellow
+      institution: <a href="https://www.kuleuven.be/kuleuven">KU Leuven</a>, Campus Arenberg, Belgium
+      year: 2024 - 2026
+      description:
+        - title: Topics
+          contents:
+            - <a href="https://cordis.europa.eu/project/id/101148539">Project STRIDE</a> - Moment closure through equation discovery and deep learning
+            - Advising one master thesis and 2 master projects.
     - title: Postdoctoral fellow
       institution: <a href="https://www.kuleuven.be/kuleuven">KU Leuven</a>, Campus Arenberg, Belgium
       year: 2023 - 2024
@@ -42,7 +57,7 @@
         - title: Topics
           contents:
             - Predicting space weather events, solar activity, ionosphere etc
-            - Co-advising three master students and one PhD student
+            - Co-advising three master thesis
             - Using <a href="https://towardsdatascience.com/on-data-driven-equation-discovery-5069795d239d">equation discovery</a> for reduced order modelling
         - title: Advisor
           contents: Giovanni Lapenta

@@ -3,6 +3,31 @@
 
 @string{aps = {American Physical Society,}}
 
+@INPROCEEDINGS{miloshevich2024esww,
+  title={Soft X-ray flux and Flare Forecasting via a CNN pretrained by self-supervision on Solar Dynamics Observatory data},
+  author={{Miloshevich}, George and {Carella}, Francesco and {Gonidakis}, Panagiotis and {Bemporad}, Alessandro and {Lapenta}, Giovanni and {Poedts}, Stefaan},
+  booktitle={European Space Weather Week},
+  abstract={Predicting solar flares has important applications in communications, safety of operations for satellites, etc., which is why it is relevant in the context of space weather. Most of the previous work using Machine Learning (ML) recently focused on classifying the flares, assigning labels such as M, X, etc. Such discrete labels may overlook physical information rather than the underlying X-ray flux, which is a continuous label. We use Convolutional Neural Networks (CNNs) to predict X-ray flux from a combination of Helioseismic and Magnetic Imager (HMI) and Extreme Ultraviolet (EUV) images of the Sun using a curated ML dataset [1] created by Solar Dynamics Observatory (SDO) AIA and HMI instrument data. The inputs are chosen to represent the relevant layers of the solar atmosphere: the line-of-sight magnetograms from HMI (photosphere), 94 Å (flaring regions), 171 Å (quiet sun), 193 Å (coronal structures), 304 Å (chromosphere) AIA wavelengths.  Data are processed to have time matching between SDO images [1] and GOES X-ray fluxes 30 minutes maximum. Limb-brightening correction using a geometrical function is performed on the relevant AIA wavelengths to avoid possible biases in the predictions. In addition, we compare and contrast the usefulness of original full disk images vs the synoptic maps as the inputs to the CNN. We evaluate the benefit of introducing soft constraints to predict the extremes better. We utilize the self-supervised framework known as Model Genesis [2], originally developed for medical imaging. In this approach, the CNN is pre-trained using an encoder-decoder architecture designed to reconstruct original images of the sun after applying artificial transformations. These transformations include non-rigid deformations and local pixel shuffling. By initializing the CNN with weights from this reconstruction task, we enable it to learn robust features that improve performance on downstream tasks. Next, the encoder head is attached to the CNN to make predictions about the X-ray flux.  In order to compare our work to other classifications, we post-process the outputs to better associate the predictions of the X-ray flux with the flare indices. Our goal is to benchmark this approach with state-of-the-art approaches using skills such as True Skill Score (TSS) for categorical predictions and Brier Skill Score (BSS) for probabilistic prediction on a hold-out test set. Finally, using eXplainable AI (XAI) [3], one can find statistical estimates of which active regions and parts of the solar atmosphere may contribute the most to the prediction of flares. [1] Galvez, R., et al. The Astrophysical Journal Supplement Series 242.1 (2019): 7.[2] Zhou, Z., et al. Medical image analysis 67 (2021): 101840.[3] Letzgus, S. et al. (2022). IEEE Signal Processing Magazine, 39(4), 40-58.},
+  abbr={ESWW},
+  month = november,
+  series = {European Space Weather Week},
+  html = {https://esww2024.org/},
+  year={2024},
+  bibtex_show={true},
+}
+
+@INPROCEEDINGS{miloshevich2024arcetri,
+  title={Moment closure problem: equation discovery and deep learning techniques applied to kinetic simulations},
+  author={{Miloshevich}, George and {Arró}, Guiseppe and {Jess}, Emanuel and {Carella}, Francesco and {Köhne}, Sophia and {Lautenbach}, Simon and {Lapenta}, Giovanni and {Poedts}, Stefaan and {Innocenti}, Maria Elena},
+  booktitle={Arcetri Workshop},
+  abbr={Arcetri},
+  month = october,
+  series = {Arcetri Workshop},
+  html = {http://astro.fisica.unifi.it/arcetriworkshop/index.html},
+  year={2024},
+  bibtex_show={true},
+}
+
 @INPROCEEDINGS{miloshevich2024esa,
   title={Harnessing High-Performance Computing and AI/ML for Advanced Heliophysics and Space Weather Modelling},
   author={{Miloshevich}, George},
