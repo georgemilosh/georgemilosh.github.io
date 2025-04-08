@@ -3,7 +3,7 @@ layout: distill
 title: ChatGPT on scientific questions
 description: Discussions with ChatGPT on science
 date: 2023-1-12
-featured: true
+featured: false
 
 authors:
   - name: George Miloshevich

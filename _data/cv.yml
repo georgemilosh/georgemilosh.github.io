@@ -29,6 +29,15 @@
 - title: Experience
   type: time_table
   contents:
+    - title: co-PI of FWO project Helioskill
+      institution: KU Leuven
+      year: 2024 - 2026
+      description:
+        - title: Topics
+          contents:
+            - Fully kinetic Particle in cell simulations
+            - Working with solar wind in-situ data
+            - Symbolic regression for equation of state for plasma
     - title: Project manager of ASAP
       institution: KU Leuven
       year: 2024 - 2026
@@ -41,6 +50,10 @@
       institution: USA, Belgium, Georgia
       year: 2010 - 2023
       description:
+        - co-supervised Philippine Rouby-Poizat’s MSc thesis at ENS-Lyon 2021
+        - supervised Remy Smets' MSc theis at Ku Leuven 2024
+        - co-supervised Jan Van Rompaeay's MSc thesis at KU Leuven 2024
+        - supervising Luka Vranckx's MSc thesis at KU Leuven 2025
         - <a href="https://georgemilosh.github.io/teaching/">More details in my section on teaching</a>
     - title: Marie Skłodowska-Curie fellow
       institution: <a href="https://www.kuleuven.be/kuleuven">KU Leuven</a>, Campus Arenberg, Belgium
