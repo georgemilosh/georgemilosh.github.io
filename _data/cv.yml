@@ -26,7 +26,16 @@
       description:
         - 3D modeling of Solar Coronal Closed structure formation and heating due to magneto-fluid coupling
         - <a href="https://github.com/georgemilosh/3DMHD-Corona">GitHub repo</a> of the project with the uploaded thesis
-- title: Experience
+- title: Activity
+  type: time_table
+  contents:
+    - title: Organizer of <a href="https://www.kuleuven.be/events/english/events/a-day-of-remembrance-prof-giovanni-lapentas-scientific-legacy">Giovanni Lapenta's Scientific Legacy Workshop</a>
+      institution: KU Leuven
+      year: 2025
+    - title: Organizer of Centre of Plasma Astrophysics Weekly Seminar
+      institution: KU Leuven
+      year: 2025 - 2026
+- title: Working Experience
   type: time_table
   contents:
     - title: co-PI of FWO project Helioskill
@@ -144,7 +153,7 @@
     - year: 2011
       items: 
         - Prof. Estate Khmaladze’s award in Theoretical Physics
-        - Prof. Antonino Zichichi’s World Federation of Scientists’ Scholarship
+        - Recipient of World Federation of Scientists’ Scholarship
     - year: 2006
       items: 
         - Silver Medal in 7th Asian Physics Olympiad

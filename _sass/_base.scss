@@ -34,6 +34,11 @@ table {
   }
 }
 
+// Add this at the top of your _base.scss file
+.container {
+  max-width: 900px !important; // Change from default Bootstrap width
+}
+
 a,
 table.table a {
   color: var(--global-theme-color);
