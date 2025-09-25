@@ -3,6 +3,21 @@
 
 @string{aps = {American Physical Society,}}
 
+
+@inproceedings{key2,
+  title = {Data-Driven Closures for Hybrid Plasma Models in Space Plasmas},
+  author = {{Milloshevich}, George and {Arrò} Giuseppe {Pucci} Francesco and {Henri} Pierre and {Lapenta} Giovanni},
+  booktitle = {Helio-ML},
+  year = 2025,
+  month = september,
+  series = {Machine Learning in Heliophysics},
+  doi = {https://ml-helio.github.io/},
+  abstract = {Modeling multi-scale processes remains a fundamental challenge in collisionless space plasmas, impacting both predictive simulations and data-driven understanding of heliospheric environments. Fully kinetic simulations can resolve electron-scale dynamics, but their computational cost renders them impractical for large-scale or long-duration applications. Yet, kinetic processes critically influence the dynamics of energetic particles, which are central to the manifestation and impact of space weather phenomena. In this study, we employ a system identification approach, utilizing neural network surrogates trained on high-fidelity kinetic simulations to extract data-driven equations of state for electrons. This approach enables closure of the moment hierarchy, facilitating the construction of efficient reduced-order models. Our analysis shows that accurately predicting Finite Larmor Radius (FLR) terms requires a non-local formulation, outperforming conventional analytic closures based on adiabatic invariants. We demonstrate the generalization capability of the learned closure across varying turbulence regimes, recovering key energy transfer signatures, such as statistics of pressure-strain interaction, consistent with fully kinetic benchmarks. To provide explainability, we conduct ablation studies, revealing that electron pressure predictions depend not only on moments linked to adiabatic invariants but also on the parallel electric field, suggesting its possible role in plasma thermalization. Finally, we couple the data-driven electron closure with kinetic ion dynamics, advancing toward hybrid kinetic simulations where electrons are represented via a neural network-based equation of state. This hybrid physics-informed machine learning framework offers a pathway to computationally efficient models with improved physical realism, potentially enabling both predictive simulations and parameter inference in heliospheric and magnetospheric applications.},
+  bibtex_show={true},
+  abbr={Helio-ML},
+  html = {https://ml-helio.github.io/}
+}
+
 @inproceedings{key,
   title = {Fully kinetic and hybrid PIC modelling of magnetosheath turbulence: closure and dissipation},
   author = {{Milloshevich}, George and {Arrò} Giuseppe {Pucci} Francesco and {Henri} Pierre and {Lapenta} Giovanni and {Poedts} Stefaan},

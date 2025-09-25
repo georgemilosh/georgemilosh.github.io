@@ -7,7 +7,7 @@ inline: false
 
 ## ERC Starting Grant Awarded: D-SURGE Project
 
-I have been awarded a European Research Council (ERC) Starting Grant for my project **D-SURGE** (Data-driven Simulations for Understanding Reconnection and GEomagnetism).
+I have been awarded a European Research Council (ERC) Starting Grant for my project **D-SURGE** [(Data-driven Simulations for Understanding Reconnection and GEomagnetism)](https://research.kuleuven.be/EU/p/he/p1/erc/dsurge).
 
 Space weather, caused by energy transfer from the solar wind into Earth’s magnetosphere, can accelerate particles to extreme energies—posing risks to satellites, communications, and space exploration. However, key questions remain:
 
