@@ -88,3 +88,31 @@ location = {Virtual Event, Australia},
 series = {ACE '22}
 }
 
+@misc{Surya,
+  title = {Surya: Foundation Model for Heliophysics},
+  author = {Sujit Roy and Johannes Schmude and Rohit Lal and Vishal Gaur and Marcus Freitag and Julian Kuehnert and Theodore van Kessel and Dinesha V. Hegde and Andrés Muñoz-Jaramillo and Johannes Jakubik and Etienne Vos and Kshitiz Mandal and Ata Akbari Asanjan and Joao Lucas de Sousa Almeida and Amy Lin and Talwinder Singh and Kang Yang and Chetraj Pandey and Jinsu Hong and Berkay Aydin and Thorsten Kurth and Ryan McGranaghan and Spiridon Kasapis and Vishal Upendran and Shah Bahauddin and Daniel da Silva and Nikolai V. Pogorelov and Anne Spalding and Campbell Watson and Manil Maskey and Madhulika Guhathakurta and Juan Bernabe-Moreno and Rahul Ramachandran},
+  abstract = {Heliophysics is central to understanding and forecasting space weather events and solar activity. Despite decades of high-resolution observations from the Solar Dynamics Observatory (SDO), most models remain task-specific and constrained by scarce labeled data, limiting their capacity to generalize across solar phenomena. We introduce Surya, a 366M parameter foundation model for heliophysics designed to learn general-purpose solar representations from multi-instrument SDO observations, including eight Atmospheric Imaging Assembly (AIA) channels and five Helioseismic and Magnetic Imager (HMI) products. Surya employs a spatiotemporal transformer architecture with spectral gating and long--short range attention, pretrained on high-resolution solar image forecasting tasks and further optimized through autoregressive rollout tuning. Zero-shot evaluations demonstrate its ability to forecast solar dynamics and flare events, while downstream fine-tuning with parameter-efficient Low-Rank Adaptation (LoRA) shows strong performance on solar wind forecasting, active region segmentation, solar flare forecasting, and EUV spectra. Surya is the first foundation model in heliophysics that uses time advancement as a pretext task on full-resolution SDO data. Its novel architecture and performance suggest that the model is able to learn the underlying physics behind solar evolution.},
+  howpublished = {arXiv preprint arXiv:2508.14112},
+  year = {2025},
+  url = {https://arxiv.org/abs/2508.14112}
+}
+
+@article{JAROLIM2023102323,
+  title = {Probing the Solar Coronal Magnetic Field with Physics-Informed Neural Networks},
+  author = {Jarolim, R. and Thalmann, J. K. and Veronig, A. M. and Podladchikova, T.},
+  date = {2023-10},
+  journaltitle = {Nature Astronomy},
+  shortjournal = {Nat Astron},
+  volume = {7},
+  number = {10},
+  pages = {1171--1179},
+  publisher = {Nature Publishing Group},
+  issn = {2397-3366},
+  doi = {10.1038/s41550-023-02030-9},
+  url = {https://www.nature.com/articles/s41550-023-02030-9},
+  urldate = {2025-11-12},
+  abstract = {While the photospheric magnetic field of our Sun is routinely measured, its extent into the upper atmosphere is typically not accessible by direct observations. Here we present an approach for coronal magnetic-field extrapolation, using a neural network that integrates observational data and the physical force-free magnetic-field model. Our method flexibly finds a trade-off between the observation and force-free magnetic-field assumption, improving the understanding of the connection between the observation and the underlying physics. We utilize meta-learning concepts to simulate the evolution of active region NOAA\,11158. Our simulation of 5\,days of observations at full cadence (12\,minutes) requires less than 12\,hours of total computation time, allowing for real-time force-free magnetic-field extrapolations. The application to an analytical magnetic-field solution, a systematic analysis of the time evolution of free magnetic energy and magnetic helicity in the coronal volume, as well as comparison with extreme-ultraviolet observations, demonstrates the validity of our approach. The obtained temporal and spatial depletion of free magnetic energy unambiguously relates to the observed flare activity.},
+  langid = {english},
+  keywords = {Astrophysical magnetic fields,Computational astrophysics,Computer science,Solar physics},
+  file = {/Users/u0167590/Zotero/storage/2B54AWXL/Jarolim et al. - 2023 - Probing the solar coronal magnetic field with physics-informed neural networks.pdf}
+}
