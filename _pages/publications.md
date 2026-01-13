@@ -4,7 +4,7 @@ permalink: /publications/
 title: publications
 description: my publications. here you can also view abstracts, pdfs, slides... etc
 image: papers.jpeg
-years: [2025, 2024, 2023, 2022, 2021, 2019, 2018, 2017, 2016, 2015, 2013, 2009]
+years: [2026,2025, 2024, 2023, 2022, 2021, 2019, 2018, 2017, 2016, 2015, 2013, 2009]
 nav: true
 nav_order: 1
 ---

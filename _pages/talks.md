@@ -4,7 +4,7 @@ permalink: /talks/
 title: talks
 description: Talks at conferences and beyond, click `abs` to read abstract, `media` to watch the talk, `slides` to view the pdf of the presenatation etc.
 image: talks2.jpeg
-years: [2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014]
+years: [2026,2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014]
 nav: true
 ---
 

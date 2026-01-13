@@ -3,18 +3,41 @@
 
 @string{aps = {American Physical Society,}}
 
-@misc{arXiv:2510.00282,
-	title        = {Electron neural closure for turbulent magnetosheath simulations: energy channels},
-	author       = {Miloshevich, George and Vranckx, Luka and de Oliveira Lopes, Felipe Nathan and Dazzi, Pietro and Arr{\`o}, Giuseppe and Lapenta, Giovanni},
-	year         = {2025},
-	eprint       = {2510.00282},
-	abbr={arXiv},
-	bibtex_show={true},
-	archivePrefix= {arXiv},
-	abstract     = {In this work, we introduce a non-local five-moment electron pressure tensor closure parametrized by a Fully Convolutional Neural Network (FCNN). Electron pressure plays an important role in generalized Ohm's law, competing with electron inertia. This model is used in the development of a surrogate model for a fully kinetic energy-conserving semi-implicit Particle-in-Cell simulation of decaying magnetosheath turbulence. We achieve this by training FCNN on a representative set of simulations with a smaller number of particles per cell and showing that our results generalise to a simulation with a large number of particles per cell. We evaluate the statistical properties of the learned equation of state, with a focus on pressure-strain interaction, which is crucial for understanding energy channels in turbulent plasmas. The resulting equation of state learned via FCNN significantly outperforms local closures, such as those learned by Multi-Layer Perceptron (MLP) or double adiabatic expressions. We report that the overall spatial distribution of pressure-strain and its conditional averages are reconstructed well. However, some small-scale features are missed, especially for the off-diagonal components of the pressure tensor. Nevertheless, the results are substantially improved with more training data, indicating favorable scaling and potential for improvement, which will be addressed in future work.},
-	url          = {https://arxiv.org/abs/2510.00282},
-	html		 = {https://arxiv.org/abs/2510.00282}
+@article{miloshevich2026electron
+ title = {Electron Neural Closure for Turbulent Magnetosheath Simulations: {{Energy}} Channels},
+  shorttitle = {Electron Neural Closure for Turbulent Magnetosheath Simulations},
+  author = {Miloshevich, G. and Vranckx, L. and family=Oliveira Lopes, given=F. N., prefix=de, useprefix=true and Dazzi, P. and Arrò, G. and Lapenta, G.},
+  date = {2026-01-13},
+  journaltitle = {Physics of Plasmas},
+  shortjournal = {Phys. Plasmas},
+  abbr = {PoP},
+  volume = {33},
+  bibtex_show={true},
+  number = {1},
+  pages = {012901},
+  issn = {1070-664X},
+  doi = {10.1063/5.0300009},
+  url = {https://doi.org/10.1063/5.0300009},
+  urldate = {2026-01-13},
+  abstract = {In this work, we introduce a non-local five-moment electron pressure tensor closure parametrized by a fully convolutional neural network (FCNN). Electron pressure plays an important role in generalized Ohm's law, competing with electron inertia. This model is used in the development of a surrogate model for a fully kinetic energy-conserving semi-implicit particle-in-cell simulation of decaying magnetosheath turbulence. We achieve this by training FCNN on a representative set of simulations with a smaller number of particles per cell and showing that our results generalize to a simulation with a large number of particles per cell. We evaluate the statistical properties of the learned equation of state, with a focus on pressure-strain interaction, which is crucial for understanding energy channels in turbulent plasmas. The resulting equation of state learned via FCNN significantly outperforms local closures, such as those learned by multi-layer perceptron (MLP) or double adiabatic expressions. We report that the overall spatial distribution of pressure-strain and its conditional averages are reconstructed well. However, some small-scale features are missed, especially for the off-diagonal components of the pressure tensor. Nevertheless, the results are substantially improved with more training data, indicating favorable scaling and potential for improvement, which will be addressed in future work.}
 }
+
+@article{baekeClassifyingSolarFlares2025,
+  title = {Classifying {{Solar Flares}} with {{kNN}} on {{Sparse Autoencoder Representations}}},
+  author = {Baeke, Hanne and Miloshevich, G and Dineva, E and Carella, F and Gonidakis, P and Amaya, J and Lapenta, G},
+  date = {2025-12-24},
+  journaltitle = {Monthly Notices of the Royal Astronomical Society},
+  shortjournal = {Mon Not R Astron Soc},
+  pages = {staf2271},
+  issn = {0035-8711},
+  abbr = {MNRAS},
+  bibtex_show={true},
+  doi = {10.1093/mnras/staf2271},
+  url = {https://doi.org/10.1093/mnras/staf2271},
+  urldate = {2025-12-30},
+  abstract = {The high dimensionality and strong correlations of magnetic field descriptors in the Space-Weather HMI Active Region Patches (SHARPs) dataset present challenges for flare prediction studies. We perform a comparison of dimensionality-reduction pipelines that combine Canonical Factor Analysis (CFA) and sparse autoencoders (SAEs), coupled with a k-Nearest Neighbors classifier, to assess how different feature representations affect predictive skill. We find that both linear (CFA) and nonlinear (SAE) compression enhance flare classification relative to using the raw parameters, with the nonlinear SAE yielding the highest True Skill Statistic (TSS = 0.64) for binary flare/no-flare discrimination. Multiclass predictions remain limited by the imbalance of major flares and by overlapping feature distributions, but performance is consistent across multiple configurations. Our analysis also quantifies the redundancy of SHARP parameters, showing that only 5–7 compressed features are sufficient to capture the predictive information. These results provide a benchmark for dimensionality-reduction strategies in flare forecasting and demonstrate the value of sparse representations for handling correlated astrophysical parameter spaces.}
+}
+
 
 @article{Jeong_2025,
 doi = {10.3847/2041-8213/adf5c7},
