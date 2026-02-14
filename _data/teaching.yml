@@ -1,4 +1,4 @@
-- title: Workshop instructing
+- title: Workshops/ Outreach
   type: time_table
   contents:
     - title: Summer of Science, Data science in space plasmas
@@ -14,10 +14,34 @@
       description:
         - George Miloshevich and Alessandro Lovo
         - <a href="https://github.com/AlessandroLovo/EW2-heatwaves">EW2-heatwaves repository</a>
+
+- title: Mentoring
+  type: time_table
+  contents:
+    - title: Postdoctoral fellowshops
+      institution: KU Leuven
+      year: 2025 - 2026
+      description: 
+        - Supervising (70 %) Dr. Felipe Nathan de Oliveira Lopes
+        - Supervising (70 %) Dr. Pietro Dazzi
+    - title: MSc
+      institution: KU Leuven
+      year: 2023 - 2025
+      description:
+        - Supervised (80 %) Luka Vranckx
+        - Supervised (80 %) Anand Murali Ramankandath
+        - Supervised (20 %) Jan Van Rompaey’s MSc thesis
+        - Supervised (100 %) Rémy Smets’ MSc thesis
             
 - title: Teaching
   type: time_table
   contents:
+    - title: A lecture on Lorentz Transformations
+      institution: University of Edinburgh
+      year: 2026
+      description:
+        - George Miloshevich
+        - <a href="/assets/pdf/Lorentz-transform.pdf">Download PDF</a>
     - title: Substitute lecturer for Introduction to Plasma Dynamics
       institution: KU Leuven
       year: 2023

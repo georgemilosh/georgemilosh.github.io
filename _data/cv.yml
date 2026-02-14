@@ -29,12 +29,24 @@
 - title: Activity
   type: time_table
   contents:
+    - title: Associate Editor of <a href="https://agupubs.onlinelibrary.wiley.com/hub/journal/29935210/editorial-board">JGR Machine Learning and Computation</a>
+      institution: KU Leuven
+      year: 2025
+    - title: Jury member of the PhD committe of Dr. Jincai Ren
+      institution: KU Leuven
+      year: 2025
+    - title: Organizer of <a href="https://georgemilosh.github.io/blog/2025/TDM-ESWW/"> Scientific Outlooks for the Analysis of Space Weather Data in the Age of AI</a>
+      institution: TDM at European Space Weather Week, Umeå
+      year: 2025
+    - title: Organizer of <a href="https://asap-space.eu/smart-orbits">Smart Orbits, Advancing AI for Space Exploration and Space Plasmas</a>
+      institution: KU Leuven
+      year: 2025
     - title: Organizer of <a href="https://www.kuleuven.be/events/english/events/a-day-of-remembrance-prof-giovanni-lapentas-scientific-legacy">Giovanni Lapenta's Scientific Legacy Workshop</a>
       institution: KU Leuven
       year: 2025
     - title: Organizer of Centre of Plasma Astrophysics Weekly Seminar
       institution: KU Leuven
-      year: 2025 - 2026
+      year: 2024 - 2025
 - title: Working Experience
   type: time_table
   contents:

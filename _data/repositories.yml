@@ -2,6 +2,7 @@ github_users:
   - georgemilosh
 
 github_repos:
+  - georgemilosh/closure
   - georgemilosh/3DMHD-Corona
   - georgemilosh/Climate-Learning
   - PhIMaL/DeePyMoD
