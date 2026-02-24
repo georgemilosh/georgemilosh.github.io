@@ -35,22 +35,45 @@ body.sticky-bottom-footer {
 
 // TODO: redefine content layout.
 
+// Section heading accent — used for h2 in About, news, publications, etc.
+.post h2 {
+  position: relative;
+  padding-bottom: 0.45rem;
+  margin-top: 2.2rem;
+  margin-bottom: 1rem;
+  font-size: 1.45rem;
+  font-weight: 600;
+
+  &::after {
+    content: '';
+    display: block;
+    width: 2.2rem;
+    height: 2.5px;
+    background-color: var(--global-theme-color);
+    border-radius: 2px;
+    margin-top: 0.35rem;
+  }
+}
+
 
 /******************************************************************************
  * News
  ******************************************************************************/
 
 .news {
-  table {
-    th {
-      width: 80px; // Set fixed width for date column
-      min-width: 80px;
-      white-space: nowrap; // Prevent date wrapping
-    }
-    
-    td {
-      width: auto; // Content takes remaining space
-    }
+  th {
+    color: var(--global-text-color-light);
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+    padding-right: 1rem;
+    width: 80px;
+    min-width: 80px;
+  }
+
+  td {
+    width: auto;
   }
 }
 

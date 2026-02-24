@@ -24,10 +24,10 @@ I am also project manager of [ASAP](https://asap-space.eu/), a project with a mi
 
 My research interests:
 
-- Turbulence and reconnection in plasmas
-- Machine learning for space weather and space plasmas
-- Physics-informed machine learning
-- Extreme events in environmental data science
+- <i class="fas fa-atom fa-fw"></i> Turbulence and reconnection in plasmas
+- <i class="fas fa-satellite fa-fw"></i> Machine learning for space weather and space plasmas
+- <i class="fas fa-brain fa-fw"></i> Physics-informed machine learning
+- <i class="fas fa-bolt fa-fw"></i> Extreme events in environmental data science
 
 My PhD from [the University of Texas at Austin](https://www.utexas.edu) was on the effects of microscopic kinetic effects in turbulent plasmas, relying on analytical and numerical simulations. Furthermore, I have experience working on environmental data science with the focus on extreme events. Throughout my career I have been involved in various subjects including statistics and nonlinear dynamics. 
 

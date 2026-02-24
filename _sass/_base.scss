@@ -19,8 +19,50 @@ strong {
   color: var(--global-text-color);
 }
 
+// Serif headings — warmer, more personal than Roboto
+h1, h2, h3, h4 {
+  font-family: 'Lora', Georgia, serif;
+}
+
 hr {
   border-top: 1px solid var(--global-divider-color);
+}
+
+// Improved paragraph readability
+p {
+  line-height: 1.78;
+  font-family: 'Roboto', sans-serif;
+}
+
+// Name / page title on the about page
+.post-title {
+  font-family: 'Lora', Georgia, serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+}
+
+// Subtitle / affiliation line under the name
+.post-header .desc {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  color: var(--global-text-color-light);
+  margin-top: 0.2rem;
+  margin-bottom: 0;
+}
+
+// Icon list items (research interests etc.)
+li .fas,
+li .far,
+li .fab,
+li .fa {
+  color: var(--global-theme-color);
+  margin-right: 0.45em;
+  font-size: 0.85em;
+  vertical-align: 0.05em;
 }
 
 table {
@@ -63,11 +105,12 @@ img {
 }
 
 blockquote {
-  background: var(--global-bg-color);
-  border-left: 2px solid var(--global-theme-color);
-  margin: 1.5em 10px;
-  padding: 0.5em 10px;
-  font-size: 1.2rem;
+  background: var(--global-code-bg-color);
+  border-left: 4px solid var(--global-theme-color);
+  border-radius: 0 4px 4px 0;
+  margin: 1.5em 0;
+  padding: 0.6em 1.2em;
+  font-size: 1.05rem;
 }
 
 // Math
@@ -132,6 +175,21 @@ blockquote {
       margin: 0;
     }
   }
+
+  // Circular profile image — subtle accent ring + smooth hover
+  img.rounded-circle {
+    box-shadow:
+      0 0 0 3px var(--global-bg-color),
+      0 0 0 5px var(--global-theme-color);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+
+    &:hover {
+      box-shadow:
+        0 0 0 3px var(--global-bg-color),
+        0 0 0 6px var(--global-theme-color);
+      transform: scale(1.02);
+    }
+  }
 }
 
 .profile.float-right {
@@ -172,10 +230,12 @@ blockquote {
 // Navbar customization
 
 .navbar {
-  box-shadow: none;
+  box-shadow: 0 1px 12px rgba(0, 0, 0, 0.06);
   border-bottom: 1px solid var(--global-divider-color);
-  background-color: var(--global-bg-color);
-  opacity: 0.95;
+  background-color: var(--global-navbar-bg, var(--global-bg-color));
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .navbar .dropdown-menu {
@@ -679,15 +739,18 @@ footer.sticky-bottom {
         a.btn {
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);
+          border-radius: 5px;
           padding-left: 1rem;
           padding-right: 1rem;
           padding-top: 0.25rem;
           padding-bottom: 0.25rem;
           margin-left: 0;
+          transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
 
           &:hover {
             color: var(--global-theme-color);
             border-color: var(--global-theme-color);
+            background-color: var(--global-code-bg-color);
           }
         }
       }
