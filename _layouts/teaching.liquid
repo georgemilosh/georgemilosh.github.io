@@ -1,0 +1,65 @@
+---
+layout: default
+---
+<!-- _layouts/teaching.liquid -->
+{% if page._styles %}
+  <style type="text/css">
+    {{ page._styles }}
+  </style>
+{% endif %}
+
+<div class="post">
+  <header class="post-header">
+    {% if page.image %}
+      <div class="d-flex justify-content-center">
+        {% assign page_image = page.image | prepend: 'assets/img/' %}
+        {% assign page_image_class = "img-fluid z-depth-1" %}
+        <div>
+          {% include figure.liquid loading="eager" path=page_image class=page_image_class alt=page.title %}
+        </div>
+      </div>
+    {% else %}
+      <h1 class="post-title">
+        {{ page.title }}
+        {% if page.cv_pdf %}
+          <a
+            {% if page.cv_pdf contains '://' %}
+              href="{{ page.cv_pdf }}"
+            {% else %}
+              href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
+            {% endif %}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="float-right"
+          >
+            <i class="fa-solid fa-file-pdf"></i>
+          </a>
+        {% endif %}
+      </h1>
+      <p class="post-description">{{ page.description }}</p>
+    {% endif %}
+  </header>
+
+  <article>
+    <div class="teaching">
+      {% for entry in site.data.teaching %}
+        <div class="card mt-3 p-3">
+          <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
+          <div>
+            {% if entry.type == "list" %}
+              {% include teaching/list.liquid %}
+            {% elsif entry.type == "map" %}
+              {% include teaching/map.liquid %}
+            {% elsif entry.type == "nested_list" %}
+              {% include teaching/nested_list.liquid %}
+            {% elsif entry.type == "time_table" %}
+              {% include teaching/time_table.liquid %}
+            {% else %}
+              {{ entry.contents }}
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </article>
+</div>

@@ -1,171 +1,197 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: George Miloshevich
-    - name: Place of Birth
-      value: Tbilisi, Georgia
-    - name: Languages
-      value: English (C2), Russian (C2), Georgian (C2), French (B2), Serbian (B1), German (A2)
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD
-      institution: <a href="https://www.utexas.edu/">The University of Texas at Austin</a>, Institute of Fusion Studies
-      year: 2018
-      description:
-        - Advisor - Philip J Morrison
-        - title: <a href="https://repositories.lib.utexas.edu/bitstream/handle/2152/68628/MILOSHEVICH-DISSERTATION-2018.pdf?sequence=1">Hamiltonian description of Hall and sub-electron scales in collisionless plasmas</a>
-          contents:
-            - Inverse cascade in strongly magnetized plasma simulations
-            - Hamiltonian action principles for the extended MHD
-            
-    - title: MS in Physics
-      institution: <a href="https://www.tsu.ge/en">Tbilisi State University</a>
-      year: 2012
-      description:
-        - 3D modeling of Solar Coronal Closed structure formation and heating due to magneto-fluid coupling
-        - <a href="https://github.com/georgemilosh/3DMHD-Corona">GitHub repo</a> of the project with the uploaded thesis
-- title: Activity
-  type: time_table
-  contents:
-    - title: Associate Editor of <a href="https://agupubs.onlinelibrary.wiley.com/hub/journal/29935210/editorial-board">JGR Machine Learning and Computation</a>
-      institution: KU Leuven
-      year: 2025
-    - title: Jury member of the PhD committe of Dr. Jincai Ren
-      institution: KU Leuven
-      year: 2025
-    - title: Organizer of <a href="https://georgemilosh.github.io/blog/2025/TDM-ESWW/"> Scientific Outlooks for the Analysis of Space Weather Data in the Age of AI</a>
-      institution: TDM at European Space Weather Week, Umeå
-      year: 2025
-    - title: Organizer of <a href="https://asap-space.eu/smart-orbits">Smart Orbits, Advancing AI for Space Exploration and Space Plasmas</a>
-      institution: KU Leuven
-      year: 2025
-    - title: Organizer of <a href="https://www.kuleuven.be/events/english/events/a-day-of-remembrance-prof-giovanni-lapentas-scientific-legacy">Giovanni Lapenta's Scientific Legacy Workshop</a>
-      institution: KU Leuven
-      year: 2025
-    - title: Organizer of Centre of Plasma Astrophysics Weekly Seminar
-      institution: KU Leuven
-      year: 2024 - 2025
-- title: Working Experience
-  type: time_table
-  contents:
-    - title: co-PI of FWO project Helioskill
-      institution: KU Leuven
-      year: 2024 - 2026
-      description:
-        - title: Topics
-          contents:
-            - Fully kinetic Particle in cell simulations
-            - Working with solar wind in-situ data
-            - Symbolic regression for equation of state for plasma
-    - title: Project manager of ASAP
-      institution: KU Leuven
-      year: 2024 - 2026
-      description:
-        - title: Topics
-          contents:
-            - Development of algorithms for space-resilient hardware testbed
-            - Management of the consortium including KU Leuven, INAF Rome, KTH, IngeniArs, UNICAL
-    - title: Teaching
-      institution: USA, Belgium, Georgia
-      year: 2010 - 2023
-      description:
-        - co-supervised Philippine Rouby-Poizat’s MSc thesis at ENS-Lyon 2021
-        - supervised Remy Smets' MSc theis at Ku Leuven 2024
-        - co-supervised Jan Van Rompaeay's MSc thesis at KU Leuven 2024
-        - supervising Luka Vranckx's MSc thesis at KU Leuven 2025
-        - <a href="https://georgemilosh.github.io/teaching/">More details in my section on teaching</a>
-    - title: Marie Skłodowska-Curie fellow
-      institution: <a href="https://www.kuleuven.be/kuleuven">KU Leuven</a>, Campus Arenberg, Belgium
-      year: 2024 - 2026
-      description:
-        - title: Topics
-          contents:
-            - <a href="https://cordis.europa.eu/project/id/101148539">Project STRIDE</a> - Moment closure through equation discovery and deep learning
-            - Advising one master thesis and 2 master projects.
-    - title: Postdoctoral fellow
-      institution: <a href="https://www.kuleuven.be/kuleuven">KU Leuven</a>, Campus Arenberg, Belgium
-      year: 2023 - 2024
-      description:
-        - title: Topics
-          contents:
-            - Predicting space weather events, solar activity, ionosphere etc
-            - Co-advising three master thesis
-            - Using <a href="https://towardsdatascience.com/on-data-driven-equation-discovery-5069795d239d">equation discovery</a> for reduced order modelling
-        - title: Advisor
-          contents: Giovanni Lapenta
-    - title: Postdoctoral fellow
-      institution: <a href="https://www.lsce.ipsl.fr/">LSCE</a>, CEA Saclay, Saint-Aubin, France
-      year: 2022 - 2023
-      description:
-        - title: Topics
-          contents:
-            - Predicting and estimating risk of extreme European heatwaves
-            - Coupling machine learning and rare event algorithms
-            - Convolutional Variational Autoencoders, Principal Components Analysis
-            - Working with GPUs on Jean-Zay supercomputer to train Stochastic Weather Generators
-        - <a href="https://github.com/georgemilosh/Climate-Learning">GitHub repo</a> of the project
-        - Related manuscripts, <a href="https://www.nature.com/articles/s41612-023-00500-5">npj Climate and Atmospheric Science</a>
-        - title: Advisor
-          contents: Pascal Yiou
+cv:
+  name: George Miloshevich
+  label: Marie Skłodowska-Curie Fellow
+  location: Leuven, Belgium
+  website: https://georgemilosh.github.io
 
+  sections:
+    Education:
+      - institution: '<a href="https://www.utexas.edu/">The University of Texas at Austin</a>, Institute of Fusion Studies'
+        studyType: PhD
+        start_date: "2012"
+        end_date: "2018"
+        highlights:
+          - "Advisor: Philip J Morrison"
+          - '<a href="https://repositories.lib.utexas.edu/bitstream/handle/2152/68628/MILOSHEVICH-DISSERTATION-2018.pdf?sequence=1">Hamiltonian description of Hall and sub-electron scales in collisionless plasmas</a>'
+          - Inverse cascade in strongly magnetized plasma simulations
+          - Hamiltonian action principles for the extended MHD
 
-    - title: Postdoctoral fellow
-      institution: <a href="https://www.ens-lyon.fr/">École normale supérieure de Lyon</a>, France
-      year: 2020 - 2022
-      description:
-        - Predicting extreme heatwaves
-        - Deep learning, ECMWF reanalysis, and General Circulation Model output analysis
-        - Co-advised one master student and one PhD student
-        - <a href="https://github.com/georgemilosh/Climate-Learning">GitHub repo</a> of the project
-        - Related manuscripts, <a href="https://journals.aps.org/prfluids/abstract/10.1103/PhysRevFluids.8.040501">Physical Review Fluids</a> and <a href="https://arxiv.org/abs/2306.11769">arXiv</a>
-        - title: Advisor
-          contents: Freddy Bouchet
-    - title: Postdoctoral fellow
-      institution: <a href="https://www.oca.eu/fr/">Observatoire de la Côte d'Azure</a>, Nice, France
-      year: 2019 - 2020
-      description:
-        - Cascades in strong imbalanced kinetic Alfvén wave turbulence
-        - 3D numerical simulations in C and data analysis in Python
-        - Related manuscripts, <a href="https://www.cambridge.org/core/journals/journal-of-plasma-physics/article/abs/inverse-cascade-and-magnetic-vortices-in-kinetic-alfvenwave-turbulence/2161FACEE036D89CB897E15F20DF2000">Journal of Plasma Physics</a> and <a href="https://iopscience.iop.org/article/10.3847/2041-8213/ab60b1/meta">Astrophysical Journal Letters</a>
-        - title: Advisor
-          contents: Thierry Passot
-    - title: Postdoctoral fellow
-      institution: <a href="https://www.msri.org/">Simons Laufer Mathematical Sciences Institute</a>, Berkeley, USA
-      year: 2018
-      description:
-        - The states of plasmas that do not radiate self-consistently
-        - Asymptotic slow-fast manifold expansion of Maxwell-Vlasov
-        - Related manuscript, <a href="https://www.cambridge.org/core/journals/journal-of-plasma-physics/article/abs/hamiltonian-reduction-of-vlasovmaxwell-to-a-dark-slow-manifold/F9319EB99A53B344597DCE810492BA87">Journal of Plasma Physics</a>
-    - title: Research Project
-      institution: <a href="https://www.ens-lyon.fr/">École normale supérieure de Lyon</a>, France
-      year: 2018
-      description:
-        - Stochastic transitions in dipolar lattices between ferromagnetic states
-        - Relaxation to equilibrium and solitons in long-range extensions of FPUT.
-        - Simulations were performed using C and MATLAB.
-        - Related manuscripts, <a href="https://iopscience.iop.org/article/10.1209/0295-5075/104/17011">Europhysics Letters</a>, <a href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.91.032927">Physical Review E</a> and <a href="https://iopscience.iop.org/article/10.1088/1751-8121/aa5fcf">Journal of Physics A Mathematical and Theoretical</a>
-        - title: Advisor
-          contents: Stefano Ruffo
-        
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 2017
-      items: 
-        - University of Texas Graduate Continuing Fellowship
-        - Nomination for Graduate School UT Austin graduate fellowship  
-    - year: 2016
-      items: 
-        - University of Texas <a href="https://cns.utexas.edu/news/visualizing-science-2016">Visualizing Science Award</a>
-    - year: 2012
-      items:
-        - University of Texas Graduate scholarship
-    - year: 2011
-      items: 
-        - Prof. Estate Khmaladze’s award in Theoretical Physics
-        - Recipient of World Federation of Scientists’ Scholarship
-    - year: 2006
-      items: 
-        - Silver Medal in 7th Asian Physics Olympiad
+      - institution: '<a href="https://www.tsu.ge/en">Tbilisi State University</a>'
+        studyType: MS in Physics
+        start_date: "2010"
+        end_date: "2012"
+        highlights:
+          - 3D modeling of Solar Coronal Closed structure formation and heating due to magneto-fluid coupling
+          - '<a href="https://github.com/georgemilosh/3DMHD-Corona">GitHub repo</a> of the project with the uploaded thesis'
+
+    Activity:
+      - company: KU Leuven
+        position: 'Associate Editor of <a href="https://agupubs.onlinelibrary.wiley.com/hub/journal/29935210/editorial-board">JGR Machine Learning and Computation</a>'
+        location: Leuven, Belgium
+        start_date: "2025"
+
+      - company: KU Leuven
+        position: Jury member of the PhD committe of Dr. Jincai Ren
+        start_date: "2025"
+        end_date: "2025"
+
+      - company: TDM at European Space Weather Week, Umeå
+        position: 'Organizer of <a href="https://georgemilosh.github.io/blog/2025/TDM-ESWW/">Scientific Outlooks for the Analysis of Space Weather Data in the Age of AI</a>'
+        start_date: "2025"
+        end_date: "2025"
+
+      - company: KU Leuven
+        position: 'Organizer of <a href="https://asap-space.eu/smart-orbits">Smart Orbits, Advancing AI for Space Exploration and Space Plasmas</a>'
+        start_date: "2025"
+        end_date: "2025"
+
+      - company: KU Leuven
+        position: "Organizer of <a href=\"https://www.kuleuven.be/events/english/events/a-day-of-remembrance-prof-giovanni-lapentas-scientific-legacy\">Giovanni Lapenta's Scientific Legacy Workshop</a>"
+        start_date: "2025"
+        end_date: "2025"
+
+      - company: KU Leuven
+        position: Organizer of Centre of Plasma Astrophysics Weekly Seminar
+        start_date: "2024"
+        end_date: "2025"
+
+    Experience:
+      - company: KU Leuven
+        position: co-PI of FWO project Helioskill
+        location: Leuven, Belgium
+        start_date: "2024"
+        end_date: "2026"
+        highlights:
+          - Fully kinetic Particle in cell simulations
+          - Working with solar wind in-situ data
+          - Symbolic regression for equation of state for plasma
+
+      - company: KU Leuven
+        position: Project manager of ASAP
+        location: Leuven, Belgium
+        start_date: "2024"
+        end_date: "2026"
+        highlights:
+          - Development of algorithms for space-resilient hardware testbed
+          - Management of the consortium including KU Leuven, INAF Rome, KTH, IngeniArs, UNICAL
+
+      - company: USA, Belgium, Georgia
+        position: Teaching
+        start_date: "2010"
+        end_date: "2023"
+        highlights:
+          - "co-supervised Philippine Rouby-Poizat's MSc thesis at ENS-Lyon 2021"
+          - "supervised Remy Smets' MSc thesis at KU Leuven 2024"
+          - "co-supervised Jan Van Rompaeay's MSc thesis at KU Leuven 2024"
+          - "supervising Luka Vranckx's MSc thesis at KU Leuven 2025"
+          - '<a href="https://georgemilosh.github.io/teaching/">More details in my section on teaching</a>'
+
+      - company: '<a href="https://www.kuleuven.be/kuleuven">KU Leuven</a>'
+        position: Marie Skłodowska-Curie fellow
+        location: Leuven, Belgium
+        start_date: "2024"
+        end_date: "2026"
+        highlights:
+          - '<a href="https://cordis.europa.eu/project/id/101148539">Project STRIDE</a> - Moment closure through equation discovery and deep learning'
+          - Advising one master thesis and 2 master projects.
+
+      - company: '<a href="https://www.kuleuven.be/kuleuven">KU Leuven</a>'
+        position: Postdoctoral fellow
+        location: Leuven, Belgium
+        start_date: "2023"
+        end_date: "2024"
+        highlights:
+          - Predicting space weather events, solar activity, ionosphere etc
+          - Co-advising three master thesis
+          - 'Using <a href="https://towardsdatascience.com/on-data-driven-equation-discovery-5069795d239d">equation discovery</a> for reduced order modelling'
+          - "Advisor: Giovanni Lapenta"
+
+      - company: '<a href="https://www.lsce.ipsl.fr/">LSCE</a>, CEA Saclay'
+        position: Postdoctoral fellow
+        location: Saint-Aubin, France
+        start_date: "2022"
+        end_date: "2023"
+        highlights:
+          - Predicting and estimating risk of extreme European heatwaves
+          - Coupling machine learning and rare event algorithms
+          - Convolutional Variational Autoencoders, Principal Components Analysis
+          - Working with GPUs on Jean-Zay supercomputer to train Stochastic Weather Generators
+          - '<a href="https://github.com/georgemilosh/Climate-Learning">GitHub repo</a> of the project'
+          - 'Related manuscripts, <a href="https://www.nature.com/articles/s41612-023-00500-5">npj Climate and Atmospheric Science</a>'
+          - "Advisor: Pascal Yiou"
+
+      - company: '<a href="https://www.ens-lyon.fr/">École normale supérieure de Lyon</a>'
+        position: Postdoctoral fellow
+        location: Lyon, France
+        start_date: "2020"
+        end_date: "2022"
+        highlights:
+          - Predicting extreme heatwaves
+          - Deep learning, ECMWF reanalysis, and General Circulation Model output analysis
+          - Co-advised one master student and one PhD student
+          - '<a href="https://github.com/georgemilosh/Climate-Learning">GitHub repo</a> of the project'
+          - 'Related manuscripts, <a href="https://journals.aps.org/prfluids/abstract/10.1103/PhysRevFluids.8.040501">Physical Review Fluids</a> and <a href="https://arxiv.org/abs/2306.11769">arXiv</a>'
+          - "Advisor: Freddy Bouchet"
+
+      - company: "<a href=\"https://www.oca.eu/fr/\">Observatoire de la Côte d'Azure</a>"
+        position: Postdoctoral fellow
+        location: Nice, France
+        start_date: "2019"
+        end_date: "2020"
+        highlights:
+          - Cascades in strong imbalanced kinetic Alfvén wave turbulence
+          - 3D numerical simulations in C and data analysis in Python
+          - 'Related manuscripts, <a href="https://www.cambridge.org/core/journals/journal-of-plasma-physics/article/abs/inverse-cascade-and-magnetic-vortices-in-kinetic-alfvenwave-turbulence/2161FACEE036D89CB897E15F20DF2000">Journal of Plasma Physics</a> and <a href="https://iopscience.iop.org/article/10.3847/2041-8213/ab60b1/meta">Astrophysical Journal Letters</a>'
+          - "Advisor: Thierry Passot"
+
+      - company: '<a href="https://www.msri.org/">Simons Laufer Mathematical Sciences Institute</a>'
+        position: Postdoctoral fellow
+        location: Berkeley, USA
+        start_date: "2018"
+        end_date: "2018"
+        highlights:
+          - The states of plasmas that do not radiate self-consistently
+          - Asymptotic slow-fast manifold expansion of Maxwell-Vlasov
+          - 'Related manuscript, <a href="https://www.cambridge.org/core/journals/journal-of-plasma-physics/article/abs/hamiltonian-reduction-of-vlasovmaxwell-to-a-dark-slow-manifold/F9319EB99A53B344597DCE810492BA87">Journal of Plasma Physics</a>'
+
+      - company: '<a href="https://www.ens-lyon.fr/">École normale supérieure de Lyon</a>'
+        position: Research Project
+        location: Lyon, France
+        start_date: "2018"
+        end_date: "2018"
+        highlights:
+          - Stochastic transitions in dipolar lattices between ferromagnetic states
+          - Relaxation to equilibrium and solitons in long-range extensions of FPUT
+          - Simulations were performed using C and MATLAB
+          - 'Related manuscripts, <a href="https://iopscience.iop.org/article/10.1209/0295-5075/104/17011">Europhysics Letters</a>, <a href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.91.032927">Physical Review E</a> and <a href="https://iopscience.iop.org/article/10.1088/1751-8121/aa5fcf">Journal of Physics A Mathematical and Theoretical</a>'
+          - "Advisor: Stefano Ruffo"
+
+    Honors and Awards:
+      - title: University of Texas Graduate Continuing Fellowship
+        date: "2017"
+      - title: Nomination for Graduate School UT Austin graduate fellowship
+        date: "2017"
+      - title: 'University of Texas <a href="https://cns.utexas.edu/news/visualizing-science-2016">Visualizing Science Award</a>'
+        date: "2016"
+      - title: University of Texas Graduate scholarship
+        date: "2012"
+      - title: "Prof. Estate Khmaladze's award in Theoretical Physics"
+        date: "2011"
+      - title: "Recipient of World Federation of Scientists' Scholarship"
+        date: "2011"
+      - title: Silver Medal in 7th Asian Physics Olympiad
+        date: "2006"
+
+    Languages:
+      - language: English
+        fluency: C2
+      - language: Russian
+        fluency: C2
+      - language: Georgian
+        fluency: C2
+      - language: French
+        fluency: B2
+      - language: Serbian
+        fluency: B1
+      - language: German
+        fluency: A2

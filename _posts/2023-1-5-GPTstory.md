@@ -47,7 +47,7 @@ Below I paste the discussion I had with ChatGPT where I nudged it to write the f
 ## GPT Manipulation
 
 <div class="d-flex justify-content-center">
-  <div>{% include figure.html path="assets/img/GPTmanipulation.jpeg" class="img-fluid rounded z-depth-1" %}</div>
+  <div>{% include figure.liquid path="assets/img/GPTmanipulation.jpeg" class="img-fluid rounded z-depth-1" %}</div>
 </div>
 <div class="caption">
     DALLE when prompted "Woman obsessed with a robot digital art"

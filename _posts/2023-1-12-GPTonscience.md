@@ -87,7 +87,7 @@ ChatGPT <d-cite key="ouyang2022training"></d-cite> is based on a larger GPT-3 mo
 Interestingly, GPT is actually not very good at arithmetic, which some speculate makes it more like humans. Rather than having it solve math problems like some users have done, we would like to concentrate on conceptual questions that are perhaps better suited for procedural text generation than problem-solving. Here the idea is to see if GPT can reason geometrically in an idealized environment.
 
 <div class="d-flex justify-content-center">
-  <div>{% include figure.html path="assets/img/DALLE_sphere.jpeg" class="img-fluid rounded z-depth-1" %}</div>
+  <div>{% include figure.liquid path="assets/img/DALLE_sphere.jpeg" class="img-fluid rounded z-depth-1" %}</div>
 </div>
 <div class="caption">
     DALLE when prompted "2 ants crawling on a sphere drawing a circle digital art"
@@ -120,7 +120,7 @@ Inspired by an [article that was written by GPT 3](https://hal.science/hal-03701
 We also decided to test GPT by playing an opposite game. We picked one of the papers on the list (let's refer to it as #2) that GPT had previously assigned the correct title to. We Googled a similar-sounding paper (let's call it #3) with the same author and suggested that paper #2 should actually have the title of paper #3. As we expected, we were able to convince GPT that it was wrong with the title of #2 and make it produce a new, hybrid citation that combined the metadata from both papers #2 and #3. 
 
 <div class="d-flex justify-content-center">
-  <div>{% include figure.html path="assets/img/Attachment-1.JPEG" class="img-fluid rounded z-depth-1" %}</div>
+  <div>{% include figure.liquid path="assets/img/Attachment-1.JPEG" class="img-fluid rounded z-depth-1" %}</div>
 </div>
 <div class="caption">
     DALLE when prompted "cyborg parrot"
@@ -156,10 +156,10 @@ It's natural to [question](https://www.forbes.com/sites/robtoews/2020/07/19/gpt-
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-5 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/fail.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/img/fail.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm-5 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/success.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/img/success.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 
 </div>

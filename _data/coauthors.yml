@@ -1,41 +1,42 @@
-"Morrison":
+"morrison":
   - firstname: ["Philip", "P.", "P. J.", "Philip J."]
     url: https://web2.ph.utexas.edu/~morrison/
 
-"Khomeriki":
+"khomeriki":
   - firstname: ["Ramaz", "R."]
 
-"Yiou":
+"yiou":
   - firstname: ["Pascal", "P."]
     url: https://www.lsce.ipsl.fr/Phocea/Pisp/index.php?nom=pascal.yiou/
-"Bouchet":
+
+"bouchet":
   - firstname: ["Freddy", "F."]
     url: http://perso.ens-lyon.fr/freddy.bouchet/
-    
-"Dauxois":
+
+"dauxois":
   - firstname: ["Thierry", "T."]
     url: http://perso.ens-lyon.fr/thierry.dauxois/
-    
-"Lingam":
+
+"lingam":
   - firstname: ["Manasvi", "M."]
     url: https://lmanasvi.wixsite.com/website
 
-"Lapenta":
+"lapenta":
   - firstname: ["Giovanni", "G."]
     url: https://www.kuleuven.be/wieiswie/en/person/00052182
 
-"Poedts":
+"poedts":
   - firstname: ["Stefaan", "S."]
     url: https://perswww.kuleuven.be/~u0002601/
 
-"Keppens":
+"keppens":
   - firstname: ["Rony", "R."]
     url: https://perswww.kuleuven.be/~u0016541/
 
-"Innocenti":
+"innocenti":
   - firstname: ["Maria Elena", "M. E."]
     url: https://www.physik.ruhr-uni-bochum.de/en/Professuren/prof-dr-innocenti-maria-elena/
 
-"Dineva":
+"dineva":
   - firstname: ["Ekaterina", "K."]
-    url: https://astrodineva.faculty.bio/https://astrodineva.faculty.bio/
+    url: https://astrodineva.faculty.bio/

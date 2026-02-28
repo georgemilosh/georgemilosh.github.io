@@ -2,19 +2,26 @@
  * Content
  ******************************************************************************/
 
+@use "variables" as v;
+
 body {
   padding-bottom: 70px;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     scroll-margin-top: 66px;
   }
 }
 
 body.fixed-top-nav {
   // Add some padding for the nav-bar.
-  padding-top: 56px;
+  padding-top: 57px;
 }
 
 body.sticky-bottom-footer {
@@ -23,7 +30,7 @@ body.sticky-bottom-footer {
 }
 
 .container {
-  max-width: $max-content-width;
+  max-width: v.$max-content-width;
 }
 
 // Profile
@@ -33,57 +40,16 @@ body.sticky-bottom-footer {
   }
 }
 
-// TODO: redefine content layout.
-
-// Section heading accent — used for h2 in About, news, publications, etc.
-.post h2 {
-  position: relative;
-  padding-bottom: 0.45rem;
-  margin-top: 2.2rem;
-  margin-bottom: 1rem;
-  font-size: 1.45rem;
-  font-weight: 600;
-
-  &::after {
-    content: '';
-    display: block;
-    width: 2.2rem;
-    height: 2.5px;
-    background-color: var(--global-theme-color);
-    border-radius: 2px;
-    margin-top: 0.35rem;
-  }
-}
-
-
-/******************************************************************************
- * News
- ******************************************************************************/
-
-.news {
-  th {
-    color: var(--global-text-color-light);
-    font-size: 0.8rem;
-    font-weight: 500;
-    letter-spacing: 0.02em;
-    white-space: nowrap;
-    padding-right: 1rem;
-    width: 80px;
-    min-width: 80px;
-  }
-
-  td {
-    width: auto;
-  }
-}
-
+// Content layout uses Bootstrap's grid system with responsive columns
+// Main content flows naturally through container-mt-5 and Bootstrap grid classes
+// See _layouts/default.liquid and _includes/projects.liquid for examples
 
 /******************************************************************************
  * Publications
  ******************************************************************************/
 
-// TODO: redefine publications layout.
-
+// Publications layout is defined in _includes/bib_search.liquid
+// Uses jekyll-scholar for BibTeX parsing and Bootstrap cards for display
 
 /*****************************************************************************
 * Projects

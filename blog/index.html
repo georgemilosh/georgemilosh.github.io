@@ -1,6 +1,9 @@
 ---
 layout: default
 title: blog
+nav: true
+nav_order: 5
+permalink: /blog/
 pagination:
   enabled: true
   collection: posts
@@ -23,7 +26,7 @@ pagination:
     <div class="d-flex justify-content-center">
       {%- assign page_image = page.image | prepend: 'assets/img/blog.jpeg' -%}
       {%- assign page_image_class = "img-fluid z-depth-1" -%}
-      <div>{% include figure.html path=page_image class=page_image_class %}</div>
+      <div>{% include figure.liquid path=page_image class=page_image_class %}</div>
     </div>
   </div>
   {% endif %}
@@ -166,6 +169,6 @@ pagination:
     {% endfor %}
   </ul>
 
-  {% include pagination.html %}
+  {% include pagination.liquid %}
 
 </div>
