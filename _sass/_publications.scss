@@ -41,6 +41,13 @@
 
       .preview {
         display: inline-block;
+
+        img {
+          @media (max-width: 768px) {
+            max-width: 80px;
+            height: auto;
+          }
+        }
       }
 
       .abbr {
@@ -102,15 +109,18 @@
         a.btn {
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);
+          border-radius: 5px;
           padding-left: 1rem;
           padding-right: 1rem;
           padding-top: 0.25rem;
           padding-bottom: 0.25rem;
           margin-left: 0;
+          transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
 
           &:hover {
             color: var(--global-theme-color);
             border-color: var(--global-theme-color);
+            background-color: var(--global-code-bg-color);
           }
         }
         a.award.btn {

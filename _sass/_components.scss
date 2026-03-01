@@ -68,6 +68,21 @@ ul.task-list input[type="checkbox"] {
       margin: 0;
     }
   }
+
+  // Circular profile image — subtle accent ring + smooth hover
+  img.rounded-circle {
+    box-shadow:
+      0 0 0 3px var(--global-bg-color),
+      0 0 0 5px var(--global-theme-color);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+
+    &:hover {
+      box-shadow:
+        0 0 0 3px var(--global-bg-color),
+        0 0 0 6px var(--global-theme-color);
+      transform: scale(1.02);
+    }
+  }
 }
 
 .profile.float-right {

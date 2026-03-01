@@ -19,8 +19,50 @@ strong {
   color: var(--global-text-color);
 }
 
+// Serif headings — warmer, more personal than Roboto
+h1, h2, h3, h4 {
+  font-family: 'Lora', Georgia, serif;
+}
+
 hr {
   border-top: 1px solid var(--global-divider-color);
+}
+
+// Improved paragraph readability
+p {
+  line-height: 1.78;
+  font-family: 'Roboto', sans-serif;
+}
+
+// Name / page title on the about page
+.post-title {
+  font-family: 'Lora', Georgia, serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+}
+
+// Subtitle / affiliation line under the name
+.post-header .desc {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  color: var(--global-text-color-light);
+  margin-top: 0.2rem;
+  margin-bottom: 0;
+}
+
+// Icon list items (research interests etc.)
+li .fas,
+li .far,
+li .fab,
+li .fa {
+  color: var(--global-theme-color);
+  margin-right: 0.45em;
+  font-size: 0.85em;
+  vertical-align: 0.05em;
 }
 
 table {
@@ -57,11 +99,12 @@ table.table a {
 }
 
 blockquote {
-  background: var(--global-bg-color);
-  border-left: 5px solid var(--global-theme-color);
+  background: var(--global-code-bg-color);
+  border-left: 4px solid var(--global-theme-color);
+  border-radius: 0 4px 4px 0;
   margin: 1.5em 0;
-  padding: 1em;
-  font-size: 1.2rem;
+  padding: 0.6em 1.2em;
+  font-size: 1.05rem;
 
   p {
     margin-bottom: 0;
