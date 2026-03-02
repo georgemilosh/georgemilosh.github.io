@@ -38,7 +38,7 @@ repo_trophies:
 
 # External service URLs for repository page
 external_services:
-  github_readme_stats_url: https://github-readme-stats.vercel.app
+  github_readme_stats_url: https://github-readme-stats-eight-theta.vercel.app
   github_profile_trophy_url: https://github-profile-trophy.vercel.app
 
 # -----------------------------------------------------------------------------

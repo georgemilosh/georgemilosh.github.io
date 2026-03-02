@@ -32,6 +32,8 @@ hr {
 p {
   line-height: 1.78;
   font-family: 'Roboto', sans-serif;
+  text-align: justify;
+  hyphens: auto;
 }
 
 // Name / page title on the about page
@@ -80,9 +82,10 @@ table {
 a,
 table.table a {
   color: var(--global-theme-color);
+  font-weight: 500;
 
   &:hover {
-    color: var(--global-theme-color);
+    color: var(--global-hover-color);
     text-decoration: underline;
   }
 

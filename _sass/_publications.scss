@@ -130,11 +130,14 @@
 
       .badges {
         padding-bottom: 0.5rem;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0.5rem;
+
         span {
           display: inline-block;
           color: v.$black-color;
-          height: 100%;
-          padding-right: 0.5rem;
           vertical-align: middle;
 
           &:hover {

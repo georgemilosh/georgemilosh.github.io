@@ -261,7 +261,17 @@
     </div>
     {% if site.enable_publication_badges and page.no_badges != true %}
       {% assign entry_has_altmetric_badge = false %}
-      {% if entry.altmetric and entry.altmetric != 'false' %}
+      {% if entry.altmetric == 'false' %}
+        {% assign entry_has_altmetric_badge = false %}
+      {% elsif entry.altmetric and entry.altmetric != 'false' %}
+        {% assign entry_has_altmetric_badge = true %}
+      {% elsif site.enable_publication_badges.altmetric and entry.doi %}
+        {% assign entry_has_altmetric_badge = true %}
+      {% elsif site.enable_publication_badges.altmetric and entry.arxiv %}
+        {% assign entry_has_altmetric_badge = true %}
+      {% elsif site.enable_publication_badges.altmetric and entry.eprint %}
+        {% assign entry_has_altmetric_badge = true %}
+      {% elsif site.enable_publication_badges.altmetric and entry.pmid %}
         {% assign entry_has_altmetric_badge = true %}
       {% endif %}
 

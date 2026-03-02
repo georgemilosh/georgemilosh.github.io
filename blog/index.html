@@ -3,6 +3,7 @@ layout: default
 title: blog
 nav: true
 nav_order: 5
+image: blog.jpeg
 permalink: /blog/
 pagination:
   enabled: true
@@ -23,11 +24,8 @@ pagination:
 
   {% if blog_name_size > 0 or blog_description_size > 0 %}
   <div class="header-bar">
-    <div class="d-flex justify-content-center">
-      {%- assign page_image = page.image | prepend: 'assets/img/blog.jpeg' -%}
-      {%- assign page_image_class = "img-fluid z-depth-1" -%}
-      <div>{% include figure.liquid path=page_image class=page_image_class %}</div>
-    </div>
+    <h1>{{ site.blog_name }}</h1>
+    <h2>{{ site.blog_description }}</h2>
   </div>
   {% endif %}
 

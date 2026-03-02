@@ -20,6 +20,17 @@
     <!-- Header -->
     {% include header.liquid %}
 
+    <!-- Page Banner -->
+    {% if page.image %}
+      <div class="page-banner" style="background-image: url('{{ page.image | prepend: '/assets/img/' | relative_url }}');">
+        <div class="page-banner-overlay"></div>
+      </div>
+    {% else %}
+      <div class="page-banner" style="background-image: url('{{ '/assets/img/snm615_4_2_cut.png' | relative_url }}');">
+        <div class="page-banner-overlay"></div>
+      </div>
+    {% endif %}
+
     <!-- Content -->
     <div class="container mt-5" role="main">
       {% if page.toc and page.toc.sidebar %}

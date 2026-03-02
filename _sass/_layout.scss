@@ -8,6 +8,12 @@ body {
   padding-bottom: 70px;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
+  // Soft colour-wash gradients for visual warmth
+  background-image:
+    radial-gradient(ellipse at 15% 60%, rgba(26, 91, 181, 0.06) 0%, transparent 55%),
+    radial-gradient(ellipse at 85% 15%, rgba(38, 152, 186, 0.05) 0%, transparent 50%),
+    radial-gradient(ellipse at 50% 90%, rgba(180, 120, 220, 0.035) 0%, transparent 55%);
+  background-attachment: fixed;
 
   h1,
   h2,
@@ -98,3 +104,64 @@ body.sticky-bottom-footer {
 *****************************************************************************/
 
 // TODO: redefine projects layout.
+
+/*****************************************************************************
+* Page Banner
+*****************************************************************************/
+
+.page-banner {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center 40%;
+  background-repeat: no-repeat;
+
+  // Default gradient for pages without a custom image
+  &--gradient {
+    background-image:
+      linear-gradient(
+        135deg,
+        #0d2137 0%,
+        #132e4f 20%,
+        #1a4a6e 40%,
+        #1d6587 55%,
+        #2698ba 70%,
+        #4dc8ea 85%,
+        #8ee0f5 100%
+      );
+  }
+
+  .page-banner-overlay {
+    position: absolute;
+    inset: 0;
+    // Faint frosted overlay to soften photo banners
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.12) 0%,
+      rgba(0, 0, 0, 0) 40%,
+      rgba(0, 0, 0, 0.06) 100%
+    );
+  }
+}
+
+// In dark mode, darken photo banners slightly
+html[data-theme="dark"] .page-banner:not(.page-banner--gradient) {
+  filter: brightness(0.7);
+}
+
+// Dark-mode gradient variant — sleeker, moodier
+html[data-theme="dark"] .page-banner--gradient {
+  background-image:
+    linear-gradient(
+      135deg,
+      #0a111d 0%,
+      #111b2e 20%,
+      #152740 40%,
+      #1a3655 55%,
+      #1f5070 70%,
+      #267a9a 85%,
+      #3aafcc 100%
+    );
+}

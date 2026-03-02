@@ -10,34 +10,24 @@ layout: default
 
 <div class="post">
   <header class="post-header">
-    {% if page.image %}
-      <div class="d-flex justify-content-center">
-        {% assign page_image = page.image | prepend: 'assets/img/' %}
-        {% assign page_image_class = "img-fluid z-depth-1" %}
-        <div>
-          {% include figure.liquid loading="eager" path=page_image class=page_image_class alt=page.title %}
-        </div>
-      </div>
-    {% else %}
-      <h1 class="post-title">
-        {{ page.title }}
-        {% if page.cv_pdf %}
-          <a
-            {% if page.cv_pdf contains '://' %}
-              href="{{ page.cv_pdf }}"
-            {% else %}
-              href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
-            {% endif %}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="float-right"
-          >
-            <i class="fa-solid fa-file-pdf"></i>
-          </a>
-        {% endif %}
-      </h1>
-      <p class="post-description">{{ page.description }}</p>
-    {% endif %}
+    <h1 class="post-title">
+      {{ page.title }}
+      {% if page.cv_pdf %}
+        <a
+          {% if page.cv_pdf contains '://' %}
+            href="{{ page.cv_pdf }}"
+          {% else %}
+            href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
+          {% endif %}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="float-right"
+        >
+          <i class="fa-solid fa-file-pdf"></i>
+        </a>
+      {% endif %}
+    </h1>
+    <p class="post-description">{{ page.description }}</p>
   </header>
 
   <article>

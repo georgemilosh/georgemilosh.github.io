@@ -6,7 +6,7 @@
 
 :root {
   color-scheme: light;
-  --global-bg-color: #f9fafb;
+  --global-bg-color: #f5f7fb;
   --global-code-bg-color: #{v.$code-bg-color-light};
   --global-text-color: #{v.$black-color};
   --global-text-color-light: #{v.$grey-color};
@@ -19,7 +19,7 @@
   --global-distill-app-color: #{v.$grey-color};
   --global-divider-color: rgba(0, 0, 0, 0.08);
   --global-card-bg-color: #{v.$white-color};
-  --global-navbar-bg: rgba(249, 250, 251, 0.88);
+  --global-navbar-bg: rgba(245, 247, 251, 0.88);
   --global-highlight-color: #{v.$red-color-dark};
   --global-back-to-top-bg-color: rgba(
     #{color.channel(v.$black-color, "red", v.$space: rgb)},
