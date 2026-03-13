@@ -1,3 +1,187 @@
 metadata:
-  last_updated: '2025-01-01'
-papers: {}
+  last_updated: '2026-03-13'
+papers:
+  QMFVv0AAAAAJ:-f6ydRqryjwC:
+    citations: 0
+    title: Classifying solar flares with kNN on sparse autoencoder representations
+    year: '2026'
+  QMFVv0AAAAAJ:0EnyYjriUFMC:
+    citations: 26
+    title: Instabilities and relaxation to equilibrium in long-range oscillator chains
+    year: '2015'
+  QMFVv0AAAAAJ:2osOgNQ5qMEC:
+    citations: 33
+    title: 'Action principles for relativistic extended magnetohydrodynamics: A unified theory of magnetofluid models'
+    year: '2017'
+  QMFVv0AAAAAJ:3fE2CSJIrl8C:
+    citations: 0
+    title: Internship proposal-2023
+    year: Unknown Year
+  QMFVv0AAAAAJ:4DMP91E08xMC:
+    citations: 0
+    title: Discovering Fluid Closure Equations using Machine Learning
+    year: Unknown Year
+  QMFVv0AAAAAJ:4TOpqqG69KYC:
+    citations: 11
+    title: Extreme heat wave sampling and prediction with analog Markov chain and comparisons with deep learning
+    year: '2024'
+  QMFVv0AAAAAJ:5nxA0vEk-isC:
+    citations: 0
+    title: Probabilistic forecasting of heat waves with deep learning
+    year: '2022'
+  QMFVv0AAAAAJ:7PzlFSSx8tAC:
+    citations: 1
+    title: Prediction of Time-evolving Radial Magnetic Fields on the Solar Surface Using Deep Learning
+    year: '2025'
+  QMFVv0AAAAAJ:9yKSN-GCB0IC:
+    citations: 0
+    title: Analytical and numerical evidence of the cascade reversal due to electron inertia
+    year: '2018'
+  QMFVv0AAAAAJ:IWHjjKOFINEC:
+    citations: 0
+    title: 'Fully kinetic and hybrid PIC modelling of magnetosheath turbulence: closure and dissipation'
+    year: '2025'
+  QMFVv0AAAAAJ:IjCSPb-OGe4C:
+    citations: 0
+    title: Spontaneous magnetization in dipolar needles
+    year: Unknown Year
+  QMFVv0AAAAAJ:KlAtU1dfN6UC:
+    citations: 0
+    title: 'Chasing data-driven probabilistic forecasting tools for heatwaves: the case of analog Markov chains and dimensional reduction via autoencoders'
+    year: '2022'
+  QMFVv0AAAAAJ:L8Ckcad2t8MC:
+    citations: 0
+    title: 'Electron neural closure for turbulent magnetosheath simulations: Energy channels'
+    year: '2026'
+  QMFVv0AAAAAJ:LkGwnXOMwfcC:
+    citations: 18
+    title: Stochastic resonance in the Fermi-Pasta-Ulam chain
+    year: '2009'
+  QMFVv0AAAAAJ:M3ejUd6NZC8C:
+    citations: 0
+    title: Learning closure of fluid equations from kinetic simulations of reconnection using machine learning
+    year: '2023'
+  QMFVv0AAAAAJ:MXK_kJrjxJIC:
+    citations: 56
+    title: Probabilistic forecasts of extreme heatwaves using convolutional neural networks in a regime of lack of data
+    year: '2023'
+  QMFVv0AAAAAJ:Se3iqnhoufwC:
+    citations: 50
+    title: Remarkable connections between extended magnetohydrodynamics models
+    year: '2015'
+  QMFVv0AAAAAJ:Tyk-4Ss8FVUC:
+    citations: 13
+    title: "Modeling imbalanced collisionless Alfv\xE9n wave turbulence with nonlinear diffusion equations"
+    year: '2020'
+  QMFVv0AAAAAJ:ULOm3_A8WrAC:
+    citations: 0
+    title: Simulating worst case heatwaves during the Paris 2024 Olympics
+    year: '2023'
+  QMFVv0AAAAAJ:UeHWp8X0CEIC:
+    citations: 8
+    title: "Hamiltonian reduction of Vlasov\u2013Maxwell to a dark slow manifold"
+    year: '2021'
+  QMFVv0AAAAAJ:UebtZRa9Y70C:
+    citations: 0
+    title: 'Relativistic Extended Magnetohydrodynamics: action formalism and physical properties'
+    year: Unknown Year
+  QMFVv0AAAAAJ:W7OEmFMy1HYC:
+    citations: 0
+    title: Hamiltonian description of Hall and sub-electron scales in collisionless plasmas with reduced fluid models
+    year: '2018'
+  QMFVv0AAAAAJ:WF5omc3nYNoC:
+    citations: 0
+    title: Common Hamiltonian and topological properties of extended MHD models
+    year: '2016'
+  QMFVv0AAAAAJ:Wp0gIr-vW9MC:
+    citations: 0
+    title: 'Worst case climate simulations show that heatwaves could cause major disruptions in the Paris 2024 Olympics: Supplementary information'
+    year: Unknown Year
+  QMFVv0AAAAAJ:Y0pCki6q_DkC:
+    citations: 0
+    title: 'New ways for dynamical prediction of extreme heat waves: rare event simulations and stochastic process-based machine learning.'
+    year: '2021'
+  QMFVv0AAAAAJ:YOwf2qJgpHMC:
+    citations: 0
+    title: Covariant Hamiltonian theory of extended MHD and applications to collisionless reconnection
+    year: Unknown Year
+  QMFVv0AAAAAJ:YsMSGLbcyi4C:
+    citations: 0
+    title: Quasi-stationary Rossby waves, teleconnection patterns and extreme heat waves studied with a rare event algorithm
+    year: '2021'
+  QMFVv0AAAAAJ:ZeXyd9-uunAC:
+    citations: 0
+    title: Machine Learning Algorithms for Autonomous Space Mission Operations
+    year: '2025'
+  QMFVv0AAAAAJ:Zph67rFs4hoC:
+    citations: 0
+    title: Stochastic weather generator and deep learning approach for predicting and sampling extreme European heatwaves
+    year: '2023'
+  QMFVv0AAAAAJ:_FxGoFyzp5QC:
+    citations: 26
+    title: On the structure and statistical theory of turbulence of extended magnetohydrodynamics
+    year: '2017'
+  QMFVv0AAAAAJ:_kc_bZDykSQC:
+    citations: 9
+    title: Robust intra-model teleconnection patterns for extreme heatwaves
+    year: '2023'
+  QMFVv0AAAAAJ:aqlVkmm33-oC:
+    citations: 0
+    title: On Data-Driven Equation Discovery
+    year: Unknown Year
+  QMFVv0AAAAAJ:d1gkVwhDpl0C:
+    citations: 0
+    title: Drivers of midlatitude extreme heat waves revealed by analogues and machine learning
+    year: '2021'
+  QMFVv0AAAAAJ:eQOLeE2rZwMC:
+    citations: 0
+    title: On the cascade reversal at the electron skin depth
+    year: '2017'
+  QMFVv0AAAAAJ:hC7cP41nSMkC:
+    citations: 0
+    title: Parametrization of SHARP Vector Magnetic Field Using Disentangled Representation Learning
+    year: '2025'
+  QMFVv0AAAAAJ:hFOr9nPyWt4C:
+    citations: 0
+    title: Evaluating Four FPGA-Accelerated Space Use Cases Based on Neural Network Algorithms for On-Board Inference
+    year: '2025'
+  QMFVv0AAAAAJ:hqOjcs7Dif8C:
+    citations: 12
+    title: Direction of cascades in a magnetofluid model with electron skin depth and ion sound Larmor radius scales
+    year: '2018'
+  QMFVv0AAAAAJ:kNdYIx-mwKoC:
+    citations: 1
+    title: Worst case climate simulations show that heatwaves could cause major disruptions in the Paris 2024 Olympics
+    year: '2023'
+  QMFVv0AAAAAJ:qUcmZB5y_30C:
+    citations: 0
+    title: 'Efficient Segmentation and Clustering of Solar Coronal Structures: A Comparison of U-Net and Classical Computer Vision Techniques Using SDO Data'
+    year: '2025'
+  QMFVv0AAAAAJ:qjMakFHDy7sC:
+    citations: 0
+    title: Predicting extreme events using dynamics based machine learning.
+    year: '2021'
+  QMFVv0AAAAAJ:qxL8FJ1GzNcC:
+    citations: 10
+    title: Ensembles of climate simulations to anticipate worst case heatwaves during the Paris 2024 Olympics
+    year: '2023'
+  QMFVv0AAAAAJ:roLk4NBRz8UC:
+    citations: 11
+    title: 'Dipolar needles in the microcanonical ensemble: Evidence of spontaneous magnetization and ergodicity breaking'
+    year: '2013'
+  QMFVv0AAAAAJ:u-x6o8ySG0sC:
+    citations: 0
+    title: Common Hamiltonian structure and concomitant topological invariants for extended magnetohydrodynamics models
+    year: '2015'
+  QMFVv0AAAAAJ:u5HHmVD_uO8C:
+    citations: 16
+    title: "Inverse cascade and magnetic vortices in kinetic Alfv\xE9n-wave turbulence"
+    year: '2021'
+  QMFVv0AAAAAJ:ufrVoPGSRksC:
+    citations: 28
+    title: Traveling solitons in long-range oscillator chains
+    year: '2017'
+  QMFVv0AAAAAJ:zYLM7Y9cAGgC:
+    citations: 56
+    title: Concomitant Hamiltonian and topological structures of extended magnetohydrodynamics
+    year: '2016'

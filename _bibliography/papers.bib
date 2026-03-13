@@ -20,8 +20,6 @@
   html = {https://doi.org/10.1063/5.0300009},
   abstract = {In this work, we introduce a non-local five-moment electron pressure tensor closure parametrized by a fully convolutional neural network (FCNN). Electron pressure plays an important role in generalized Ohm's law, competing with electron inertia. This model is used in the development of a surrogate model for a fully kinetic energy-conserving semi-implicit particle-in-cell simulation of decaying magnetosheath turbulence. We achieve this by training FCNN on a representative set of simulations with a smaller number of particles per cell and showing that our results generalize to a simulation with a large number of particles per cell. We evaluate the statistical properties of the learned equation of state, with a focus on pressure-strain interaction, which is crucial for understanding energy channels in turbulent plasmas. The resulting equation of state learned via FCNN significantly outperforms local closures, such as those learned by multi-layer perceptron (MLP) or double adiabatic expressions. We report that the overall spatial distribution of pressure-strain and its conditional averages are reconstructed well. However, some small-scale features are missed, especially for the off-diagonal components of the pressure tensor. Nevertheless, the results are substantially improved with more training data, indicating favorable scaling and potential for improvement, which will be addressed in future work.}
 }
-
-
 @inproceedings{antunesEvaluatingFourFPGAAccelerated2025a,
 	title = {Evaluating {{Four FPGA-Accelerated Space Use Cases Based}} on {{Neural Network Algorithms}} for {{On-Board Inference}}},
 	author = {Antunes, Pedro and Al Hafiz, Muhammad Ihsan and Ekelund, Jonah and Dineva, Ekaterina and Miloshevich, George and Gonidakis, Panagiotis and Podobas, Artur},
@@ -71,8 +69,6 @@ journal = {The Astrophysical Journal Letters},
 bibtex_show = {true},
 abstract = {We develop two artificial intelligence–based models (Models A and B) to predict time-evolving photospheric magnetic fields with an adjustable time step, ranging up to one solar rotation later. Model A predicts future magnetic field data using three consecutive radial magnetic field data sets, each 12 hr apart. Model B reconstructs evolving magnetic fields using two sets of three consecutive data sets, one from a given date and the other from 27 days later, each 12 hr apart. To train and evaluate our models, we use a Pix2PixCC-based architecture and radial magnetic field data sets from the Solar Dynamics Observatory/Helioseismic and Magnetic Imager during the solar maximum periods of 2012–2016 and 2021–2023. Models A and B successfully generate magnetic field data corresponding to the input prediction time step. Based on quantitative comparison, Model A outperforms the persistence model and performs comparably to the classical surface flux transport model. Model B shows improved performance compared to both models. We also compare predictions for National Oceanic and Atmospheric Administration Active Regions 12673 and 13664, which rapidly emerged and produced powerful solar flares. Notably, both Models A and B can predict increases in total unsigned magnetic fluxes several days in advance if their evolution is already captured in the input data. Model B also reconstructs radial magnetic fluxes that smoothly overlap between the input data and the model outputs. These results demonstrate the ability of our models to generate time-evolving magnetic field data flexibly and capture emerging magnetic fluxes, which are crucial for heliophysics research and space weather forecasting.}
 }
-
-
 @article{miloshevich2023extreme,
       title={Extreme heat wave sampling and prediction with analog Markov chain and comparisons with deep learning},
       volume={3},
@@ -87,7 +83,6 @@ abstract = {We develop two artificial intelligence–based models (Models A and 
       abstract={We present a data-driven emulator, a stochastic weather generator (SWG), suitable for estimating probabilities of prolonged heat waves in France and Scandinavia. This emulator is based on the method of analogs of circulation to which we add temperature and soil moisture as predictor fields. We train the emulator on an intermediate complexity climate model run and show that it is capable of predicting conditional probabilities (forecasting) of heat waves out of sample. Special attention is payed that this prediction is evaluated using a proper score appropriate for rare events. To accelerate the computation of analogs, dimensionality reduction techniques are applied and the performance is evaluated. The probabilistic prediction achieved with SWG is compared with the one achieved with a convolutional neural network (CNN). With the availability of hundreds of years of training data, CNNs perform better at the task of probabilistic prediction. In addition, we show that the SWG emulator trained on 80 years of data is capable of estimating extreme return times of order of thousands of years for heat waves longer than several days more precisely than the fit based on generalized extreme value distribution. Finally, the quality of its synthetic extreme teleconnection patterns obtained with SWG is studied. We showcase two examples of such synthetic teleconnection patterns for heat waves in France and Scandinavia that compare favorably to the very long climate model control run.},
       bibtex_show={true}
 }
-
 @article{miloshevich2023robust,
 author={Miloshevich, George and Rouby-Poizat, Philippine and Ragone, Francesco and Bouchet, Freddy},   
 title={Robust intra-model teleconnection patterns for extreme heatwaves},      
@@ -102,7 +97,6 @@ doi={10.3389/feart.2023.1235579},
 issn={2296-6463},   
 abstract={Introduction: The goal of this study is to provide analysis of statistics and dynamics of extreme heatwaves over two areas of Europe, France and Scandinavia, while comparing and contrasting the representation in climate models and reanalysis.Methods: The 1000 year long datasets are generated using respectively two climate models of different complexity. The composite maps of the heatwaves found in these datasets are compared to the ones observed in reanalysis by estimating significance of such patterns. We also employ time series analysis, in particular compare return time plots and use Gaussian stochastic processes to model the temporal correlations for rare events.Results: Our investigation reveals that recurrent wavenumber three teleconnection patterns distinctly underpin heatwaves in France and Scandinavia. These patterns manifest in both surface temperature and mid-tropospheric geopotential height. For heatwaves of return times of 4 years such patterns are robustly represented across diverse models of complexity and reanalysis data. For longer return times, reanalysis records are too short to give statistically significant results, while models confirm the relevance of these large scale patterns for the most extreme heatwaves. Moreover, A time series analysis shows that heatwave indices defined at synoptic scale are fairly well described by Gaussian stochastic processes, and that these Gaussian processes reproduce well return time plots even for very rare events.Discussion: These results suggest that extreme heatwaves over different areas of Europe show recurrent typical behaviours in terms of long-range spatial correlations and subseasonal-scale temporal correlations. These properties are consistently represented among models of different complexity and observations, thus suggesting their relevance for a better understanding of the drivers and causes of the occurrence of extreme midlatitude heatwaves and their predictability.}
 }
-
 @article{yiou:hal-03921111,
 	abstract = {The Summer Olympic Games in 2024 will take place during the apex of the temperature seasonal cycle in the Paris Area. The mid-latitudes of the Northern hemisphere have witnessed a few intense heatwaves since the 2003 event. Those heatwaves have had environmental and health impacts, which often came as surprises. In this paper, we search for the most extreme heatwaves in Ile-de-France that are physically plausible, under climate change scenarios, for the decades around 2024. We circumvent the sampling limitation by applying a rare event algorithm on CMIP6 data to evaluate the range of such extremes. We find that the 2003 record can be exceeded by more than 4 $\,^{\circ}$C in Ile-de-France before 2050, with a combination of prevailing anticyclonic conditions and cut-off lows. This study intends to raise awareness of those unprecedented events, against which our societies are ill-prepared, in spite of adaptation measures designed from previous events. Those results could be extended to other areas of the world.},
 	author = {Yiou, Pascal and Cadiou, Camille and Faranda, Davide and J{\'e}z{\'e}quel, Agla{\'e} and Malhomme, Nemo and Miloshevich, George and Noyelle, Robin and Pons, Flavio and Robin, Yoann and Vrac, Mathieu},
@@ -120,10 +114,7 @@ abstract={Introduction: The goal of this study is to provide analysis of statist
         bibtex_show={true},
         month = {Nov},
 	year = {2023},
-	bdsk-url-1 = {https://doi.org/10.1038/s41612-023-00500-5}}
-
-
-@article{miloshevich2022probabilistic,
+	bdsk-url-1 = {https://doi.org/10.1038/s41612-023-00500-5}}@article{miloshevich2022probabilistic,
   title = {Probabilistic forecasts of extreme heatwaves using convolutional neural networks in a regime of lack of data},
   author = {Miloshevich, George and Cozian, Bastien and Abry, Patrice and Borgnat, Pierre and Bouchet, Freddy},
   journal = {Phys. Rev. Fluids},
@@ -148,7 +139,6 @@ abstract={Introduction: The goal of this study is to provide analysis of statist
   hal_version = {v2},
   pdf={Miloshevich - Probabilistic forecasts of extreme heatwaves using convolutional neural networks in a regime of lack of data.pdf}
 }
-
 @article{miloshevich_laveder_passot_sulem_2021, 
   title={Inverse cascade and magnetic vortices in kinetic Alfvén-wave turbulence},
   html={https://www.cambridge.org/core/journals/journal-of-plasma-physics/article/abs/inverse-cascade-and-magnetic-vortices-in-kinetic-alfvenwave-turbulence/2161FACEE036D89CB897E15F20DF2000},
@@ -187,8 +177,7 @@ into two daughter modes, one with larger wavenumber and one with smaller. This
 is resonant behavior which is possible due to the dispersive nature of KAW. Related
 to these events are instabilities of the balanced state (between the two KAW eigenmodes)},
   pdf={Miloshevich - Inverse cascade and magnetic vortices in kinetic alfven wave turbulence.pdf}
-  }
-
+}
 @article{miloshevich_burby_2021, 
   title={Hamiltonian reduction of Vlasov–Maxwell to a dark slow manifold},
   html={https://www.cambridge.org/core/journals/journal-of-plasma-physics/article/abs/hamiltonian-reduction-of-vlasovmaxwell-to-a-dark-slow-manifold/F9319EB99A53B344597DCE810492BA87},
@@ -234,8 +223,7 @@ and the Poisson bracket are recovered in the new coordinates, so that the new Po
 The resulting equations of motion are also derived. The procedure ensures that the
 approximations we made preserve the sought for Hamiltonian structure.},
   pdf={Miloshevich - Hamiltonian reduction of vlasovmaxwell to a dark slow manifold.pdf}
-  }
-
+}
 @article{Miloshevich_2019,
 	abbr={ApJLett},
   	bibtex_show={true},
@@ -291,7 +279,7 @@ approximations we made preserve the sought for Hamiltonian structure.},
 	title = {Traveling solitons in long-range oscillator chains},
 	journal = {Journal of Physics A: Mathematical and Theoretical},
   	pdf={Miloshevich - Traveling Solitions in long-range oscillating chains.pdf}
-	}
+}
 @article{doi:10.1063/1.4975013,
 	author = {Kawazura,Yohei  and Miloshevich,George  and Morrison,Philip J. },
 	abbr={PoP},
@@ -310,7 +298,6 @@ approximations we made preserve the sought for Hamiltonian structure.},
 	poster = {Sherwood_Annapolis2017.pdf},
   	pdf={Kawazura - AP for relativistic XMHD.pdf}
 }
-
 @article{Miloshevich_2017,
 	doi = {10.1088/1367-2630/aa55eb},
 	abbr={NJP},

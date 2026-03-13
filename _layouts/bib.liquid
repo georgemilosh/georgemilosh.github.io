@@ -286,8 +286,12 @@
         {% assign entry_has_dimensions_badge = true %}
       {% endif %}
 
+      {% assign mapped_pubid = '' %}
+      {% if site.data.bib_ids and site.data.bib_ids[entry.key] %}
+        {% assign mapped_pubid = site.data.bib_ids[entry.key] %}
+      {% endif %}
       {% assign entry_has_google_scholar_badge = false %}
-      {% if entry.google_scholar_id %}
+      {% if mapped_pubid != '' %}
         {% assign entry_has_google_scholar_badge = true %}
       {% endif %}
 
@@ -334,13 +338,13 @@
           {% endif %}
           {% if site.enable_publication_badges.google_scholar and entry_has_google_scholar_badge %}
             <a
-              href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user={{ site.data.socials.scholar_userid }}&citation_for_view={{ site.data.socials.scholar_userid }}:{{ entry.google_scholar_id }}"
+              href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user={{ site.data.socials.scholar_userid }}&citation_for_view={{ site.data.socials.scholar_userid }}:{{ mapped_pubid }}"
               aria-label="Google Scholar link"
               role="button"
             >
               {% assign citation_count = 0 %}
-              {% assign scholar_id_key = site.scholar_userid | append: ':' | append: entry.google_scholar_id %}
-              {% assign publication_key = entry.google_scholar_id %}
+              {% assign scholar_id_key = site.data.socials.scholar_userid | append: ':' | append: mapped_pubid %}
+              {% assign publication_key = mapped_pubid %}
 
               {% if site.data.citations.papers[scholar_id_key] %}
                 {% assign citation_count = site.data.citations.papers[scholar_id_key].citations %}
@@ -349,7 +353,7 @@
               {% else %}
                 {% for paper in site.data.citations.papers %}
                   {% assign paper_key = paper[0] %}
-                  {% if paper_key contains entry.google_scholar_id %}
+                  {% if paper_key contains mapped_pubid %}
                     {% assign citation_count = paper[1].citations %}
                     {% break %}
                   {% endif %}
