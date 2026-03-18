@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-13'
+  last_updated: '2026-03-18'
 papers:
   QMFVv0AAAAAJ:-f6ydRqryjwC:
     citations: 0
@@ -50,7 +50,7 @@ papers:
     title: 'Chasing data-driven probabilistic forecasting tools for heatwaves: the case of analog Markov chains and dimensional reduction via autoencoders'
     year: '2022'
   QMFVv0AAAAAJ:L8Ckcad2t8MC:
-    citations: 0
+    citations: 1
     title: 'Electron neural closure for turbulent magnetosheath simulations: Energy channels'
     year: '2026'
   QMFVv0AAAAAJ:LkGwnXOMwfcC:
