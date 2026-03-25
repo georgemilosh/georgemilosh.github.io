@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-18'
+  last_updated: '2026-03-25'
 papers:
   QMFVv0AAAAAJ:-f6ydRqryjwC:
     citations: 0
@@ -22,7 +22,7 @@ papers:
     title: Discovering Fluid Closure Equations using Machine Learning
     year: Unknown Year
   QMFVv0AAAAAJ:4TOpqqG69KYC:
-    citations: 11
+    citations: 12
     title: Extreme heat wave sampling and prediction with analog Markov chain and comparisons with deep learning
     year: '2024'
   QMFVv0AAAAAJ:5nxA0vEk-isC:
@@ -62,7 +62,7 @@ papers:
     title: Learning closure of fluid equations from kinetic simulations of reconnection using machine learning
     year: '2023'
   QMFVv0AAAAAJ:MXK_kJrjxJIC:
-    citations: 56
+    citations: 57
     title: Probabilistic forecasts of extreme heatwaves using convolutional neural networks in a regime of lack of data
     year: '2023'
   QMFVv0AAAAAJ:Se3iqnhoufwC:
@@ -142,7 +142,7 @@ papers:
     title: Parametrization of SHARP Vector Magnetic Field Using Disentangled Representation Learning
     year: '2025'
   QMFVv0AAAAAJ:hFOr9nPyWt4C:
-    citations: 0
+    citations: 1
     title: Evaluating Four FPGA-Accelerated Space Use Cases Based on Neural Network Algorithms for On-Board Inference
     year: '2025'
   QMFVv0AAAAAJ:hqOjcs7Dif8C:
