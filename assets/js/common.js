@@ -1,4 +1,30 @@
 $(document).ready(function () {
+  function decodeHtmlEntities(text) {
+    const textarea = document.createElement("textarea");
+    textarea.innerHTML = text || "";
+    return textarea.value;
+  }
+
+  $(".more-authors").on("click", function () {
+    const element = $(this);
+    const hiddenText = decodeHtmlEntities(element.attr("data-more-authors-hide"));
+    const shownText = decodeHtmlEntities(element.attr("data-more-authors-show"));
+    const currentText = element.text().trim();
+    const targetText = currentText === hiddenText ? shownText : hiddenText;
+    const animationDelay = Number(element.attr("data-more-authors-delay")) || 10;
+
+    element.attr("title", "");
+
+    let cursorPosition = 0;
+    const textAdder = setInterval(function () {
+      element.text(targetText.substring(0, cursorPosition + 1));
+      cursorPosition += 1;
+      if (cursorPosition >= targetText.length) {
+        clearInterval(textAdder);
+      }
+    }, animationDelay);
+  });
+
   // add toggle functionality to abstract, award and bibtex buttons
   $("a.abstract").click(function () {
     $(this).parent().parent().find(".abstract.hidden").toggleClass("open");

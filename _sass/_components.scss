@@ -95,13 +95,23 @@ ul.task-list input[type="checkbox"] {
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 24%;
+    max-width: 220px;
 
     .address {
       p {
         display: block;
       }
     }
+  }
+}
+
+@media (max-width: 575px) {
+  .profile {
+    width: min(64vw, 220px);
+    margin-left: auto;
+    margin-right: auto;
+    float: none !important;
   }
 }
 
