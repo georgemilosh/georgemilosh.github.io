@@ -220,7 +220,12 @@ ninja.data = [{
           section: "News",},{id: "news-topical-discussion-meeting-at-esww-held-details-in-the-blog-post",
           title: 'Topical discussion meeting at ESWW held, details in the blog post.',
           description: "",
-          section: "News",},{id: "projects-turbulence-in-plasmas",
+          section: "News",},{id: "news-asap-summer-school-on-machine-learning-for-space-2026",
+          title: 'ASAP Summer School on Machine Learning for Space 2026',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_ASAP_summer_school_2026/";
+            },},{id: "projects-turbulence-in-plasmas",
           title: 'Turbulence in Plasmas',
           description: "Inverse cascade in gyrofluids",
           section: "Projects",handler: () => {
