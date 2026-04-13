@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-25'
+  last_updated: '2026-04-13'
 papers:
   QMFVv0AAAAAJ:-f6ydRqryjwC:
     citations: 0
@@ -37,6 +37,10 @@ papers:
     citations: 0
     title: Analytical and numerical evidence of the cascade reversal due to electron inertia
     year: '2018'
+  QMFVv0AAAAAJ:HDshCWvjkbEC:
+    citations: 0
+    title: Electron Neural Closure for Turbulent Magnetosheath Simulations
+    year: '2026'
   QMFVv0AAAAAJ:IWHjjKOFINEC:
     citations: 0
     title: 'Fully kinetic and hybrid PIC modelling of magnetosheath turbulence: closure and dissipation'
@@ -62,7 +66,7 @@ papers:
     title: Learning closure of fluid equations from kinetic simulations of reconnection using machine learning
     year: '2023'
   QMFVv0AAAAAJ:MXK_kJrjxJIC:
-    citations: 57
+    citations: 60
     title: Probabilistic forecasts of extreme heatwaves using convolutional neural networks in a regime of lack of data
     year: '2023'
   QMFVv0AAAAAJ:Se3iqnhoufwC:
