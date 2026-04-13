@@ -9,9 +9,28 @@
     <div class="news-scroll">
       {% for item in news limit: news_limit %}
         <div class="news-card">
+          {% assign news_image = nil %}
           {% if item.image %}
+            {% if item.image contains '/' %}
+              {% assign news_image = item.image %}
+            {% else %}
+              {% assign news_image = item.image | prepend: '/assets/img/' %}
+            {% endif %}
+          {% elsif item.content contains '<img' %}
+            {% assign image_block = item.content | split: '<img' | last %}
+            {% if image_block contains 'src="' %}
+              {% assign news_image = image_block | split: 'src="' | last | split: '"' | first %}
+            {% elsif image_block contains "src='" %}
+              {% assign news_image = image_block | split: "src='" | last | split: "'" | first %}
+            {% endif %}
+          {% endif %}
+          {% if news_image %}
             <div class="news-card-img">
-              <img src="{{ item.image | relative_url }}" alt="{{ item.title | default: 'News' }}" loading="lazy">
+              {% if news_image contains '://' or news_image contains 'data:' %}
+                <img src="{{ news_image }}" alt="{{ item.title | default: 'News' }}" loading="lazy">
+              {% else %}
+                <img src="{{ news_image | relative_url }}" alt="{{ item.title | default: 'News' }}" loading="lazy">
+              {% endif %}
             </div>
           {% endif %}
           <div class="news-card-body">
