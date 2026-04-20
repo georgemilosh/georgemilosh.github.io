@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-13'
+  last_updated: '2026-04-20'
 papers:
   QMFVv0AAAAAJ:-f6ydRqryjwC:
     citations: 0
@@ -66,11 +66,11 @@ papers:
     title: Learning closure of fluid equations from kinetic simulations of reconnection using machine learning
     year: '2023'
   QMFVv0AAAAAJ:MXK_kJrjxJIC:
-    citations: 60
+    citations: 62
     title: Probabilistic forecasts of extreme heatwaves using convolutional neural networks in a regime of lack of data
     year: '2023'
   QMFVv0AAAAAJ:Se3iqnhoufwC:
-    citations: 50
+    citations: 51
     title: Remarkable connections between extended magnetohydrodynamics models
     year: '2015'
   QMFVv0AAAAAJ:Tyk-4Ss8FVUC:
@@ -182,10 +182,10 @@ papers:
     title: "Inverse cascade and magnetic vortices in kinetic Alfv\xE9n-wave turbulence"
     year: '2021'
   QMFVv0AAAAAJ:ufrVoPGSRksC:
-    citations: 28
+    citations: 29
     title: Traveling solitons in long-range oscillator chains
     year: '2017'
   QMFVv0AAAAAJ:zYLM7Y9cAGgC:
-    citations: 56
+    citations: 57
     title: Concomitant Hamiltonian and topological structures of extended magnetohydrodynamics
     year: '2016'
