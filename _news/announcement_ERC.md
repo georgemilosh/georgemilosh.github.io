@@ -3,6 +3,7 @@ layout: post
 title: Announcing ERC Starting Grant Award (D-SURGE project)
 date: 2025-09-03 07:59:00-0400
 inline: false
+image: ERC_logo_white.png
 ---
 
 ## ERC Starting Grant Awarded: D-SURGE Project
