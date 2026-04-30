@@ -123,8 +123,8 @@ body {
       border: 1px solid var(--global-main-frame-border);
       border-radius: 12px;
       box-shadow: 0 10px 24px rgba(6, 18, 34, 0.08);
-      backdrop-filter: blur(2px) saturate(1.05);
-      -webkit-backdrop-filter: blur(2px) saturate(1.05);
+      backdrop-filter: blur(3px) saturate(1.05);
+      -webkit-backdrop-filter: blur(3px) saturate(1.05);
       z-index: -1;
     }
   }
@@ -143,8 +143,8 @@ body {
       border: 1px solid var(--global-main-frame-border);
       border-radius: 12px;
       box-shadow: 0 10px 24px rgba(6, 18, 34, 0.08);
-      backdrop-filter: blur(2px) saturate(1.05);
-      -webkit-backdrop-filter: blur(2px) saturate(1.05);
+      backdrop-filter: blur(3px) saturate(1.05);
+      -webkit-backdrop-filter: blur(3px) saturate(1.05);
       z-index: -1;
     }
   }
