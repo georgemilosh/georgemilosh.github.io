@@ -3,6 +3,53 @@
  ******************************************************************************/
 
 @use "variables" as v;
+@use "sass:list";
+@use "sass:math";
+
+// Starfield tuning
+$star-layer-1-count: 2048 !default;
+$star-layer-1-seed: 17 !default;
+$star-layer-1-min-size: 0.35 !default;
+$star-layer-1-max-size: 1.35 !default;
+
+$star-layer-2-count: 4096 !default;
+$star-layer-2-seed: 91 !default;
+$star-layer-2-min-size: 0.2 !default;
+$star-layer-2-max-size: 0.95 !default;
+
+@function _rand01($index, $salt) {
+  // Hash-like deterministic noise that avoids visible linear correlations
+  $v: math.sin($index * 12.9898 + $salt * 78.233) * 43758.5453;
+  @return $v - math.floor($v);
+}
+
+@function _star-color($index, $salt) {
+  $r: _rand01($index, $salt + 37);
+
+  @if $r < 0.2 {
+    @return var(--global-star-bright);
+  } @else if $r < 0.58 {
+    @return var(--global-star-mid);
+  }
+
+  @return var(--global-star-dim);
+}
+
+@function generate-star-shadows($count, $salt, $min-size, $max-size) {
+  $shadows: ();
+
+  @for $i from 1 through $count {
+    $x: _rand01($i, $salt + 3) * 100 * 1vw;
+    $y: _rand01($i, $salt + 11) * 100 * 1vh;
+    $size-ratio: _rand01($i, $salt + 19);
+    $spread: math.div(math.round(($min-size + ($max-size - $min-size) * $size-ratio) * 100), 100) * 1px;
+    $color: _star-color($i, $salt);
+    $star: $x $y 0 $spread $color;
+    $shadows: list.append($shadows, $star, comma);
+  }
+
+  @return $shadows;
+}
 
 body {
   padding-bottom: 70px;
@@ -15,15 +62,45 @@ body {
     radial-gradient(ellipse at 50% 90%, rgba(180, 120, 220, 0.035) 0%, transparent 55%);
   background-attachment: fixed;
 
-  // Dot grid — surrounds the main content block
+  // Non-tiling star field using viewport-based random coordinates
   &::before {
     content: "";
     position: fixed;
-    inset: 0;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background: transparent;
     z-index: 0;
     pointer-events: none;
-    background-image: radial-gradient(circle, var(--global-dot-color) 1.2px, transparent 1.2px);
-    background-size: 14px 14px;
+    box-shadow: generate-star-shadows(
+      $star-layer-1-count,
+      $star-layer-1-seed,
+      $star-layer-1-min-size,
+      $star-layer-1-max-size
+    );
+  }
+
+  // Secondary and tertiary stars for higher density and mixed intensities
+  &::after {
+    content: "";
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background: transparent;
+    z-index: 0;
+    pointer-events: none;
+    box-shadow: generate-star-shadows(
+      $star-layer-2-count,
+      $star-layer-2-seed,
+      $star-layer-2-min-size,
+      $star-layer-2-max-size
+    );
+    opacity: 0.96;
   }
 
   // Ensure everything else sits above the dot layer
@@ -42,8 +119,12 @@ body {
       content: "";
       position: absolute;
       inset: -1rem -2rem;
-      background: var(--global-bg-color);
+      background: var(--global-main-frame-bg);
+      border: 1px solid var(--global-main-frame-border);
       border-radius: 12px;
+      box-shadow: 0 10px 24px rgba(6, 18, 34, 0.08);
+      backdrop-filter: blur(2px) saturate(1.05);
+      -webkit-backdrop-filter: blur(2px) saturate(1.05);
       z-index: -1;
     }
   }
@@ -58,8 +139,12 @@ body {
       content: "";
       position: absolute;
       inset: -1rem -2rem;
-      background: var(--global-bg-color);
+      background: var(--global-main-frame-bg);
+      border: 1px solid var(--global-main-frame-border);
       border-radius: 12px;
+      box-shadow: 0 10px 24px rgba(6, 18, 34, 0.08);
+      backdrop-filter: blur(2px) saturate(1.05);
+      -webkit-backdrop-filter: blur(2px) saturate(1.05);
       z-index: -1;
     }
   }
@@ -195,6 +280,7 @@ body.sticky-bottom-footer {
   margin: 0;
   // Clamp to ~4 lines
   display: -webkit-box;
+  line-clamp: 4;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
@@ -210,6 +296,7 @@ body.sticky-bottom-footer {
   color: var(--global-theme-color);
   text-decoration: none;
   display: -webkit-box;
+  line-clamp: 3;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;

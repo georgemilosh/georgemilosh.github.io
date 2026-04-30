@@ -8,6 +8,9 @@
   color-scheme: light;
   --global-bg-color: #f5f7fb;
   --global-dot-color: rgba(0, 0, 0, 0.11);
+  --global-star-bright: rgba(32, 71, 126, 0.52);
+  --global-star-mid: rgba(35, 86, 150, 0.38);
+  --global-star-dim: rgba(24, 67, 122, 0.24);
   --global-code-bg-color: #{v.$code-bg-color-light};
   --global-text-color: #{v.$black-color};
   --global-text-color-light: #{v.$grey-color};
@@ -20,6 +23,8 @@
   --global-distill-app-color: #{v.$grey-color};
   --global-divider-color: rgba(0, 0, 0, 0.08);
   --global-card-bg-color: #{v.$white-color};
+  --global-main-frame-bg: rgba(245, 247, 251, 0.54);
+  --global-main-frame-border: rgba(255, 255, 255, 0.42);
   --global-navbar-bg: rgba(245, 247, 251, 0.88);
   --global-highlight-color: #{v.$red-color-dark};
   --global-back-to-top-bg-color: rgba(
@@ -81,6 +86,9 @@ html[data-theme="dark"] {
   // Blue-slate dark — less sombre than near-black, more character
   --global-bg-color: #1e2128;
   --global-dot-color: rgba(255, 255, 255, 0.14);
+  --global-star-bright: rgba(238, 247, 255, 0.9);
+  --global-star-mid: rgba(214, 235, 255, 0.68);
+  --global-star-dim: rgba(186, 217, 246, 0.46);
   --global-code-bg-color: #252b38;
   --global-text-color: #e2e5ec;
   --global-text-color-light: #9aa0b2;
@@ -94,6 +102,8 @@ html[data-theme="dark"] {
   --global-distill-app-color: #9aa0b2;
   --global-divider-color: #2e3347;
   --global-card-bg-color: #252b38;
+  --global-main-frame-bg: rgba(30, 33, 40, 0.5);
+  --global-main-frame-border: rgba(173, 203, 235, 0.16);
   --global-navbar-bg: rgba(30, 33, 40, 0.88);
   --global-back-to-top-bg-color: rgba(
     #{color.channel(v.$white-color, "red", v.$space: rgb)},
