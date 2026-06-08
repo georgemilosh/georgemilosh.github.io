@@ -254,7 +254,7 @@ ninja.data = [{
           title: 'Conecast',
           description: "CME arrival modeling with HUXt and Gaussian-process surrogates",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/6_conecast/";
+              window.location.href = "/projects/conecast/";
             },},{
         id: 'social-email',
         title: 'email',
