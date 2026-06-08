@@ -250,6 +250,11 @@ ninja.data = [{
           description: "Automatics of SpAce exPloration",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project_asap/";
+            },},{id: "projects-conecast",
+          title: 'Conecast',
+          description: "CME arrival modeling with HUXt and Gaussian-process surrogates",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/6_conecast/";
             },},{
         id: 'social-email',
         title: 'email',
