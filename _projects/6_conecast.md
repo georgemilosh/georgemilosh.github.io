@@ -19,9 +19,30 @@ Conecast is a local, self-contained workflow for emulating coronal mass ejection
 - trains per-event GP surrogate models for hit or miss classification and arrival-time regression
 - provides tutorial notebooks and Colab entry points
 
-| Hit probability | Arrival time | HUXt heliosphere |
-| :---: | :---: | :---: |
-| ![Hit probability](https://raw.githubusercontent.com/georgemilosh/conecast/main/docs/images/hit_probability_longitude_latitude.png) | ![Arrival time](https://raw.githubusercontent.com/georgemilosh/conecast/main/docs/images/arrival_mean_longitude_width.png) | ![HUXt heliosphere](https://raw.githubusercontent.com/georgemilosh/conecast/main/docs/images/heliosphere_snapshot.png) |
+<!-- markdownlint-disable MD033 -->
+<table style="width: 100%; table-layout: fixed;">
+  <thead>
+    <tr>
+      <th style="text-align: center;">Hit probability</th>
+      <th style="text-align: center;">Arrival time</th>
+      <th style="text-align: center;">HUXt heliosphere</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center; vertical-align: top;">
+        <img src="https://raw.githubusercontent.com/georgemilosh/conecast/main/docs/images/hit_probability_longitude_latitude.png" alt="Hit probability" style="display: block; width: 100%; max-width: 100%; height: auto; border-radius: 0.35rem;">
+      </td>
+      <td style="text-align: center; vertical-align: top;">
+        <img src="https://raw.githubusercontent.com/georgemilosh/conecast/main/docs/images/arrival_mean_longitude_width.png" alt="Arrival time" style="display: block; width: 100%; max-width: 100%; height: auto; border-radius: 0.35rem;">
+      </td>
+      <td style="text-align: center; vertical-align: top;">
+        <img src="https://raw.githubusercontent.com/georgemilosh/conecast/main/docs/images/heliosphere_snapshot.png" alt="HUXt heliosphere" style="display: block; width: 100%; max-width: 100%; height: auto; border-radius: 0.35rem;">
+      </td>
+    </tr>
+  </tbody>
+</table>
+<!-- markdownlint-enable MD033 -->
 
 Conecast combines WSA+, HUXt, and Gaussian-process surrogates to turn curated CME events into reproducible forecasting experiments.
 
