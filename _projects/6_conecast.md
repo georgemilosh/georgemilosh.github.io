@@ -10,7 +10,7 @@ github: https://github.com/georgemilosh/conecast
 
 Conecast is a local, self-contained workflow for emulating coronal mass ejection (CME) arrival at Earth with HUXt and Gaussian-process surrogates.
 
-[GitHub repository](https://github.com/georgemilosh/conecast) | [Tutorial](https://github.com/georgemilosh/conecast/blob/main/Tutorial.md) | [Notebook guide](https://github.com/georgemilosh/conecast/blob/main/notebooks/README.md)
+[Project guide](/projects/conecast/guide/) | [Input-preparation tutorial](/projects/conecast/input-preparation/) | [GitHub repository](https://github.com/georgemilosh/conecast) | [Notebook guide](https://github.com/georgemilosh/conecast/blob/main/notebooks/README.md)
 
 ## What it does
 
@@ -68,5 +68,7 @@ The repository does not ship large runtime data. WSA+ checkpoints, magnetograms,
 
 ## Additional links
 
+- [Conecast guide](/projects/conecast/guide/)
+- [Conecast input-preparation tutorial](/projects/conecast/input-preparation/)
 - [Conecast source repository](https://github.com/georgemilosh/conecast)
 - [Conecast project page](https://georgemilosh.github.io/conecast/)
