@@ -66,6 +66,17 @@ The repository does not ship large runtime data. WSA+ checkpoints, magnetograms,
 - [03 - Arrival detector examples](https://colab.research.google.com/github/georgemilosh/conecast/blob/main/notebooks/03_arrival_detector_examples.ipynb)
 - [04 - GP surrogate application](https://colab.research.google.com/github/georgemilosh/conecast/blob/main/notebooks/04_gp_huxt_application.ipynb)
 
+## Hands-on exercises
+
+Exercise set (built for the [ASAP summer school](https://asap-space.eu/asap-summer-school)). You provision a new CME event and launch a HUXt batch, then - while it runs in the background - study how surrogate skill scales with the number of runs, how the definition of a "hit" reshapes the model, and which launch parameter drives arrival time. 
+
+See the [exercises guide](https://github.com/georgemilosh/conecast/blob/main/exercises/README.md) for the run sheet and Colab notes (the free Colab tier has no terminal, so the batch is launched as a background process).
+
+- [Exercise 1 - Pick a new event and launch a batch](https://colab.research.google.com/github/georgemilosh/conecast/blob/main/exercises/01_exercise_new_event.ipynb)
+- [Exercise 2 - How many HUXt runs does the surrogate need?](https://colab.research.google.com/github/georgemilosh/conecast/blob/main/exercises/02_exercise_how_many_runs.ipynb)
+- [Exercise 3 - What counts as a "hit"? (compound thresholds)](https://colab.research.google.com/github/georgemilosh/conecast/blob/main/exercises/03_exercise_what_is_a_hit.ipynb)
+- [Exercise 4 - Your event: fit, importance, and contrast](https://colab.research.google.com/github/georgemilosh/conecast/blob/main/exercises/04_exercise_your_event_analysis.ipynb)
+
 ## Additional links
 
 - [Conecast guide](/projects/conecast/guide/)
