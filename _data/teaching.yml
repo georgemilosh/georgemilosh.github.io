@@ -1,6 +1,14 @@
 - title: Workshops/ Outreach
   type: time_table
   contents:
+    - title: Summer school on Machine Learning for Space 2026
+      institution: KTH, Sweden
+      year: 2026
+      description:
+        - George Miloshevich
+        - <a href="https://asap-space.eu/asap-summer-school">Summer school on Machine Learning for Space 2026</a>
+        - <a href="https://georgemilosh.github.io/projects/conecast/">Link to exercises and materials</a>
+
     - title: Summer of Science, Data science in space plasmas
       institution: KU Leuven, Belgium
       year: 2024
