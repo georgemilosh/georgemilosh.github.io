@@ -58,6 +58,13 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/teaching/";
               },
+            },{id: "dropdown-quotes",
+              title: "quotes",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/quotes/";
+              },
             },{id: "post-ai-in-space-weather",
         
           title: "AI in Space Weather",
