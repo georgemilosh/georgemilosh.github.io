@@ -6,14 +6,10 @@
 - text: "If you think you will do it in time ''t'' multiply it by 2 pi."
   author: Harry Swinney
 
-- text: "What I cannot create, I do not understand."
-  author: Richard Feynman
-  source: blackboard, 1988
-
 - text: "What you give is yours; what you keep for yourself is forever lost."
   author: Georgian proverb
 
-- text: "Noone ever steps in the same river twice"
+- text: "Noone ever steps in the same river twice."
   author: Heraclitus
 
 - text: "If you want to build a ship, don’t assign people tasks and work, but rather teach them to long for the endless immensity of the sea."
@@ -25,5 +21,15 @@
 - text: "When the only tool you have is a hammer, every problem looks like a nail."
   author: Abraham Maslow
 
-- text: "Pain is compulsory, but suffering is a choice "
+- text: "Pain is compulsory, but suffering is a choice."
   author: Buddha
+
+- text: "Insanity is doing the same thing over and over again and expecting different results."
+  author: Albert Einstein
+
+- text: "Beauty is brought by the judgement of the eye."
+  author: William Shakespeare
+  source: Love’s Labours Lost, 1588
+
+- text: "When a measure becomes a target, it ceases to be a good measure."
+  author: Charles Goodhart
