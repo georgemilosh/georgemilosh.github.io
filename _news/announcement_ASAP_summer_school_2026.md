@@ -4,7 +4,7 @@ title: ASAP Summer School on Machine Learning for Space 2026
 date: 2026-04-13 09:00:00+0200
 inline: false
 redirect: https://asap-space.eu/asap-summer-school
-image: ASAP.png
+image: asap_summer_school.jpeg
 ---
 
 I will be teaching at the [ASAP Summer School on Machine Learning for Space 2026](https://asap-space.eu/asap-summer-school), which will take place **8-12 June 2026** at **KTH Royal Institute of Technology in Stockholm, Sweden**.
