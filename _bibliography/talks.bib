@@ -5,6 +5,33 @@
 
 
 
+@inproceedings{miloshevich2026icddps,
+  title = {Online testing of neural electron closure for magnetic reconnection},
+  author = {{Miloshevich}, George and {Lopes}, Felipe Nathan de Oliveira and {Califano}, Francesco and {Henri}, Pierre and {Pucci}, Francesco and {Zaitsev}, Ivan},
+  booktitle = {7th International Conference on Data-Driven Plasma Science},
+  year = 2026,
+  month = august,
+  series = {International Conference on Data-Driven Plasma Science},
+  abstract = {Global space plasma modelling of collisionless plasmas is a long-standing challenge due to scale separation. This is because processes in the magnetosphere, such as magnetic reconnection, alter the topology of global magnetic fields and drive local heating and particle acceleration, thus are fundamentally multiscale. In particular, electron pressure anisotropies build up, which result in feedback that drives out-of-plane current. Traditional fluid and hybrid kinetic frameworks that assume isothermal electrons cannot capture such feedback. We address this challenge by performing a family of fully kinetic semi-implicit PIC simulations of 2D magnetic reconnection and use machine learning to extract a phenomenological equation of state for the electron pressure tensor. The inputs to the neural network consist of lower-order moments. This equation of state is implemented in the hybrid PIC code Menura as a neural network. The hybrid kinetic-neural electron closure reproduces the out-of-plane current arising from pressure anisotropy and the reconnection rate, which is qualitatively consistent with fully kinetic simulations. This physics-informed machine learning framework is, to our knowledge, the first test of 5-moment neural closure in a 2D reconnection setup and contrasts online (a posteriori) and offline (a priori) metrics across different network topologies and physical parameters such as out-of-plane guide field and background density. It offers a roadmap to computationally efficient plasma models with improved physical realism, potentially enabling both predictive simulations and parameter inference.},
+  bibtex_show={true},
+  abbr={ICDDPS},
+  html = {https://www.icddps.org/},
+}
+
+@inproceedings{miloshevich2026egu,
+  title = {Electron Neural Closure for Turbulent Magnetosheath Simulations},
+  author = {{Miloshevich}, George and {Vranckx}, Luka and {Lopes}, Felipe Nathan de Oliveira and {Dazzi}, Pietro and {Arrò}, Giuseppe and {Henri}, Pierre},
+  booktitle = {EGU General Assembly Conference Abstracts},
+  year = 2026,
+  month = may,
+  series = {EGU General Assembly Conference Abstracts},
+  doi = {https://doi.org/10.5194/egusphere-egu26-12428},
+  abstract = {This research employs machine learning to develop a non-local five-moment electron-pressure-tensor closure derived from kinetic particle-in-cell simulations of decaying magnetosheath turbulence. The trained neural network-based equation of state outperforms traditional local approaches in reconstructing pressure–strain interactions and other key statistics. The model generalizes well across simulations with varying particle counts and turbulent initializations. The framework then couples this data-driven closure with kinetic ion dynamics, creating a hybrid approach where electrons are represented through neural network predictions while ions retain full kinetic treatment, offering pathways toward computationally efficient and physically realistic heliospheric and magnetospheric simulations.},
+  bibtex_show={true},
+  abbr={EGU},
+  html = {https://meetingorganizer.copernicus.org/EGU26/EGU26-12428.html},
+}
+
 @inproceedings{miloshevich2025esww,
   title = {Integrating data-driven and physics-based modelling of magnetosheath dynamics},
   author = {{Miloshevich}, George and {Lopes}, Felipe Nathan de Oliveira and {Pucci}, Francesco and {Lapenta}, Giovanni and {Arrò}, Giuseppe and {Henri}, Pierre and {Poedts}, Stefaan},
