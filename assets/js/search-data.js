@@ -262,6 +262,11 @@ ninja.data = [{
           description: "CME arrival modeling with HUXt and Gaussian-process surrogates",
           section: "Projects",handler: () => {
               window.location.href = "/projects/conecast/";
+            },},{id: "projects-helioskill",
+          title: 'Helioskill',
+          description: "Machine-learned equation of state of the solar wind",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/7_helioskill/";
             },},{
         id: 'social-email',
         title: 'email',
