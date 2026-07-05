@@ -2,6 +2,7 @@
 layout: page
 title: Conecast
 description: CME arrival modeling with HUXt and Gaussian-process surrogates
+img: assets/img/heliosphere_snapshot.png
 permalink: /projects/conecast/
 importance: 3
 category: work

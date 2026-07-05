@@ -17,6 +17,29 @@ $star-layer-2-seed: 91 !default;
 $star-layer-2-min-size: 0.2 !default;
 $star-layer-2-max-size: 0.95 !default;
 
+// One-time "expand from centre" entrance for the star field on page load
+@keyframes starfield-expand-1 {
+  from {
+    opacity: 0;
+    transform: scale(0.35);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes starfield-expand-2 {
+  from {
+    opacity: 0;
+    transform: scale(0.35);
+  }
+  to {
+    opacity: 0.96;
+    transform: scale(1);
+  }
+}
+
 @function _rand01($index, $salt) {
   // Hash-like deterministic noise that avoids visible linear correlations
   $v: math.sin($index * 12.9898 + $salt * 78.233) * 43758.5453;
@@ -156,6 +179,38 @@ body {
   h5,
   h6 {
     scroll-margin-top: 66px;
+  }
+}
+
+// Animate the star field ONLY on the about (home) page. Scoping it here keeps
+// the transform/backdrop-filter repaint cost off every other page.
+body.layout-about {
+  &::before,
+  &::after {
+    transform-origin: 50vw 50vh;
+    // Promote to a GPU layer so the 6k-shadow field is rasterised once and only
+    // the transform is composited — no per-frame shadow repaint.
+    will-change: transform, opacity;
+    // Sit strictly behind the page banner (z-index: 1) while transformed, so the
+    // promoted layer can't paint over it.
+    z-index: -1;
+  }
+
+  &::before {
+    animation: starfield-expand-1 1.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+  }
+
+  &::after {
+    animation: starfield-expand-2 1.9s cubic-bezier(0.16, 1, 0.3, 1) 0.1s both;
+  }
+
+  // Respect users who prefer reduced motion: show the field, skip the expand.
+  @media (prefers-reduced-motion: reduce) {
+    &::before,
+    &::after {
+      animation: none;
+      will-change: auto;
+    }
   }
 }
 
