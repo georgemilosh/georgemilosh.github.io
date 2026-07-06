@@ -49,6 +49,8 @@ Conecast combines WSA+, HUXt, and Gaussian-process surrogates to turn curated CM
 
 ## Quick start
 
+For a quick lecture explaining material you may watch [Youtube: Conecast in a nutshell](https://youtu.be/CaR0ubazp2Q).
+
 ```bash
 python scripts/fetch_wsaplus_checkpoint.py
 python scripts/generate_huxt_input.py --event 2017-09-06
