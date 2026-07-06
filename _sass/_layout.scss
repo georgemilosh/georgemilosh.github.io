@@ -40,6 +40,18 @@ $star-layer-2-max-size: 0.95 !default;
   }
 }
 
+// Smooth reveal for the about-page banner, timed with the star field
+@keyframes banner-reveal {
+  from {
+    opacity: 0;
+    transform: scale(1.03);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
 @function _rand01($index, $salt) {
   // Hash-like deterministic noise that avoids visible linear correlations
   $v: math.sin($index * 12.9898 + $salt * 78.233) * 43758.5453;
@@ -204,10 +216,16 @@ body.layout-about {
     animation: starfield-expand-2 1.9s cubic-bezier(0.16, 1, 0.3, 1) 0.1s both;
   }
 
+  // Fade the banner in smoothly, in step with the star field.
+  .page-banner {
+    animation: banner-reveal 1.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+  }
+
   // Respect users who prefer reduced motion: show the field, skip the expand.
   @media (prefers-reduced-motion: reduce) {
     &::before,
-    &::after {
+    &::after,
+    .page-banner {
       animation: none;
       will-change: auto;
     }
