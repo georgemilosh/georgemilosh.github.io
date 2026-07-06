@@ -267,6 +267,11 @@ ninja.data = [{
           description: "Machine-learned equation of state of the solar wind",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_helioskill/";
+            },},{id: "projects-stride",
+          title: 'STRIDE',
+          description: "Neural and symbolic closures for particle effects in plasma fluid models",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/8_stride/";
             },},{
         id: 'social-email',
         title: 'email',
