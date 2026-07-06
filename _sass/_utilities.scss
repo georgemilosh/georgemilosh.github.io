@@ -482,7 +482,16 @@ ninja-keys {
   --ninja-accent-color: var(--global-theme-color);
   --ninja-icon-size: 0px;
   --ninja-modal-background: var(--global-bg-color);
-  --ninja-z-index: 1031;
+  // Above the fixed navbar (z-index: 1100) so search overlays everything
+  --ninja-z-index: 2000;
+}
+
+// The `body > * { z-index: 1 }` rule traps the search component in a low
+// stacking context, letting the main content panel paint over its modal.
+// Lift the host itself above everything so the overlay is truly on top.
+body > ninja-keys {
+  position: relative;
+  z-index: 2000;
 }
 
 ninja-keys::part(ninja-input) {

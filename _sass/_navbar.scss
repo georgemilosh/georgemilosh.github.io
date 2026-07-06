@@ -11,15 +11,28 @@
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  // Slightly taller, more breathable bar
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
 }
 
 .navbar .dropdown-menu,
 .btn-group.dropdown .dropdown-menu {
   background-color: var(--global-bg-color);
   border: 1px solid var(--global-divider-color);
+  border-radius: 10px;
+  padding: 0.35rem;
+  margin-top: 0.4rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
 
   a:not(.active) {
     color: var(--global-text-color);
+  }
+
+  .dropdown-item {
+    border-radius: 6px;
+    padding: 0.4rem 0.75rem;
   }
 
   a:hover {
@@ -28,6 +41,10 @@
 
   .dropdown-divider {
     border-top: 1px solid var(--global-divider-color) !important;
+  }
+
+  &.show {
+    animation: navdrop-in 0.16s ease;
   }
 }
 
@@ -61,18 +78,53 @@
     color: var(--global-text-color);
   }
 
-  .navbar-nav .nav-item .nav-link {
+  .navbar-nav .nav-item > .nav-link {
+    position: relative;
     color: var(--global-text-color);
+    // Larger, more comfortable hit area
+    padding: 0.4rem 0.7rem;
+    transition: color 0.18s ease;
+
+    // Center-growing underline indicator
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0.7rem;
+      right: 0.7rem;
+      bottom: 0.18rem;
+      height: 2px;
+      border-radius: 2px;
+      background-color: var(--global-theme-color);
+      transform: scaleX(0);
+      transform-origin: center;
+      transition: transform 0.2s ease;
+    }
 
     &:hover {
       color: var(--global-hover-color);
+    }
+
+    &:hover::after,
+    &:focus-visible::after {
+      transform: scaleX(1);
+    }
+
+    &:focus-visible {
+      outline: 2px solid var(--global-theme-color);
+      outline-offset: 2px;
+      border-radius: 6px;
     }
   }
 
   .navbar-nav .nav-item.active > .nav-link {
     background-color: inherit;
-    font-weight: bolder;
+    font-weight: 600;
     color: var(--global-theme-color);
+
+    // Persistent underline for the current page
+    &::after {
+      transform: scaleX(1);
+    }
 
     &:hover {
       color: var(--global-hover-color);
@@ -157,36 +209,81 @@
   }
 }
 
-#light-toggle {
-  padding: 0;
-  border: 0;
-  background-color: inherit;
-  color: var(--global-text-color);
-  /* Fix footprint to prevent navbar shifting when icon changes */
-  width: 2rem;
-  height: 2rem;
+// Unified round icon buttons for the search + theme controls
+.navbar .nav-icon-btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-
-  &:hover {
-    color: var(--global-hover-color);
-  }
-}
-
-@media (min-width: 576px) {
-  #light-toggle {
-    transform: translateY(4px);
-  }
-}
-
-#search-toggle {
-  padding: 0;
+  gap: 0.4rem;
+  height: 2.25rem;
+  // Fixed footprint so the navbar doesn't shift when the theme icon changes
+  min-width: 2.25rem;
+  padding: 0 0.55rem;
   border: 0;
-  background-color: inherit;
+  border-radius: 999px;
+  background-color: transparent;
   color: var(--global-text-color);
+  transition: color 0.18s ease, background-color 0.18s ease;
 
-  &:hover {
+  &:hover,
+  &:focus-visible {
     color: var(--global-hover-color);
+    background-color: color-mix(in srgb, var(--global-theme-color) 12%, transparent);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--global-theme-color);
+    outline-offset: 2px;
+  }
+}
+
+// Keyboard-shortcut keycap shown next to the search icon
+.nav-kbd {
+  font-family: inherit;
+  font-size: 0.68rem;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding: 0.22rem 0.4rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 5px;
+  color: var(--global-text-color-light);
+  background-color: color-mix(in srgb, var(--global-text-color) 6%, transparent);
+}
+
+// Vertically center the row and space items on desktop
+@media (min-width: 576px) {
+  .navbar-nav {
+    align-items: center;
+    gap: 0.15rem;
+  }
+}
+
+// Hide the keycap where horizontal space is tight
+@media (max-width: 575px) {
+  .nav-kbd {
+    display: none;
+  }
+}
+
+// Dropdown entrance to match the pill/underline polish
+@keyframes navdrop-in {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .navbar-nav .nav-item > .nav-link,
+  .navbar-nav .nav-item > .nav-link::after,
+  .navbar .nav-icon-btn,
+  .navbar .dropdown-menu.show {
+    transition: none;
+    animation: none;
   }
 }

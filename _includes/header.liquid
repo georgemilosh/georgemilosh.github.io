@@ -119,16 +119,17 @@
           {% endfor %}
           {% if site.search_enabled %}
             <!-- Search -->
-            <li class="nav-item">
-              <button id="search-toggle" title="Search" onclick="openSearchModal()">
-                <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span>
+            <li class="nav-item nav-tool">
+              <button id="search-toggle" class="nav-icon-btn" title="Search (Ctrl K)" onclick="openSearchModal()">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <kbd class="nav-kbd">ctrl k</kbd>
               </button>
             </li>
           {% endif %}
           {% if site.enable_darkmode %}
             <!-- Toogle theme mode -->
-            <li class="toggle-container">
-              <button id="light-toggle" title="Change theme">
+            <li class="toggle-container nav-tool">
+              <button id="light-toggle" class="nav-icon-btn" title="Change theme">
                 <i class="fa-half-sun-moon" id="light-toggle-system"></i>
                 <i class="fa-solid fa-moon" id="light-toggle-dark"></i>
                 <i class="fa-solid fa-sun" id="light-toggle-light"></i>

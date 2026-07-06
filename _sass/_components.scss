@@ -161,8 +161,26 @@ ul.task-list input[type="checkbox"] {
   }
 
   .card {
+    overflow: hidden;
+    // Same lift + shadow as the news cards on hover
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    }
+
+    figure {
+      margin: 0;
+    }
+
+    // Uniform square thumbnails: crop to fill, never distort the image
     img {
+      display: block;
       width: 100%;
+      height: auto;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
     }
   }
 
