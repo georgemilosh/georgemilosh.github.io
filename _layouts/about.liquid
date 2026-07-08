@@ -25,8 +25,10 @@ layout: default
             {% assign profile_image_class = 'img-fluid z-depth-1
       rounded' %}
           {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
+          {% comment %} The profile image is never displayed wider than ~220px
+          (see .profile in _components.scss), so advertise that to the browser
+          instead of 95vw — otherwise phones download the largest webp variant. {% endcomment %}
+          {% capture sizes %}(min-width: 576px) 220px, 64vw{% endcapture %}
           {%
             include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
             cache_bust=true

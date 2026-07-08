@@ -138,15 +138,31 @@
         flex-wrap: wrap;
         align-items: center;
         gap: 0.5rem;
+        line-height: 1;
+
+        // Normalize the heterogeneous third-party badges onto one centered row
+        > span,
+        > a {
+          display: inline-flex;
+          align-items: center;
+          // Override the inline `margin-bottom: 3px` on the Dimensions badge
+          margin: 0 !important;
+        }
 
         span {
-          display: inline-block;
           color: v.$black-color;
-          vertical-align: middle;
 
           &:hover {
             text-decoration: underline;
           }
+        }
+
+        // Shields.io badges (Google Scholar / InspireHEP): match the embed height.
+        // Direct-child anchors only, so Altmetric/Dimensions embeds are untouched.
+        > a img {
+          display: block;
+          height: 1.25rem;
+          width: auto;
         }
       }
 
