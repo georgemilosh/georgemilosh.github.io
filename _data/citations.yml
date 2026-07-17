@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-03'
+  last_updated: '2026-07-17'
 papers:
   QMFVv0AAAAAJ:-f6ydRqryjwC:
     citations: 0
@@ -22,7 +22,7 @@ papers:
     title: Discovering Fluid Closure Equations using Machine Learning
     year: Unknown Year
   QMFVv0AAAAAJ:4TOpqqG69KYC:
-    citations: 13
+    citations: 12
     title: Extreme heat wave sampling and prediction with analog Markov chain and comparisons with deep learning
     year: '2024'
   QMFVv0AAAAAJ:5nxA0vEk-isC:
@@ -66,7 +66,7 @@ papers:
     title: Learning closure of fluid equations from kinetic simulations of reconnection using machine learning
     year: '2023'
   QMFVv0AAAAAJ:MXK_kJrjxJIC:
-    citations: 67
+    citations: 66
     title: Probabilistic forecasts of extreme heatwaves using convolutional neural networks in a regime of lack of data
     year: '2023'
   QMFVv0AAAAAJ:R3hNpaxXUhUC:
@@ -78,7 +78,7 @@ papers:
     title: 'Moment closure problem: equation discovery and deep learning techniques applied to kinetic plasma simulations'
     year: '2024'
   QMFVv0AAAAAJ:Se3iqnhoufwC:
-    citations: 50
+    citations: 52
     title: Remarkable connections between extended magnetohydrodynamics models
     year: '2015'
   QMFVv0AAAAAJ:TQgYirikUcIC:
@@ -134,7 +134,7 @@ papers:
     title: Stochastic weather generator and deep learning approach for predicting and sampling extreme European heatwaves
     year: '2023'
   QMFVv0AAAAAJ:_FxGoFyzp5QC:
-    citations: 26
+    citations: 27
     title: On the structure and statistical theory of turbulence of extended magnetohydrodynamics
     year: '2017'
   QMFVv0AAAAAJ:_Qo2XoVZTnwC:
@@ -198,7 +198,7 @@ papers:
     title: Common Hamiltonian structure and concomitant topological invariants for extended magnetohydrodynamics models
     year: '2015'
   QMFVv0AAAAAJ:u5HHmVD_uO8C:
-    citations: 16
+    citations: 17
     title: "Inverse cascade and magnetic vortices in kinetic Alfv\xE9n-wave turbulence"
     year: '2021'
   QMFVv0AAAAAJ:ufrVoPGSRksC:
@@ -206,6 +206,6 @@ papers:
     title: Traveling solitons in long-range oscillator chains
     year: '2017'
   QMFVv0AAAAAJ:zYLM7Y9cAGgC:
-    citations: 58
+    citations: 59
     title: Concomitant Hamiltonian and topological structures of extended magnetohydrodynamics
     year: '2016'
