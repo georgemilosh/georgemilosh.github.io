@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-17'
+  last_updated: '2026-08-19'
 papers:
   QMFVv0AAAAAJ:-f6ydRqryjwC:
     citations: 0
@@ -22,7 +22,7 @@ papers:
     title: Discovering Fluid Closure Equations using Machine Learning
     year: Unknown Year
   QMFVv0AAAAAJ:4TOpqqG69KYC:
-    citations: 12
+    citations: 11
     title: Extreme heat wave sampling and prediction with analog Markov chain and comparisons with deep learning
     year: '2024'
   QMFVv0AAAAAJ:5nxA0vEk-isC:
@@ -31,7 +31,7 @@ papers:
     year: '2022'
   QMFVv0AAAAAJ:7PzlFSSx8tAC:
     citations: 2
-    title: Prediction of Time-evolving Radial Magnetic Fields on the Solar Surface Using Deep Learning
+    title: Prediction of time-evolving radial magnetic fields on the solar surface using deep learning
     year: '2025'
   QMFVv0AAAAAJ:9yKSN-GCB0IC:
     citations: 0
@@ -54,8 +54,8 @@ papers:
     title: 'Chasing data-driven probabilistic forecasting tools for heatwaves: the case of analog Markov chains and dimensional reduction via autoencoders'
     year: '2022'
   QMFVv0AAAAAJ:L8Ckcad2t8MC:
-    citations: 1
-    title: 'Electron neural closure for turbulent magnetosheath simulations: Energy channels'
+    citations: 3
+    title: 'Electron neural closure for turbulent magnetosheath simulations: energy channels'
     year: '2026'
   QMFVv0AAAAAJ:LkGwnXOMwfcC:
     citations: 19
@@ -66,11 +66,11 @@ papers:
     title: Learning closure of fluid equations from kinetic simulations of reconnection using machine learning
     year: '2023'
   QMFVv0AAAAAJ:MXK_kJrjxJIC:
-    citations: 66
+    citations: 68
     title: Probabilistic forecasts of extreme heatwaves using convolutional neural networks in a regime of lack of data
     year: '2023'
   QMFVv0AAAAAJ:R3hNpaxXUhUC:
-    citations: 6
+    citations: 8
     title: "Ensembles of climate simulations to anticipate worst case heatwaves during the Paris 2024 Olympics, npj Climate and Atmospheric Science, 6, 1\u20138"
     year: '2023'
   QMFVv0AAAAAJ:RHpTSmoSYBkC:
@@ -86,7 +86,7 @@ papers:
     title: Comparing Solar Structure Detection Methods in SDO/AIA observations and the application to raw uncalibrated data
     year: '2026'
   QMFVv0AAAAAJ:Tyk-4Ss8FVUC:
-    citations: 13
+    citations: 14
     title: "Modeling imbalanced collisionless Alfv\xE9n wave turbulence with nonlinear diffusion equations"
     year: '2020'
   QMFVv0AAAAAJ:ULOm3_A8WrAC:
@@ -94,7 +94,7 @@ papers:
     title: Simulating worst case heatwaves during the Paris 2024 Olympics
     year: '2023'
   QMFVv0AAAAAJ:UeHWp8X0CEIC:
-    citations: 8
+    citations: 9
     title: "Hamiltonian reduction of Vlasov\u2013Maxwell to a dark slow manifold"
     year: '2021'
   QMFVv0AAAAAJ:UebtZRa9Y70C:
@@ -134,7 +134,7 @@ papers:
     title: Stochastic weather generator and deep learning approach for predicting and sampling extreme European heatwaves
     year: '2023'
   QMFVv0AAAAAJ:_FxGoFyzp5QC:
-    citations: 27
+    citations: 28
     title: On the structure and statistical theory of turbulence of extended magnetohydrodynamics
     year: '2017'
   QMFVv0AAAAAJ:_Qo2XoVZTnwC:
@@ -142,7 +142,7 @@ papers:
     title: Probabilistic Solar Flare Forecasting via Weakly Supervised Contrastive Refinement of VAE Latent Spaces
     year: '2026'
   QMFVv0AAAAAJ:_kc_bZDykSQC:
-    citations: 9
+    citations: 10
     title: Robust intra-model teleconnection patterns for extreme heatwaves
     year: '2023'
   QMFVv0AAAAAJ:aqlVkmm33-oC:
@@ -166,8 +166,8 @@ papers:
     title: Parametrization of SHARP Vector Magnetic Field Using Disentangled Representation Learning
     year: '2025'
   QMFVv0AAAAAJ:hFOr9nPyWt4C:
-    citations: 2
-    title: Evaluating Four FPGA-Accelerated Space Use Cases Based on Neural Network Algorithms for On-Board Inference
+    citations: 3
+    title: Evaluating four fpga-accelerated space use cases based on neural network algorithms for on-board inference
     year: '2025'
   QMFVv0AAAAAJ:hqOjcs7Dif8C:
     citations: 12
@@ -186,11 +186,11 @@ papers:
     title: Predicting extreme events using dynamics based machine learning.
     year: '2021'
   QMFVv0AAAAAJ:qxL8FJ1GzNcC:
-    citations: 11
+    citations: 14
     title: Ensembles of climate simulations to anticipate worst case heatwaves during the Paris 2024 Olympics
     year: '2023'
   QMFVv0AAAAAJ:roLk4NBRz8UC:
-    citations: 11
+    citations: 10
     title: 'Dipolar needles in the microcanonical ensemble: Evidence of spontaneous magnetization and ergodicity breaking'
     year: '2013'
   QMFVv0AAAAAJ:u-x6o8ySG0sC:
@@ -198,7 +198,7 @@ papers:
     title: Common Hamiltonian structure and concomitant topological invariants for extended magnetohydrodynamics models
     year: '2015'
   QMFVv0AAAAAJ:u5HHmVD_uO8C:
-    citations: 17
+    citations: 18
     title: "Inverse cascade and magnetic vortices in kinetic Alfv\xE9n-wave turbulence"
     year: '2021'
   QMFVv0AAAAAJ:ufrVoPGSRksC:
