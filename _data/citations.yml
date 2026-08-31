@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-19'
+  last_updated: '2026-08-31'
 papers:
   QMFVv0AAAAAJ:-f6ydRqryjwC:
     citations: 0
@@ -30,7 +30,7 @@ papers:
     title: Probabilistic forecasting of heat waves with deep learning
     year: '2022'
   QMFVv0AAAAAJ:7PzlFSSx8tAC:
-    citations: 2
+    citations: 4
     title: Prediction of time-evolving radial magnetic fields on the solar surface using deep learning
     year: '2025'
   QMFVv0AAAAAJ:9yKSN-GCB0IC:
@@ -54,7 +54,7 @@ papers:
     title: 'Chasing data-driven probabilistic forecasting tools for heatwaves: the case of analog Markov chains and dimensional reduction via autoencoders'
     year: '2022'
   QMFVv0AAAAAJ:L8Ckcad2t8MC:
-    citations: 3
+    citations: 4
     title: 'Electron neural closure for turbulent magnetosheath simulations: energy channels'
     year: '2026'
   QMFVv0AAAAAJ:LkGwnXOMwfcC:
@@ -66,7 +66,7 @@ papers:
     title: Learning closure of fluid equations from kinetic simulations of reconnection using machine learning
     year: '2023'
   QMFVv0AAAAAJ:MXK_kJrjxJIC:
-    citations: 68
+    citations: 69
     title: Probabilistic forecasts of extreme heatwaves using convolutional neural networks in a regime of lack of data
     year: '2023'
   QMFVv0AAAAAJ:R3hNpaxXUhUC:
