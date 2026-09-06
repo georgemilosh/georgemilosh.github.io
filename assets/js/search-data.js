@@ -277,7 +277,7 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%67%65%6F%72%67%65%64%6F%74%6D%69%6C%6F%73%68%65%76%69%63%68%61%74%6B%75%6C%65%75%76%65%6E%64%6F%74%62%65", "_blank");
+          window.open("mailto:%67%65%6F%72%67%65%64%6F%74%6D%69%6C%6F%73%68%65%76%69%63%68%61%74%6E%6F%72%74%68%75%6D%62%72%69%61%64%6F%74%61%63%64%6F%74%75%6B", "_blank");
         },
       },{
         id: 'social-orcid',
@@ -306,20 +306,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://www.linkedin.com/in/george-miloshevich-2b834212a", "_blank");
-        },
-      },{
-        id: 'social-x',
-        title: 'X',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://twitter.com/george_milosh", "_blank");
-        },
-      },{
-        id: 'social-medium',
-        title: 'Medium',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://medium.com/@georgemilosh", "_blank");
         },
       },{
       id: 'light-theme',
