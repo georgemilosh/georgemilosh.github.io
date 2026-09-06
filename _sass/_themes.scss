@@ -23,7 +23,7 @@
   --global-distill-app-color: #{v.$grey-color};
   --global-divider-color: rgba(0, 0, 0, 0.08);
   --global-card-bg-color: #{v.$white-color};
-  --global-main-frame-bg: rgba(245, 247, 251, 0.54);
+  --global-main-frame-bg: rgba(245, 247, 251, 0.88);
   --global-main-frame-border: rgba(255, 255, 255, 0.42);
   --global-navbar-bg: rgba(245, 247, 251, 0.88);
   --global-highlight-color: #{v.$red-color-dark};
@@ -102,7 +102,7 @@ html[data-theme="dark"] {
   --global-distill-app-color: #9aa0b2;
   --global-divider-color: #2e3347;
   --global-card-bg-color: #252b38;
-  --global-main-frame-bg: rgba(30, 33, 40, 0.5);
+  --global-main-frame-bg: rgba(30, 33, 40, 0.88);
   --global-main-frame-border: rgba(173, 203, 235, 0.16);
   --global-navbar-bg: rgba(30, 33, 40, 0.88);
   --global-back-to-top-bg-color: rgba(

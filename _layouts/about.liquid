@@ -2,6 +2,37 @@
 layout: default
 ---
 <div class="post">
+  {% if page.profile %}
+    <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+      {% if page.profile.image %}
+        {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+        {% if page.profile.image_circular %}
+          {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+        {% else %}
+          {% assign profile_image_class = 'img-fluid z-depth-1
+    rounded' %}
+        {% endif %}
+        {% comment %} The profile image is never displayed wider than ~220px
+        (see .profile in _components.scss), so advertise that to the browser
+        instead of 95vw — otherwise phones download the largest webp variant. {% endcomment %}
+        {% capture sizes %}(min-width: 576px) 220px, 64vw{% endcapture %}
+        {%
+          include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+          cache_bust=true
+        %}
+      {% endif %}
+      {% if page.profile.more_info %}
+        <div class="more-info">{{ page.profile.more_info }}</div>
+      {% endif %}
+      {% if page.social %}
+        <div class="social">
+          <div class="contact-icons">{% social_links %}</div>
+          <div class="contact-note">{{ site.contact_note }}</div>
+        </div>
+      {% endif %}
+    </div>
+  {% endif %}
+
   <header class="post-header">
     <h1 class="post-title">
       {% if site.title == 'blank' %}
@@ -15,37 +46,6 @@ layout: default
   </header>
 
   <article>
-    {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
-          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-          {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
-          {% endif %}
-          {% comment %} The profile image is never displayed wider than ~220px
-          (see .profile in _components.scss), so advertise that to the browser
-          instead of 95vw — otherwise phones download the largest webp variant. {% endcomment %}
-          {% capture sizes %}(min-width: 576px) 220px, 64vw{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true
-          %}
-        {% endif %}
-        {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
-        {% endif %}
-        {% if page.social %}
-          <div class="social">
-            <div class="contact-icons">{% social_links %}</div>
-            <div class="contact-note">{{ site.contact_note }}</div>
-          </div>
-        {% endif %}
-      </div>
-    {% endif %}
-
     <div class="clearfix">{{ content }}</div>
 
     <!-- News -->

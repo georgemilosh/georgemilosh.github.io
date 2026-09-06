@@ -53,7 +53,13 @@ p {
   letter-spacing: 0.03em;
   color: var(--global-text-color-light);
   margin-top: 0.2rem;
-  margin-bottom: 0;
+  // Tighter than body copy so a multi-line title/affiliation reads as one
+  // block, with space below to separate the header from the opening paragraph.
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+  // Opt out of the justified body-copy rule: stretching a two-line affiliation
+  // to the full measure leaves gaping word spaces on narrow screens.
+  text-align: left;
 }
 
 // Icon list items (research interests etc.)

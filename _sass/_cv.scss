@@ -13,6 +13,15 @@ table.table-cv {
   th {
     padding: 1px;
   }
+
+  // A table cannot shrink below its min-content width, and the contact values
+  // hold unbreakable tokens (the website URL, a long job title) that set that
+  // floor wider than a narrow phone -- which becomes horizontal page scroll.
+  // `anywhere` (unlike `break-word`) also lowers min-content, so it shrinks.
+  // Scoped to the value column so the bold labels are not split mid-word.
+  td.font-weight-light {
+    overflow-wrap: anywhere;
+  }
 }
 
 a.btncv {

@@ -69,6 +69,21 @@ ul.task-list input[type="checkbox"] {
     }
   }
 
+  // Institution logo under the profile image. Northumbria publish only a white
+  // logo, so the light-theme variant is the same artwork recoloured; the pair is
+  // swapped by theme rather than filtered, to keep the mark crisp at any size.
+  .institution-logo {
+    display: block;
+    width: 100%;
+    max-width: 170px;
+    height: auto;
+    margin: 0.85rem auto 0;
+  }
+
+  .institution-logo--dark {
+    display: none;
+  }
+
   // Circular profile image — subtle accent ring + smooth hover
   img.rounded-circle {
     box-shadow:
@@ -112,6 +127,18 @@ ul.task-list input[type="checkbox"] {
     margin-left: auto;
     margin-right: auto;
     float: none !important;
+  }
+
+  // On the about page the profile precedes the header in the DOM so the image
+  // can float level with the name on desktop. Stacked on mobile that would push
+  // the name below the photo, so reorder back to name -> photo -> content.
+  body.layout-about .post {
+    display: flex;
+    flex-direction: column;
+
+    > .post-header {
+      order: -1;
+    }
   }
 }
 
@@ -301,4 +328,14 @@ ul.task-list input[type="checkbox"] {
 
 .d2h-diff-table {
   position: relative;
+}
+
+html[data-theme="dark"] {
+  .profile .institution-logo--light {
+    display: none;
+  }
+
+  .profile .institution-logo--dark {
+    display: block;
+  }
 }

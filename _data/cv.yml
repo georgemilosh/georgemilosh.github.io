@@ -1,7 +1,7 @@
 cv:
   name: George Miloshevich
-  label: Marie Skłodowska-Curie Fellow
-  location: Leuven, Belgium
+  label: Assistant Professor (European Research Fellow)
+  location: Newcastle upon Tyne, UK
   website: https://georgemilosh.github.io
 
   sections:
@@ -25,9 +25,8 @@ cv:
           - '<a href="https://github.com/georgemilosh/3DMHD-Corona">GitHub repo</a> of the project with the uploaded thesis'
 
     Activity:
-      - company: KU Leuven
+      - company: AGU
         position: 'Associate Editor of <a href="https://agupubs.onlinelibrary.wiley.com/hub/journal/29935210/editorial-board">JGR Machine Learning and Computation</a>'
-        location: Leuven, Belgium
         start_date: "2025"
 
       - company: KU Leuven
@@ -56,21 +55,27 @@ cv:
         end_date: "2025"
 
     Experience:
-      - company: KU Leuven
+      - company: '<a href="https://www.northumbria.ac.uk/">Northumbria University</a>'
+        position: Assistant Professor (European Research Fellow)
+        location: Newcastle upon Tyne, UK
+        start_date: "2026"
+        highlights:
+          - '<a href="https://www.northumbria.ac.uk/about-us/academic-departments/mathematics-physics-and-electrical-engineering/research/solar-and-space-physics/">Solar and Space Physics</a> group, Department of Mathematics, Physics and Electrical Engineering'
+          - Data-driven and kinetic modelling of solar wind and magnetospheric plasmas
+
+      - company: 'Project hosted at <a href="https://www.kuleuven.be/kuleuven">KU Leuven</a>'
         position: co-PI of FWO project Helioskill
-        location: Leuven, Belgium
         start_date: "2024"
-        end_date: "2026"
+        end_date: "2027"
         highlights:
           - Fully kinetic Particle in cell simulations
           - Working with solar wind in-situ data
           - Symbolic regression for equation of state for plasma
 
-      - company: KU Leuven
+      - company: 'Project hosted at <a href="https://www.kuleuven.be/kuleuven">KU Leuven</a>'
         position: Project manager of ASAP
-        location: Leuven, Belgium
         start_date: "2024"
-        end_date: "2026"
+        end_date: "2027"
         highlights:
           - Development of algorithms for space-resilient hardware testbed
           - Management of the consortium including KU Leuven, INAF Rome, KTH, IngeniArs, UNICAL

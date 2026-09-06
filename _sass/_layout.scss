@@ -153,7 +153,14 @@ body {
     &::before {
       content: "";
       position: absolute;
+      // Bleed outward only when there is margin beside the container to absorb
+      // it; below ~1164px (1100px content + 2 x 2rem) the right-hand bleed
+      // becomes horizontal page scroll instead.
       inset: -1rem -2rem;
+
+      @media (max-width: 1199px) {
+        inset: -1rem 0;
+      }
       background: var(--global-main-frame-bg);
       border: 1px solid var(--global-main-frame-border);
       border-radius: 12px;
@@ -173,7 +180,14 @@ body {
     &::before {
       content: "";
       position: absolute;
+      // Bleed outward only when there is margin beside the container to absorb
+      // it; below ~1164px (1100px content + 2 x 2rem) the right-hand bleed
+      // becomes horizontal page scroll instead.
       inset: -1rem -2rem;
+
+      @media (max-width: 1199px) {
+        inset: -1rem 0;
+      }
       background: var(--global-main-frame-bg);
       border: 1px solid var(--global-main-frame-border);
       border-radius: 12px;
@@ -389,6 +403,13 @@ body.sticky-bottom-footer {
 /*****************************************************************************
 * Page Banner
 *****************************************************************************/
+
+.page-banner-clip {
+  // .page-banner reveals from scale(1.03); at 100% width that is ~1.5% of the
+  // viewport hanging off each side. Clip it here so the zoom stays but the
+  // horizontal scrollbar goes.
+  overflow: hidden;
+}
 
 .page-banner {
   position: relative;
