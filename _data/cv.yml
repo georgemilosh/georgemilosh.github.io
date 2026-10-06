@@ -62,6 +62,16 @@ cv:
         highlights:
           - '<a href="https://www.northumbria.ac.uk/about-us/academic-departments/mathematics-physics-and-electrical-engineering/research/solar-and-space-physics/">Solar and Space Physics</a> group, Department of Mathematics, Physics and Electrical Engineering'
           - Data-driven and kinetic modelling of solar wind and magnetospheric plasmas
+          - '<a href="https://www.northumbria.ac.uk/about-us/our-staff/m/george-miloshevich/">Institutional staff profile</a>'
+
+      - company: 'Project hosted at <a href="https://www.northumbria.ac.uk/">Northumbria University</a>'
+        position: PI of ERC Starting Grant D-SURGE
+        start_date: "2026"
+        end_date: "2031"
+        highlights:
+          - '<a href="https://cordis.europa.eu/project/id/101221224">Project D-SURGE</a> - Data-driven Simulations for Understanding Reconnection and GEomagnetism'
+          - AI-enhanced magneto-fluid plasma model bridging microscopic and global-scale physics
+          - Improving space weather forecasting and magnetospheric substorm modelling
 
       - company: 'Project hosted at <a href="https://www.kuleuven.be/kuleuven">KU Leuven</a>'
         position: co-PI of FWO project Helioskill

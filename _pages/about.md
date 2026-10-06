@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Assistant Professor (European Research Fellow) &middot; <a href='https://www.northumbria.ac.uk/about-us/academic-departments/mathematics-physics-and-electrical-engineering/research/solar-and-space-physics/'>Solar and Space Physics</a><br>Department of Mathematics, Physics and Electrical Engineering &middot; <a href='https://www.northumbria.ac.uk/'>Northumbria University</a>
+subtitle: <a href='https://researchportal.northumbria.ac.uk/en/persons/george-miloshevich/'>Assistant Professor (European Research Fellow)</a> &middot; <a href='https://www.northumbria.ac.uk/about-us/academic-departments/mathematics-physics-and-electrical-engineering/research/solar-and-space-physics/'>Solar and Space Physics</a><br>Department of Mathematics, Physics and Electrical Engineering &middot; <a href='https://researchportal.northumbria.ac.uk/en/persons/george-miloshevich/'>Northumbria University</a>
 
 profile:
   align: right
